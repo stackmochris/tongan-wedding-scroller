@@ -29,6 +29,7 @@ Modular knowledge base for developing Polynesian language initiatives (starting 
 | [17-audio-and-voice.md](17-audio-and-voice.md) | Audio and voice | Single-speaker recording approach and post-prototype pronunciation notes |
 | [18-locked-decisions.md](18-locked-decisions.md) | Locked decisions | Fixed constraints, format, out-of-scope items, and hand-off rules |
 | [19-exploration-workthrough.md](19-exploration-workthrough.md) | Exploration work-through | Open items to decide before or during the first playable slice |
+| [20-dialogue-schema.md](20-dialogue-schema.md) | Dialogue data schema | Frozen node and choice fields for the prototype |
 
 ## How to use with AI
 
