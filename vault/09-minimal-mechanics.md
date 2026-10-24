@@ -35,18 +35,19 @@ No quiz screens, no separate study mode, no scoring UI.
 - Examples: elder nods and continues, shopkeeper hands over the item, cousin laughs and joins, door stays closed until the right phrase is chosen.
 - Supports noticing without explicit correction screens.
 
-### 5. Path Flag (Basic vs Beginner+)
-- Set once at the opener (“Ko e ha?” vs “What does that mean?”).
-- Basic path: optional captions available after first exposure; slightly slower introduction of new items; more relative scaffolding.
-- Beginner+ path: captions off by default; denser Tongan earlier.
-- Flag is a single boolean checked by dialogue data. No separate game modes or content forks beyond caption and scaffolding density.
+### 5. Path Flags
+- **Basic vs Beginner+**: Set once at the opener (“Ko e ha?” vs “What does that mean?”). Controls caption availability and scaffolding density.
+- **Character path**: Set at character select (Sione or Mele). Gates role-specific mid-game learning nodes and selects the wedding climax type. See [15-wedding-climax-mechanics.md](15-wedding-climax-mechanics.md).
+- Both flags are simple booleans checked by dialogue data. No separate game modes or content forks beyond the controlled differences.
 
-### 6. Speech Delivery (wedding set-piece)
-- Linear sequence of 4–6 short lines.
-- Player selects or confirms each line (or the full short speech if rehearsed).
-- Lines are drawn only from phrases already used successfully in prior beats.
-- Outcome is environmental (elders’ reaction, family response). Soft fail allows a relative to assist; hard success is the satisfying path.
-- Implemented as a special dialogue node type with the same data structure.
+### 6. Wedding Climax (set-piece)
+Differentiated by character path. Full detail in [15-wedding-climax-mechanics.md](15-wedding-climax-mechanics.md).
+
+- **Sione — Speech**: Sequence of binary choices following formal speech order. Correct choice produces positive NPC reaction; incorrect produces confusion. Three incorrect choices restart the sequence only.
+- **Mele — Tauʻolunga**: Sequence of binary choices (next movement + reason). Successful inputs cause NPCs to join the stage. Ending below a minimum NPC count restarts the sequence only.
+- Both reuse the standard dialogue node structure and environmental feedback.
+- Failure restarts only the climax sequence, not the preceding area.
+- All speech order and dance vocabulary subject to DR L.V.S confirmation before finalisation.
 
 ### 7. Optional Replay / Recycling
 - Certain errands (market run, sports kick-about) can be repeated.
@@ -55,7 +56,7 @@ No quiz screens, no separate study mode, no scoring UI.
 - Clearly marked as optional so they do not extend the critical path.
 
 ### 8. State & Progress
-- Simple string/boolean flags: `met_elder`, `has_supplies`, `speech_rehearsed`, `cousin_present`, etc.
+- Simple string/boolean flags: `met_elder`, `has_supplies`, `speech_rehearsed`, `cousin_present`, `character_path`, etc.
 - Flags gate later nodes and area transitions.
 - No complex quest log required for the core path; a minimal “people to see” list is optional and data-driven.
 
@@ -95,6 +96,7 @@ No quiz screens, no separate study mode, no scoring UI.
 - All story and language content lives in data files.
 - Engine code handles: movement, trigger detection, dialogue rendering, choice selection, flag storage, and area transitions.
 - New scenes or languages require new data, not new systems.
-- Speech node reuses the same dialogue renderer.
+- Climax sequences reuse the same dialogue renderer and flag system.
+- Cultural accuracy review by DR L.V.S is required before language content is locked.
 
-Last updated: 2026-10-24
+Last updated: 2026-10-25
