@@ -16,20 +16,24 @@ Items that still need a decision or short specification before or during the fir
   Locked 2026-10-25. See [22-prototype-success-criteria.md](22-prototype-success-criteria.md).
 
 ## Medium priority (resolve while building first slice)
-- [ ] **Review workflow with DR L.V.S**  
-  Format of drafts, expected cadence, and how “approved” is marked in the files.
+- [x] **Review workflow with DR L.V.S**  
+  Format of drafts, expected cadence, and how “approved” is marked in the files.  
+  Drafted 2026-10-25. See [23-medium-priority-notes.md](23-medium-priority-notes.md).
 
-- [ ] **Engine / framework choice**  
-  Affects dialogue rendering, save format, and asset pipeline. Decide and note the reason.
+- [x] **Engine / framework choice**  
+  Godot. Agreed.
 
-- [ ] **Basic vs Beginner+ density rules**  
-  How much extra scaffolding, caption timing, and repetition the Basic path actually receives.
+- [x] **Basic vs Beginner+ density rules**  
+  How much extra scaffolding, caption timing, and repetition the Basic path actually receives.  
+  Drafted 2026-10-25. See [23-medium-priority-notes.md](23-medium-priority-notes.md).
 
-- [ ] **Spaced re-exposure map**  
-  Which core phrases must reappear, roughly how many times, and in which later areas.
+- [x] **Spaced re-exposure map**  
+  Which core phrases must reappear, roughly how many times, and in which later areas.  
+  Drafted 2026-10-25. See [23-medium-priority-notes.md](23-medium-priority-notes.md).
 
-- [ ] **Player motivation and cousin payoff**  
-  Light pass on why the player cares and what concrete change the cousin shows by the end.
+- [x] **Player motivation and cousin payoff**  
+  Light pass on why the player cares and what concrete change the cousin shows by the end.  
+  Drafted 2026-10-25. See [23-medium-priority-notes.md](23-medium-priority-notes.md).
 
 ## Lower priority (can follow first playable area)
 - [ ] **Sprite and background inventory**  
