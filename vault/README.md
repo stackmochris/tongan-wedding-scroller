@@ -31,6 +31,7 @@ Modular knowledge base for developing Polynesian language initiatives (starting 
 | [19-exploration-workthrough.md](19-exploration-workthrough.md) | Exploration work-through | Open items to decide before or during the first playable slice |
 | [20-dialogue-schema.md](20-dialogue-schema.md) | Dialogue data schema | Frozen node and choice fields for the prototype |
 | [21-learning-targets.md](21-learning-targets.md) | Learning targets per beat | Explicit can-do statements, principles, and revision checks |
+| [22-prototype-success-criteria.md](22-prototype-success-criteria.md) | Prototype success criteria | Checklist for MPP-ready demo (path, lines, polish, docs, review) |
 
 ## How to use with AI
 
