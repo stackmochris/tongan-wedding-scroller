@@ -3,8 +3,9 @@
 Items that still need a decision or short specification before or during the first playable slice. Work through in any order. Note the decision and date when each is closed.
 
 ## High priority (close before engine code)
-- [ ] **Dialogue data schema freeze**  
-  Final required fields (audio file reference, path flags, climax type, caption rules, result flags). Write the schema once and stick to it.
+- [x] **Dialogue data schema freeze**  
+  Final required fields (audio file reference, path flags, climax type, caption rules, result flags). Write the schema once and stick to it.  
+  Locked 2026-10-25. See [20-dialogue-schema.md](20-dialogue-schema.md).
 
 - [ ] **Explicit learning targets per beat**  
   One short “by the end of this area the player can…” statement for each major beat. Attach the core phrases that must be practised.
