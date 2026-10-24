@@ -20,13 +20,15 @@ Modular knowledge base for developing Polynesian language initiatives (starting 
 | [10-area-list.md](10-area-list.md) | Expected area list | Discrete locations supporting the 6-hour core path |
 | [11-dialogue-framework-en.md](11-dialogue-framework-en.md) | Dialogue framework (English) | Full core-path lines ready for Tongan translation |
 | [12-character-list.md](12-character-list.md) | Character list | Minimal cast and presence flags for the core path |
+| [13-clothing-baselines.md](13-clothing-baselines.md) | Clothing visual baselines | Formal, semi-casual, and everyday Tongan dress for character design |
+| [14-location-baselines.md](14-location-baselines.md) | Location visual baselines | Tongatapu places for background and environment design |
 
 ## How to use with AI
 
 - Request a specific file (e.g., “read 03-techniques.md”) for focused answers.
 - Cross-references use relative links.
 - All citations include author/year and source type (meta-analysis, primary study, review).
-- Last updated: 2026-10-24
+- Last updated: 2026-10-25
 
 ## Key principles (summary for quick reference)
 
