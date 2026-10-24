@@ -1,42 +1,50 @@
 # Medium-Priority Notes
 
-Drafted for review. Adjust or approve before treating as locked.
+Human decisions recorded for grant scrutiny. Items marked approved were confirmed by Chris before writing.
 
 ## 1. Spaced Re-exposure Map
+**Status**: Approved by Chris 2026-10-25. Weighting driven by learning data for conversational fluency.
 
-Core phrases that must reappear after their introduction beat. Target: at least one successful retrieval in a later beat, preferably two for the highest-utility items.
+Highest-utility conversational items receive at least two successful retrievals after introduction. Lower-utility and role-specific items receive one.
 
-| Phrase group | Introduced | Reappears in | Notes |
-|--------------|------------|--------------|-------|
-| Malo e lelei / Ko au… | Airport | Dinner, Eve, Climax, Ending | Highest frequency |
-| Sio / Ko ena / ʻOku | Car | Market (pointing at goods), Sports | Visual context again |
-| Malo / ʻOku ou fie… / Fāmili | Dinner | Market, Church, Eve | Social routine |
-| ʻOku ou fiemaʻu / Fīha / Malo | Market | Eve (requesting help), Climax (if needed) | Task language |
-| Malo e tokoni / Taimi | Church | Eve | Polite register |
-| Haʻu / ʻAlu / Lelei | Sports | Ending (movement home) | Everyday verbs |
-| Fakamālō / ʻOfa | Eve | Climax, Ending | Ceremonial close |
+| Phrase group | Utility | Introduced | Minimum later retrievals | Example later beats |
+|--------------|---------|------------|---------------------------|---------------------|
+| Malo e lelei / Ko au… / Ko hai? | Highest | Airport | 2 | Dinner, Eve, Ending |
+| Sio / Ko ena / ʻOku | High | Car | 2 | Market, Sports |
+| Malo / ʻOku ou fie… / Fāmili | High | Dinner | 2 | Market, Church, Eve |
+| ʻOku ou fiemaʻu / Fīha / Malo | High | Market | 2 | Eve, Climax (if needed) |
+| Malo e tokoni / Taimi | Medium | Church | 1 | Eve |
+| Haʻu / ʻAlu / Lelei | Medium | Sports | 1 | Ending |
+| Fakamālō / ʻOfa | High (ceremonial) | Eve | 2 | Climax, Ending |
 
-Role-specific fragments (speech order or dance pairs) reappear only inside their own path’s eve and climax nodes.
+Role-specific fragments reappear only inside their own path’s eve and climax.
 
 ## 2. Review Workflow with DR L.V.S
+**Status**: Approved by Chris 2026-10-25.
 
-- **Format**: One markdown or JSON file per beat containing only the Tongan lines and choices, plus a one-line English gloss in comments. No engine code.
-- **Cadence**: Send a beat when its English framework is stable. Expect comments within a few days; no fixed SLA for the prototype.
-- **Marking approved**: Add `"reviewed": true` (or a top-level `status: approved`) to the dialogue file, or move the file into a `/reviewed` subfolder. Unreviewed files stay in `/draft`.
-- **Scope**: Language, speech order, dance vocabulary, and cultural framing only. Gameplay flags and structure are out of scope for this review.
-- All demo-path lines must be reviewed (or explicitly accepted as draft) before the prototype success criteria are marked complete.
+- **Format**: One file per beat, Tongan lines + choices only, one-line English gloss in comment. No engine code.
+- **Cadence**: DR L.V.S responds as she is able. No fixed deadline.
+- **Pending review**: Pieces may proceed with explicit stub notes while awaiting review.
+- **Marking**: Add `"reviewed": true` or move from `/draft` to `/reviewed`. Stubs remain clearly marked.
+- **Scope**: Language, speech order, dance vocabulary, and cultural framing only.
+- Demo-path lines must be reviewed or explicitly accepted as stubbed before success criteria are marked complete.
 
 ## 3. Basic vs Beginner+ Density Rules
+**Status**: Approved by Chris 2026-10-25.
 
-- **Basic path**: Captions available after first exposure unless `suppress_caption` is true. One extra scaffolding line (slowed repeat or relative hint) on the first failure of each revision check. Slightly fewer new phrases per beat.
-- **Beginner+ path**: Captions off by default. No extra scaffolding line; incorrect choice simply loops to the same node or a minimal redirect. Same phrase set, denser presentation.
-- Sliding scale (both paths): After every three correct choices in a beat, the next non-suppressed caption is omitted. Resets at the start of the next beat.
-- Path flag is set once at the opener and never changes.
+- Both paths show captions.
+- **Basic**: Captions on most lines the first time they appear (unless `suppress_caption`).
+- **Beginner+**: Captions focus on more complex words and syntax. Simpler high-frequency lines stay caption-free after first exposure.
+- Sliding reduction (both): After every three correct choices in a beat, the next non-suppressed caption is omitted. Resets at the next beat.
+- Path flag set once at the opener and never changes.
+- Basic path may include one extra scaffolding line on the first failure of a revision check. Beginner+ uses only a minimal redirect or loop.
 
 ## 4. Player Motivation and Cousin Payoff
+**Status**: Stub. Chris will flesh out separately and return.
 
-- **Player motivation**: The player has a return flight in a few days and is the only diaspora relative present who can still manage basic Tongan. Elders will not switch to English for the formal parts of the wedding. Helping is the price of being properly included before leaving again.
-- **Cousin payoff**: Cousin starts quiet and answers in single words. By the sports beat they initiate one invitation. By the ending they use a full farewell line unprompted and stand closer. No separate quest; the change is visible in dialogue flags and one optional scene.
-- Both stay light so they do not add systems or inflate the 6-hour core.
+Placeholder only — do not treat as design:
+- Player has a time-limited return and is needed for formal Tongan.
+- Cousin shows gradual engagement across beats.
+- No new systems.
 
 Last updated: 2026-10-25
