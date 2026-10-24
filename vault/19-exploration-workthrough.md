@@ -7,8 +7,9 @@ Items that still need a decision or short specification before or during the fir
   Final required fields (audio file reference, path flags, climax type, caption rules, result flags). Write the schema once and stick to it.  
   Locked 2026-10-25. See [20-dialogue-schema.md](20-dialogue-schema.md).
 
-- [ ] **Explicit learning targets per beat**  
-  One short “by the end of this area the player can…” statement for each major beat. Attach the core phrases that must be practised.
+- [x] **Explicit learning targets per beat**  
+  One short “by the end of this area the player can…” statement for each major beat. Attach the core phrases that must be practised.  
+  Drafted 2026-10-25. See [21-learning-targets.md](21-learning-targets.md).
 
 - [ ] **Prototype success criteria**  
   Concrete checklist for “done enough for MPP”: playable path length, approximate line count, visual polish level, documentation completeness, review status.
