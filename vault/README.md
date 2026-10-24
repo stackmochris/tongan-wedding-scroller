@@ -32,6 +32,7 @@ Modular knowledge base for developing Polynesian language initiatives (starting 
 | [20-dialogue-schema.md](20-dialogue-schema.md) | Dialogue data schema | Frozen node and choice fields for the prototype |
 | [21-learning-targets.md](21-learning-targets.md) | Learning targets per beat | Explicit can-do statements, principles, and revision checks |
 | [22-prototype-success-criteria.md](22-prototype-success-criteria.md) | Prototype success criteria | Checklist for MPP-ready demo (path, lines, polish, docs, review) |
+| [23-medium-priority-notes.md](23-medium-priority-notes.md) | Medium-priority notes | Spaced re-exposure, review workflow, density rules, motivation |
 
 ## How to use with AI
 
