@@ -2,9 +2,11 @@
 
 **Target**: ≤6 hour core path. Beginner+ outcome. Diaspora player (Sione/Mele) returns for a family wedding and must coordinate and speak in Tongan so the elders are properly addressed.
 
-**Core tension**: The wedding cannot proceed smoothly (and the player cannot deliver the required speech with gravitas) unless the player understands and is understood by family and elders. Time is limited by the player’s return flight.
+**Core tension**: The wedding cannot proceed smoothly (and the player cannot deliver the required contribution with gravitas) unless the player understands and is understood by family and elders. Time is limited by the player’s return flight.
 
 **Younger-relative sub-theme**: A teenage cousin is drifting from family and language. Player is asked to include them; success is relational, not a separate quest chain.
+
+**Character select consequence**: Choosing Sione or Mele determines both the mid-game learning emphasis and the wedding climax type. See [15-wedding-climax-mechanics.md](15-wedding-climax-mechanics.md).
 
 ---
 
@@ -35,7 +37,7 @@ Evening meal. Multiple relatives present. Player must navigate introductions, se
 - An elder mentions the wedding is soon and “someone needs to help organise.”
 - **Key phrases exposed**: Kai / ʻOku ou fie… / Malo / Fāmili / Kui / Tuongaʻane / Tuofefine / Meʻa kai names (basic foods).
 
-End of beat: player is asked to help with wedding preparations. Personal mission crystallises.
+End of beat: player is asked to help with wedding preparations. Personal mission crystallises. Role-specific learning begins to diverge lightly.
 
 ## 4. Coordination Quests — Mid-game (≈2.5–3 hours total)
 
@@ -53,25 +55,31 @@ Visit minister or church elder to confirm timing, seating, or readings. Requires
 Light sports or beach activity with younger relatives. Lower formality, higher repetition of everyday verbs and pronouns. Cousin is more talkative here.  
 **Phrases**: Vaʻinga / Haʻu / ʻAlu / Tau… / Lelei.
 
+**Role-specific learning (required for climax)**  
+- Sione path: additional short nodes that introduce and recycle the formal speech structure and order of thanks.  
+- Mele path: additional short nodes that introduce and recycle tauʻolunga movement/meaning pairs.  
+These nodes are light and skippable for the opposite path so a single playthrough remains complete. All language and cultural content subject to DR L.V.S review.
+
 Throughout: same core words reappear in new contexts (spaced re-exposure). Player’s ability to choose correct short responses unlocks progress.
 
-## 5. Wedding Eve — Speech Preparation (≈30–40 min)
+## 5. Wedding Eve — Preparation (≈30–40 min)
 
-Family gathers. Elder explicitly states the player must give a short speech (thanks, family acknowledgement, blessing request). Key lines have been practised in fragments across earlier quests.
+Family gathers. Elder explicitly states the player’s required contribution (speech for Sione, dance for Mele). Key lines and movements have been practised in fragments across earlier quests.
 
 - Player reviews/rehearses with a supportive relative (optional scaffolding).
 - Younger cousin may offer a small piece of advice or presence.
 - **Key phrases**: Malo e lelei kia moutolu / ʻOku ou fakamālō… / ʻE ʻotua / Fāmili / ʻOfa.
 
-## 6. Wedding Day — The Speech (≈30–40 min)
+## 6. Wedding Day — Climax (≈30–40 min)
 
-Ceremony sequence. Player must deliver the short speech in Tongan. 
+Ceremony sequence. Differentiated by character path. Full mechanics in [15-wedding-climax-mechanics.md](15-wedding-climax-mechanics.md).
 
-- Correct high-frequency phrases + appropriate address to elders = gravitas.
-- Environmental feedback (elders nod, family reacts) rather than a score screen.
-- Speech structure is fixed and short: greeting → thanks → one personal sentence → closing/blessing request.
+- **Sione**: Binary-choice formal speech. Correct order of thanks advances with positive NPC reaction; incorrect choices cause confusion. Three incorrect choices restart the speech sequence only.
+- **Mele**: Binary-choice tauʻolunga (next movement + reason). Successful inputs cause NPCs to join the stage. Ending below a minimum NPC threshold restarts the sequence only.
+- Environmental feedback only. Soft failure restarts the climax sequence, not the area.
+- Speech order and dance vocabulary must be confirmed by DR L.V.S before finalisation.
 
-Success state: wedding proceeds with the player’s contribution recognised. Failure state is soft (relative steps in) but clearly less satisfying.
+Success state: wedding proceeds with the player’s contribution recognised.
 
 ## 7. Ending — Return (≈15–20 min)
 
@@ -89,13 +97,15 @@ Player prepares to leave. Short farewells. Younger cousin is slightly more engag
 - Requests, quantities, thanks
 - Polite address & short ceremonial phrases
 - Everyday motion & activity verbs
+- Role-specific: formal speech structure (Sione) or tauʻolunga movement/meaning pairs (Mele)
 
-All introduced in context, recycled across beats, and required for the wedding speech. No intermediate structures.
+All introduced in context, recycled across beats, and required for the wedding climax. No intermediate structures. All cultural content subject to DR L.V.S review.
 
 ## Notes for Implementation
 - Keep dialogue data-driven.
 - Optional captions available on Basic/Novice path after first exposure.
 - Younger-relative scenes are skippable or light so they do not inflate the 6-hour core.
-- Speech lines are assembled from phrases the player has already used successfully.
+- Climax lines and movements are assembled from phrases and pairs the player has already used successfully.
+- Character select sets a path flag that gates role-specific mid-game nodes and climax type.
 
-Last updated: 2026-10-24
+Last updated: 2026-10-25
