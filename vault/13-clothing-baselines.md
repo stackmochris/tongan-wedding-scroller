@@ -2,20 +2,31 @@
 
 Reference notes for character design. Based on real photographs of formal, semi-casual, and everyday dress. Use these as visual ground truth before any stylised (cell-shaded chibi) generation.
 
-## Character Dress Progression (Player & Core Cast)
+## Player Dress Progression
 
-Dress changes mark the player’s shift from visitor to participant. The same progression applies to the player (Sione or Mele) and is mirrored or anticipated by family NPCs. Younger cousin stays more casual longer; elders start higher on the formality scale.
+Dress changes mark the player’s (Sione or Mele) shift from diaspora visitor to participant. Only the player follows this progressive scale.
 
-| Stage | Timing | Men (Player / Driver / Relatives) | Women (Player / Relatives) | Notes |
-|-------|--------|-----------------------------------|----------------------------|-------|
-| **Early game** | Airport arrival, car ride, first family contact | Shorts + t-shirt or patterned short-sleeve shirt | Skirt or shorts + t-shirt | Diaspora visitor look. Fully Western casual. No tupenu or mat. |
+| Stage | Timing | Men | Women | Notes |
+|-------|--------|-----|-------|-------|
+| **Early game** | Airport arrival, car ride, first family contact | Shorts + t-shirt or patterned short-sleeve shirt | Skirt or shorts + t-shirt | Fully Western casual. No tupenu or mat. |
 | **Mid-game** | Family house dinner, market, church coordination, stadium | Short-sleeve collared shirt + solid or lightly patterned **tupenu** | Modest dress or top + wrap; light kiekie optional | Everyday Tongan semi-casual. No taʻovala. |
-| **Wedding** | Haʻatafu ceremony and speech | White button-up shirt + white **tupenu** + formal **taʻovala** (natural weave, fringe or simple decoration, tied with cord/sash). Optional lei. | Formal dress or wrap + **kiekie** or mat-style outer layer. Bright or white preferred. | Full ceremonial. Highest visual weight in the game. |
-| **End game** | Post-wedding, departure | Mid-game look (shirt + tupenu) + small / lighter **taʻovala** | Mid-game modest dress or wrap + small kiekie or light mat | Shows retained participation without full ceremony weight. |
+| **Wedding** | Haʻatafu ceremony and speech | White button-up shirt + white **tupenu** + formal **taʻovala** (natural weave, fringe or simple decoration, tied with cord/sash). Optional lei. | Formal dress or wrap + **kiekie** or mat-style outer layer. Bright or white preferred. | Full ceremonial. |
+| **End game** | Post-wedding, departure | Mid-game look (shirt + tupenu) + small / lighter **taʻovala** | Mid-game modest dress or wrap + small kiekie or light mat | Retained participation without full ceremony weight. |
 
-**Younger cousin exception**: Remains in early- or mid-game casual longer. Only moves to full formal for the wedding itself, then returns to casual.
+## NPC Attire (Fixed by Role and Context)
 
-**Elder exception**: Starts at mid-game or light formal (tupenu + modest taʻovala or kiekie) and moves to full formal for the wedding. Does not drop fully back to Western casual.
+NPCs do **not** follow the player’s progressive scale. Each role has a consistent outfit appropriate to their social position and the contexts in which they appear. They may add a slightly more formal layer (e.g. a better taʻovala or lei) only for the wedding itself if it fits their role; otherwise their silhouette stays stable.
+
+| Character | Role / Context | Fixed Attire | Notes |
+|-----------|----------------|--------------|-------|
+| **Driver** | Distant relative or family friend; airport & road | Short-sleeve collared shirt + solid or patterned **tupenu** (semi-casual). No taʻovala. | Practical everyday wear suitable for driving and greeting. |
+| **Elder** (Grandmother or senior aunt/uncle) | Close family authority; dinner, eve, wedding | Modest dress or wrap + **small taʻovala** or light kiekie (women). Shirt + tupenu + modest taʻovala (men). | Starts at a respectful semi-formal level. Moves to fuller formal only for the wedding speech. |
+| **Fahu** (if distinct from Elder; father’s eldest sister or highest-ranking female relative) | Highest female family rank | Nice modest dress + **small taʻovala**. | Always dignified and elevated; never drops to pure Western casual. |
+| **Parent / Coordinating relative** | Organising family member; tasks & rehearsal | Semi-casual: short-sleeve shirt + tupenu (men) or modest dress/wrap (women). Light kiekie optional. | Practical for running errands and coordinating. |
+| **Younger cousin** | Teenage cousin; dinner, stadium, optional eve | Fully casual Western: t-shirt + shorts or jeans. | Remains casual longer. Adds full formal only for the wedding itself if present, then returns to casual. |
+| **Shopkeeper** | Market vendor | Everyday semi-casual: short-sleeve shirt + tupenu or simple dress/wrap. | Transactional, practical market attire. |
+| **Faifekau / Minister** | Church minister | Business-formal: white or light shirt + **tupenu** + blazer or jacket. Modest taʻovala optional but common. | Consistent clerical / respectful public register in all appearances. |
+| **Wedding elder** (may reuse Elder) | Presiding or senior family member at ceremony | Full formal: white shirt + white tupenu + formal taʻovala (men); formal dress + kiekie or mat (women). | Highest ceremonial weight for the speech moment. |
 
 ## Men — Formal / Ceremonial (Wedding, High Church)
 
@@ -59,13 +70,15 @@ Dress changes mark the player’s shift from visitor to participant. The same pr
 | Fully casual (sports, beach, cousin hangout) | T-shirt / patterned shirt + shorts or jeans | Dress, skirt, or top + jeans/shorts |
 | Semi-casual (market, dinner, visiting) | Short-sleeve shirt + solid or patterned tupenu (no mat) | Modest dress or top + wrap; light kiekie optional |
 | Formal (wedding speech, high church) | White shirt + white tupenu + taʻovala | Dress or wrap + kiekie / mat |
-| End-game residual | Shirt + tupenu + small taʻovala | Modest dress/wrap + small kiekie |
+| End-game residual (player only) | Shirt + tupenu + small taʻovala | Modest dress/wrap + small kiekie |
+| Faifekau | Shirt + tupenu + blazer | — |
+| Fahu | — | Modest dress + small taʻovala |
 
 ## Notes for Stylisation
 - Cell-shaded chibi should preserve the key silhouettes: the outer mat or kiekie on formal characters, the plain tupenu on semi-casual men, and ordinary Western casual on youth in low-formality scenes.
 - Colour and texture of the taʻovala (natural weave, fringe, simple geometric or yarn detail) are more important than photoreal fabric rendering.
-- The progression itself is a visual story beat. Changing the player’s silhouette at the stage boundaries is more important than individual accessory detail.
-- Keep orthography and cultural terms accurate in any accompanying text: taʻovala, tupenu, kiekie, fakauʻa.
+- Player progression is a visual story beat. NPC attire is a stable role marker.
+- Keep orthography and cultural terms accurate in any accompanying text: taʻovala, tupenu, kiekie, faifekau, fahu, fakauʻa.
 
 Last updated: 2026-10-25
 Sources: Real-world photographs of Tongan formal, church, wedding, and everyday dress.
