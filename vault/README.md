@@ -4,6 +4,8 @@ Modular knowledge base for developing Polynesian language initiatives (starting 
 
 **Purpose**: Evidence-based reference for product design. Every major claim is sourced. AI assistants should read individual section files rather than the whole vault.
 
+**Language and cultural accuracy**: DR L.V.S is responsible for reviewing and confirming all Tongan language content, formal speech conventions, dance vocabulary, and cultural framing.
+
 ## Structure
 
 | File | Topic | When to read |
@@ -22,6 +24,7 @@ Modular knowledge base for developing Polynesian language initiatives (starting 
 | [12-character-list.md](12-character-list.md) | Character list | Minimal cast and presence flags for the core path |
 | [13-clothing-baselines.md](13-clothing-baselines.md) | Clothing visual baselines | Formal, semi-casual, and everyday Tongan dress for character design |
 | [14-location-baselines.md](14-location-baselines.md) | Location visual baselines | Tongatapu places for background and environment design |
+| [15-wedding-climax-mechanics.md](15-wedding-climax-mechanics.md) | Wedding climax mechanics | Differentiated speech and tauʻolunga sequences; accuracy dependencies |
 
 ## How to use with AI
 
