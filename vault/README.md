@@ -27,6 +27,8 @@ Modular knowledge base for developing Polynesian language initiatives (starting 
 | [15-wedding-climax-mechanics.md](15-wedding-climax-mechanics.md) | Wedding climax mechanics | Differentiated speech and tauʻolunga sequences; accuracy dependencies |
 | [16-vibe-code-mitigations.md](16-vibe-code-mitigations.md) | Vibe-code risk mitigations | Security, continuity, latency, and fidelity constraints for the prototype |
 | [17-audio-and-voice.md](17-audio-and-voice.md) | Audio and voice | Single-speaker recording approach and post-prototype pronunciation notes |
+| [18-locked-decisions.md](18-locked-decisions.md) | Locked decisions | Fixed constraints, format, out-of-scope items, and hand-off rules |
+| [19-exploration-workthrough.md](19-exploration-workthrough.md) | Exploration work-through | Open items to decide before or during the first playable slice |
 
 ## How to use with AI
 
