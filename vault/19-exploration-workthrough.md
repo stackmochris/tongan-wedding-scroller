@@ -11,8 +11,9 @@ Items that still need a decision or short specification before or during the fir
   One short “by the end of this area the player can…” statement for each major beat. Attach the core phrases that must be practised.  
   Drafted 2026-10-25. See [21-learning-targets.md](21-learning-targets.md).
 
-- [ ] **Prototype success criteria**  
-  Concrete checklist for “done enough for MPP”: playable path length, approximate line count, visual polish level, documentation completeness, review status.
+- [x] **Prototype success criteria**  
+  Concrete checklist for “done enough for MPP”: playable path length, approximate line count, visual polish level, documentation completeness, review status.  
+  Locked 2026-10-25. See [22-prototype-success-criteria.md](22-prototype-success-criteria.md).
 
 ## Medium priority (resolve while building first slice)
 - [ ] **Review workflow with DR L.V.S**  
