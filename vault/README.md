@@ -25,6 +25,7 @@ Modular knowledge base for developing Polynesian language initiatives (starting 
 | [13-clothing-baselines.md](13-clothing-baselines.md) | Clothing visual baselines | Formal, semi-casual, and everyday Tongan dress for character design |
 | [14-location-baselines.md](14-location-baselines.md) | Location visual baselines | Tongatapu places for background and environment design |
 | [15-wedding-climax-mechanics.md](15-wedding-climax-mechanics.md) | Wedding climax mechanics | Differentiated speech and tauʻolunga sequences; accuracy dependencies |
+| [16-vibe-code-mitigations.md](16-vibe-code-mitigations.md) | Vibe-code risk mitigations | Security, continuity, latency, and fidelity constraints for the prototype |
 
 ## How to use with AI
 
