@@ -16,6 +16,8 @@ func show_node(node: Dictionary) -> void:
 	for i in range(choices.size()):
 		var btn = Button.new()
 		btn.text = choices[i].get("tongan", "...")
+		btn.custom_minimum_size = Vector2(0, 120)  # ~300% taller than default
+		btn.add_theme_font_size_override("font_size", 36)
 		btn.pressed.connect(_on_choice_pressed.bind(i))
 		choices_box.add_child(btn)
 
