@@ -23,6 +23,23 @@
       }
     ]
   },
+  "airport_explain": {
+    "node_id": "airport_explain",
+    "speaker": "greeter",
+    "line_tongan": "Malo e lelei means hello.",
+    "line_english": "Malo e lelei means hello.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "Malo e lelei.",
+        "caption": "Hello.",
+        "sets_flag": "greeted",
+        "add_joiner": false,
+        "next": "airport_who"
+      }
+    ]
+  },
   "airport_who": {
     "node_id": "airport_who",
     "speaker": "greeter",
@@ -36,12 +53,63 @@
         "caption": "I am Sione.",
         "sets_flag": "path_sione",
         "add_joiner": false,
-        "next": null
+        "next": "airport_confirm_sione"
       },
       {
         "tongan": "Ko au Mele.",
         "caption": "I am Mele.",
         "sets_flag": "path_mele",
+        "add_joiner": false,
+        "next": "airport_confirm_mele"
+      }
+    ]
+  },
+  "airport_confirm_sione": {
+    "node_id": "airport_confirm_sione",
+    "speaker": "greeter",
+    "line_tongan": "Malo e lelei, Sione.",
+    "line_english": "Hello, Sione.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "Malo.",
+        "caption": "Thanks.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": "car_start"
+      }
+    ]
+  },
+  "airport_confirm_mele": {
+    "node_id": "airport_confirm_mele",
+    "speaker": "greeter",
+    "line_tongan": "Malo e lelei, Mele.",
+    "line_english": "Hello, Mele.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "Malo.",
+        "caption": "Thanks.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": "car_start"
+      }
+    ]
+  },
+  "car_start": {
+    "node_id": "car_start",
+    "speaker": "driver",
+    "line_tongan": "Ha'u. Tau ō ki fale.",
+    "line_english": "Come. Let's go to the house.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "ʻIo.",
+        "caption": "Yes.",
+        "sets_flag": "in_car",
         "add_joiner": false,
         "next": null
       }
