@@ -29,10 +29,16 @@ Locked for the prototype. Audio reference is stubbed and will be added when reco
 ## Rules
 - `line_english` and `caption` are omitted or null when no caption is allowed.
 - `suppress_caption: true` forces no caption even on the Basic path.
-- Sliding caption reduction (fewer captions after more correct choices) is handled by a global counter in the dialogue system. No extra fields required.
+- Sliding caption reduction is currently stubbed. It will be evaluated once short sequences are playable. No extra fields required if activated later.
 - `add_joiner: true` increments the static NPC joiner count for Mele’s climax. The scene displays that many pre-placed sprites. Insufficient joiners or three strikes set `next` back to the sequence start node.
 - `requires_path` gates the node to one character path. Null means both paths.
 - Audio filename field is omitted until recording starts.
+- English gloss and captions must not impose external framing on cultural content. Cultural Context and Reality Prevails.
+
+## Complex-word marker (for Beginner+ captions)
+A word is treated as complex if it requires multiple consonant realignments of mouth position across 3 or more syllables.  
+Examples: kalapu, fakalata = not complex. Longer compounds with repeated shifts = complex.  
+This is an initial mathematical marker only; DR L.V.S may override.
 
 ## Example
 ```json
