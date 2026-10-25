@@ -1,5 +1,6 @@
 extends Node
 
+signal dialogue_started(node: Dictionary)
 signal dialogue_finished
 
 var current_node: Dictionary = {}
@@ -17,7 +18,7 @@ func load_dialogue(path: String) -> void:
 func start_node(node_id: String) -> void:
 	if dialogue_data.has(node_id):
 		current_node = dialogue_data[node_id]
-		# TODO: emit to UI
+		dialogue_started.emit(current_node)
 		print("Starting node: ", node_id)
 
 func choose(index: int) -> void:
