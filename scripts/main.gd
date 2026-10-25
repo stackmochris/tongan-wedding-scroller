@@ -6,7 +6,7 @@ func _ready() -> void:
 	dialogue_box = preload("res://scenes/ui/dialogue_box.tscn").instantiate()
 	add_child(dialogue_box)
 	
-	DialogueManager.load_dialogue("res://data/dialogue/airport.json")
+	DialogueManager.load_dialogue("res://data/dialogue/core_path.json")
 	DialogueManager.start_node("airport_greeting")
 	DialogueManager.dialogue_started.connect(_on_dialogue_started)
 	_on_dialogue_started(DialogueManager.current_node)
