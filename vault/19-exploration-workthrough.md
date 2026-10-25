@@ -18,44 +18,51 @@ Items that still need a decision or short specification before or during the fir
 ## Medium priority (resolve while building first slice)
 - [x] **Review workflow with DR L.V.S**  
   Format of drafts, expected cadence, and how “approved” is marked in the files.  
-  Drafted 2026-10-25. See [23-medium-priority-notes.md](23-medium-priority-notes.md).
+  Approved by Chris 2026-10-25. See [23-medium-priority-notes.md](23-medium-priority-notes.md).
 
 - [x] **Engine / framework choice**  
   Godot. Agreed.
 
 - [x] **Basic vs Beginner+ density rules**  
   How much extra scaffolding, caption timing, and repetition the Basic path actually receives.  
-  Drafted 2026-10-25. See [23-medium-priority-notes.md](23-medium-priority-notes.md).
+  Approved by Chris 2026-10-25. See [23-medium-priority-notes.md](23-medium-priority-notes.md).
 
 - [x] **Spaced re-exposure map**  
   Which core phrases must reappear, roughly how many times, and in which later areas.  
-  Drafted 2026-10-25. See [23-medium-priority-notes.md](23-medium-priority-notes.md).
+  Approved by Chris 2026-10-25. See [23-medium-priority-notes.md](23-medium-priority-notes.md).
 
 - [x] **Player motivation and cousin payoff**  
   Light pass on why the player cares and what concrete change the cousin shows by the end.  
-  Drafted 2026-10-25. See [23-medium-priority-notes.md](23-medium-priority-notes.md).
+  Stub only — Chris to flesh out separately. See [23-medium-priority-notes.md](23-medium-priority-notes.md).
 
 ## Lower priority (can follow first playable area)
-- [ ] **Sprite and background inventory**  
-  Rough count and priority of unique sprites, expressions, and background plates for the core path.
+- [x] **Sprite and background inventory**  
+  Rough count and priority of unique sprites, expressions, and background plates for the core path.  
+  Approved by Chris 2026-10-25. See [24-lower-priority-notes.md](24-lower-priority-notes.md).
 
-- [ ] **UI and accessibility baseline**  
-  Text size, caption toggle behaviour, colour contrast, one-handed considerations.
+- [x] **UI and accessibility baseline**  
+  Text size, caption toggle behaviour, colour contrast, one-handed considerations.  
+  Approved by Chris 2026-10-25. See [24-lower-priority-notes.md](24-lower-priority-notes.md).
 
-- [ ] **Orthography and sensitive-content notes**  
-  Fakauʻa usage lock, any preferred style guide, and explicit framing rules for contested topics.
+- [x] **Orthography and sensitive-content notes**  
+  Fakauʻa usage lock, any preferred style guide, and explicit framing rules for contested topics.  
+  Approved by Chris 2026-10-25. See [24-lower-priority-notes.md](24-lower-priority-notes.md).
 
-- [ ] **Session length and save points**  
-  Expected play-session length and safe stop locations.
+- [x] **Session length and save points**  
+  Expected play-session length and safe stop locations.  
+  Approved by Chris 2026-10-25. See [24-lower-priority-notes.md](24-lower-priority-notes.md).
 
-- [ ] **Second-path incentive**  
-  What else (beyond the different climax) makes replaying as the other character worthwhile.
+- [x] **Second-path incentive**  
+  What else (beyond the different climax) makes replaying as the other character worthwhile.  
+  Approved by Chris 2026-10-25. See [24-lower-priority-notes.md](24-lower-priority-notes.md).
 
-- [ ] **Onboarding length**  
-  How much of the airport and car sequence is mandatory before free movement.
+- [x] **Onboarding length**  
+  How much of the airport and car sequence is mandatory before free movement.  
+  Approved by Chris 2026-10-25. See [24-lower-priority-notes.md](24-lower-priority-notes.md).
 
-- [ ] **Risk register**  
-  Short list of the five items most likely to delay or weaken the funding pitch, with current mitigation.
+- [x] **Risk register**  
+  Short list of the five items most likely to delay or weaken the funding pitch, with current mitigation.  
+  Approved by Chris 2026-10-25. See [24-lower-priority-notes.md](24-lower-priority-notes.md).
 
 When an item is decided, move the decision into the relevant vault file (or into 18-locked-decisions.md if it is now fixed) and check it off here.
 
