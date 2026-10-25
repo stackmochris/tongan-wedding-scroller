@@ -28,14 +28,15 @@ Role-specific fragments reappear only inside their own path’s eve and climax.
 - **Marking**: Add `"reviewed": true` or move from `/draft` to `/reviewed`. Stubs remain clearly marked.
 - **Scope**: Language, speech order, dance vocabulary, and cultural framing only.
 - Demo-path lines must be reviewed or explicitly accepted as stubbed before success criteria are marked complete.
+- Stub count is a tally only. Deadline decides whether to wait for DR L.V.S or use an alternative reviewer. Not a blocker by itself.
 
 ## 3. Basic vs Beginner+ Density Rules
-**Status**: Approved by Chris 2026-10-25.
+**Status**: Approved by Chris 2026-10-25. Clarified same day.
 
 - Both paths show captions.
 - **Basic**: Captions on most lines the first time they appear (unless `suppress_caption`).
-- **Beginner+**: Captions focus on more complex words and syntax. Simpler high-frequency lines stay caption-free after first exposure.
-- Sliding reduction (both): After every three correct choices in a beat, the next non-suppressed caption is omitted. Resets at the next beat.
+- **Beginner+**: Captions focus on more complex words and syntax (see complex-word marker in dialogue schema). Simpler high-frequency lines stay caption-free after first exposure.
+- Sliding caption reduction is stubbed. It will be evaluated once short sequences are playable.
 - Path flag set once at the opener and never changes.
 - Basic path may include one extra scaffolding line on the first failure of a revision check. Beginner+ uses only a minimal redirect or loop.
 
