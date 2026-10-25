@@ -2,7 +2,7 @@ extends CanvasLayer
 
 @onready var speaker_label: Label = $Panel/VBox/Speaker
 @onready var line_label: Label = $Panel/VBox/Line
-@onready var choices_box: VBoxContainer = $Panel/VBox/Choices
+@onready var choices_box: HBoxContainer = $Panel/VBox/Choices
 
 func show_node(node: Dictionary) -> void:
 	speaker_label.text = node.get("speaker", "")
@@ -16,8 +16,8 @@ func show_node(node: Dictionary) -> void:
 	for i in range(choices.size()):
 		var btn = Button.new()
 		btn.text = choices[i].get("tongan", "...")
-		btn.custom_minimum_size = Vector2(0, 120)  # ~300% taller than default
-		btn.add_theme_font_size_override("font_size", 36)
+		btn.custom_minimum_size = Vector2(280, 100)
+		btn.add_theme_font_size_override("font_size", 32)
 		btn.pressed.connect(_on_choice_pressed.bind(i))
 		choices_box.add_child(btn)
 
