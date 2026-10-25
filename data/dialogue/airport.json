@@ -1,0 +1,50 @@
+{
+  "airport_greeting": {
+    "node_id": "airport_greeting",
+    "speaker": "greeter",
+    "line_tongan": "Malo e lelei!",
+    "line_english": null,
+    "suppress_caption": true,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "Malo e lelei.",
+        "caption": "Hello.",
+        "sets_flag": "greeted",
+        "add_joiner": false,
+        "next": "airport_who"
+      },
+      {
+        "tongan": "Ko e ha?",
+        "caption": null,
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": "airport_explain"
+      }
+    ]
+  },
+  "airport_who": {
+    "node_id": "airport_who",
+    "speaker": "greeter",
+    "line_tongan": "Ko hai?",
+    "line_english": "Who are you?",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "Ko au Sione.",
+        "caption": "I am Sione.",
+        "sets_flag": "path_sione",
+        "add_joiner": false,
+        "next": null
+      },
+      {
+        "tongan": "Ko au Mele.",
+        "caption": "I am Mele.",
+        "sets_flag": "path_mele",
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  }
+}
