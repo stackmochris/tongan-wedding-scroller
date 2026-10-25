@@ -1,0 +1,149 @@
+{
+  "airport_greeting": {
+    "node_id": "airport_greeting",
+    "speaker": "greeter",
+    "line_tongan": "Malo e lelei! Ko hai?",
+    "line_english": "Hello. Who are you?",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {"tongan": "Ko au Sione.", "caption": "I am Sione.", "sets_flag": "path_sione", "add_joiner": false, "next": "airport_welcome"},
+      {"tongan": "Ko au Mele.", "caption": "I am Mele.", "sets_flag": "path_mele", "add_joiner": false, "next": "airport_welcome"}
+    ]
+  },
+  "airport_welcome": {
+    "node_id": "airport_welcome",
+    "speaker": "greeter",
+    "line_tongan": "Mālō. ʻOku tatali ho'o driver.",
+    "line_english": "Welcome. Your driver is waiting.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {"tongan": "Mālō.", "caption": "Thank you.", "sets_flag": null, "add_joiner": false, "next": "driver_hello"}
+    ]
+  },
+  "driver_hello": {
+    "node_id": "driver_hello",
+    "speaker": "driver",
+    "line_tongan": "Malo e lelei. ʻOku ke mateuteu?",
+    "line_english": "Hello. Are you ready?",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {"tongan": "ʻIo. Tau ō.", "caption": "Yes. Let's go.", "sets_flag": "in_car", "add_joiner": false, "next": "car_coconut"}
+    ]
+  },
+  "car_coconut": {
+    "node_id": "car_coconut",
+    "speaker": "driver",
+    "line_tongan": "Sio. Ko ena ko e niu.",
+    "line_english": "Look. That is a coconut tree.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {"tongan": "Sio.", "caption": "Look.", "sets_flag": null, "add_joiner": false, "next": "car_church"}
+    ]
+  },
+  "car_church": {
+    "node_id": "car_church",
+    "speaker": "driver",
+    "line_tongan": "Sio ki muʻa. Ko ena ko e fale lotu.",
+    "line_english": "Look over there. That is a church.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {"tongan": "ʻIo.", "caption": "Yes.", "sets_flag": null, "add_joiner": false, "next": "house_elder"}
+    ]
+  },
+  "house_elder": {
+    "node_id": "house_elder",
+    "speaker": "elder",
+    "line_tongan": "Malo e lelei. Ko koe Sione/Mele.",
+    "line_english": "Hello. You are Sione/Mele.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {"tongan": "Malo e lelei.", "caption": "Hello.", "sets_flag": null, "add_joiner": false, "next": "house_come_in"}
+    ]
+  },
+  "house_come_in": {
+    "node_id": "house_come_in",
+    "speaker": "elder",
+    "line_tongan": "Haʻu ki loto. No'fo ki lalo.",
+    "line_english": "Come in. Sit down.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {"tongan": "Mālō.", "caption": "Thank you.", "sets_flag": null, "add_joiner": false, "next": "house_hungry"}
+    ]
+  },
+  "house_hungry": {
+    "node_id": "house_hungry",
+    "speaker": "elder",
+    "line_tongan": "ʻOku ke fiekaia?",
+    "line_english": "Are you hungry?",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {"tongan": "ʻIo.", "caption": "Yes.", "sets_flag": null, "add_joiner": false, "next": "house_eat"},
+      {"tongan": "ʻIkai.", "caption": "No.", "sets_flag": null, "add_joiner": false, "next": "house_wedding"}
+    ]
+  },
+  "house_eat": {
+    "node_id": "house_eat",
+    "speaker": "elder",
+    "line_tongan": "Kai.",
+    "line_english": "Eat.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {"tongan": "Mālō.", "caption": "Thank you.", "sets_flag": "ate", "add_joiner": false, "next": "house_wedding"}
+    ]
+  },
+  "house_wedding": {
+    "node_id": "house_wedding",
+    "speaker": "relative",
+    "line_tongan": "ʻOku vave mai ʻe mali. ʻOku mau fiemaʻu tokoni.",
+    "line_english": "The wedding is soon. We need help.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {"tongan": "ʻIo, te u tokoni.", "caption": "Yes, I will help.", "sets_flag": "will_help", "add_joiner": false, "next": "market_hello"}
+    ]
+  },
+  "market_hello": {
+    "node_id": "market_hello",
+    "speaker": "shopkeeper",
+    "line_tongan": "Malo e lelei. Ko e hā ʻoku ke fiemaʻu?",
+    "line_english": "Hello. What do you need?",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {"tongan": "ʻOku ou fiemaʻu ngatu.", "caption": "I need fabric.", "sets_flag": null, "add_joiner": false, "next": "market_how_many"},
+      {"tongan": "ʻOku ou fiemaʻu meʻa kai.", "caption": "I need food.", "sets_flag": null, "add_joiner": false, "next": "market_how_many"}
+    ]
+  },
+  "market_how_many": {
+    "node_id": "market_how_many",
+    "speaker": "shopkeeper",
+    "line_tongan": "Fiha?",
+    "line_english": "How many?",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {"tongan": "Ua.", "caption": "Two.", "sets_flag": null, "add_joiner": false, "next": "market_thanks"},
+      {"tongan": "Mahu.", "caption": "Enough.", "sets_flag": null, "add_joiner": false, "next": "market_thanks"}
+    ]
+  },
+  "market_thanks": {
+    "node_id": "market_thanks",
+    "speaker": "shopkeeper",
+    "line_tongan": "Mālō.",
+    "line_english": "Thank you.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {"tongan": "Mālō.", "caption": "Thank you.", "sets_flag": "got_supplies", "add_joiner": false, "next": null}
+    ]
+  }
+}
