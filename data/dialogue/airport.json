@@ -2,21 +2,21 @@
   "airport_greeting": {
     "node_id": "airport_greeting",
     "speaker": "greeter",
-    "line_tongan": "Malo e lelei!",
+    "line_tongan": "Mālō e lelei!",
     "line_english": null,
     "suppress_caption": true,
     "requires_path": null,
     "choices": [
       {
-        "tongan": "Malo e lelei.",
+        "tongan": "Mālō e lelei.",
         "caption": "Hello.",
         "sets_flag": "greeted",
         "add_joiner": false,
         "next": "airport_who"
       },
       {
-        "tongan": "Ko e ha?",
-        "caption": null,
+        "tongan": "Ko e hā?",
+        "caption": "What?",
         "sets_flag": null,
         "add_joiner": false,
         "next": "airport_explain"
@@ -26,13 +26,13 @@
   "airport_explain": {
     "node_id": "airport_explain",
     "speaker": "greeter",
-    "line_tongan": "Malo e lelei means hello.",
-    "line_english": "Malo e lelei means hello.",
+    "line_tongan": "Ko e lea fakafeʻiloaki ʻa e ‘Mālō e lelei’.",
+    "line_english": "‘Mālō e lelei’ is a greeting.",
     "suppress_caption": false,
     "requires_path": null,
     "choices": [
       {
-        "tongan": "Malo e lelei.",
+        "tongan": "Mālō e lelei.",
         "caption": "Hello.",
         "sets_flag": "greeted",
         "add_joiner": false,
@@ -43,7 +43,7 @@
   "airport_who": {
     "node_id": "airport_who",
     "speaker": "greeter",
-    "line_tongan": "Ko hai?",
+    "line_tongan": "Ko hai koe?",
     "line_english": "Who are you?",
     "suppress_caption": false,
     "requires_path": null,
@@ -67,13 +67,13 @@
   "airport_confirm_sione": {
     "node_id": "airport_confirm_sione",
     "speaker": "greeter",
-    "line_tongan": "Malo e lelei, Sione.",
+    "line_tongan": "Mālō e lelei, Sione.",
     "line_english": "Hello, Sione.",
     "suppress_caption": false,
     "requires_path": null,
     "choices": [
       {
-        "tongan": "Malo.",
+        "tongan": "Mālō.",
         "caption": "Thanks.",
         "sets_flag": null,
         "add_joiner": false,
@@ -84,13 +84,13 @@
   "airport_confirm_mele": {
     "node_id": "airport_confirm_mele",
     "speaker": "greeter",
-    "line_tongan": "Malo e lelei, Mele.",
+    "line_tongan": "Mālō e lelei, Mele.",
     "line_english": "Hello, Mele.",
     "suppress_caption": false,
     "requires_path": null,
     "choices": [
       {
-        "tongan": "Malo.",
+        "tongan": "Mālō.",
         "caption": "Thanks.",
         "sets_flag": null,
         "add_joiner": false,
@@ -101,8 +101,8 @@
   "car_start": {
     "node_id": "car_start",
     "speaker": "driver",
-    "line_tongan": "Ha'u. Tau ō ki fale.",
-    "line_english": "Come. Let's go to the house.",
+    "line_tongan": "Haʻu. Tau ō ki ʻapi.",
+    "line_english": "Come. Let's go home (to the family house).",
     "suppress_caption": false,
     "requires_path": null,
     "choices": [
