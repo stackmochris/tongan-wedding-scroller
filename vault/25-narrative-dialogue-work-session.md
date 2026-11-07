@@ -1,7 +1,7 @@
 # Narrative & Dialogue Work Session — Task Tracker
 
 **Repository:** stackmochris/tongan-wedding-scroller  
-**Status:** In progress — task 1 audited; task 2 outline refresh in progress on `work/narrative-dialogue-review-2026-11-07`  
+**Status:** In progress — tasks 1–3 draft-complete; task 4 dialogue review in progress on `work/narrative-dialogue-review-2026-11-07`  
 **Purpose:** Flesh out all nine areas of the six-hour Tongan Wedding Scroller story into coherent, implementation-ready English-first scenes and dialogue.
 
 ## Source of truth and guardrails
@@ -18,8 +18,8 @@ Read `vault/README.md`, particularly `08-story-spine.md`, `09-minimal-mechanics.
 ## Tasks
 
 - [x] **1. Audit the existing narrative and dialogue.** Reconcile vault documents, locked decisions, story spine, English dialogue framework, learning targets, JSON dialogue, and implementation. Record gaps, contradictions, open decisions, and current-versus-proposed distinctions.
-- [ ] **2. Develop the complete scene-by-scene outline.** Break each of the nine areas into scenes. For each, document setting, participating characters, narrative purpose, player objective, conflict, interactions, outcome, timing estimate, and transition. Maintain the six-hour budget.
-- [ ] **3. Flesh out characters and relationships.** Establish distinct voices, motivations, dynamics and change over time for Sione, Mele, elders, driver, shopkeeper, minister and younger cousin. Make the cousin's emotional movement observable across the game without a separate mandatory quest chain.
+- [x] **2. Develop the complete scene-by-scene outline.** Break each of the nine areas into scenes. For each, document setting, participating characters, narrative purpose, player objective, conflict, interactions, outcome, timing estimate, and transition. Maintain the six-hour budget.
+- [x] **3. Flesh out characters and relationships.** Establish distinct voices, motivations, dynamics and change over time for Sione, Mele, elders, driver, shopkeeper, minister and younger cousin. Make the cousin's emotional movement observable across the game without a separate mandatory quest chain.
 - [ ] **4. Write natural English dialogue throughout.** Author conversational exchanges, player choices, alternative responses, recovery lines and environmental reactions. Avoid repetitive textbook conversations. Keep lines suitable for eventual Beginner+ Tongan adaptation, with cultural assumptions flagged for review.
 - [ ] **5. Integrate language learning into each scene.** Link each scene to can-do objectives, first exposure, visual/contextual support, spaced re-exposure and retrieval checks. Reuse language already learned; no surprise vocabulary in revision checks or climax. Respect Basic versus Beginner+ caption/scaffolding rules.
 - [ ] **6. Develop meaningful interactions and consequences.** Specify player action, NPC/world feedback, state flag changes, gating, and gentle retry behavior. Prefer 2–4 short choices where appropriate. No quiz screens, new inventory system or free-text input.
@@ -48,3 +48,5 @@ Record dated updates below with completed tasks, draft file paths, open question
 - 2026-11-07 — Tracker created. All tasks open.
 
 - 2026-11-07 — Task 1 audited against main `0f4051ea05b14f0c6bcc06538f7c3ef7e5350e6c`; existing narrative drafts reviewed against unchanged story/schema/learning/runtime sources and the newly approved visual docs. Older cut-only/backdrop assumptions need updating for compact top-down routes. Tasks 2–9 remain under ordered review. No game code changed. Review branch: `work/narrative-dialogue-review-2026-11-07`.
+
+- 2026-11-07 — Tasks 2–3 draft-complete after task 1: 36 scene entries / 31 per selected path, objectives, conflict, outcomes, transitions, voices and cousin arc retained; outline refreshed for approved top-down routes, conversation views and exterior car ride. Evidence: `vault/narrative-drafts/2026-11-07/Scene-Bible.md`, `Source-Audit.md`, `content/area-bindings.json`. Tasks 4–9 still under ordered review. Cultural and language approval remain pending.
