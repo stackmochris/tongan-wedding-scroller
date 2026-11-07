@@ -35,6 +35,10 @@ Modular knowledge base for developing Polynesian language initiatives (starting 
 | [23-medium-priority-notes.md](23-medium-priority-notes.md) | Medium-priority notes | Spaced re-exposure, review workflow, density rules, motivation |
 | [24-lower-priority-notes.md](24-lower-priority-notes.md) | Lower-priority notes | Backgrounds, accessibility, cultural framing, saves, risks, and related decisions |
 
+## Visual source of truth
+
+Read [Approved Visual Style and Presentation](../assets/style-reference.md) before creating assets or specifying exploration views. Chris approved top-down 2D exploration, chibi dialogue views and exterior car travel on 2026-11-07 (Pacific/Auckland). The reference gallery distinguishes approved and superseded mockups; no engine implementation is implied.
+
 ## How to use with AI
 
 - Request a specific file (e.g., “read 03-techniques.md”) for focused answers.
