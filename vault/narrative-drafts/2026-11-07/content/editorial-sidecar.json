@@ -1,0 +1,5417 @@
+{
+  "sione_a01_02": {
+    "english": "Welcome. I am your family’s driver today. How are you?",
+    "choices": [
+      "Good, thank you.",
+      "A little tired."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "A01",
+    "area": 1,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_a01_03": {
+    "english": "A long flight. Your family is waiting.",
+    "choices": [
+      "I am happy to be here.",
+      "Thank you for coming."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "A01",
+    "area": 1,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_a01_04": {
+    "english": "One more time, so I have your name right. Who are you?",
+    "choices": [
+      "I am Sione.",
+      "You are Sione."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "A01",
+    "area": 1,
+    "kind": "repair_check",
+    "repair_target": "sione_a01_04"
+  },
+  "sione_a01_04_repair": {
+    "english": "I am the driver. You are Sione.",
+    "choices": [
+      "I am Sione."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "A01",
+    "area": 1,
+    "kind": "repair"
+  },
+  "sione_a02_01": {
+    "english": "Your return flight is after the wedding. A short visit.",
+    "choices": [
+      "Yes. I want to help.",
+      "Yes. I want to see everyone."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "A02",
+    "area": 1,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_a02_02": {
+    "english": "Are you ready? We can go now.",
+    "choices": [
+      "Yes. Let’s go.",
+      "Please, say it again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "A02",
+    "area": 1,
+    "kind": "repair_check",
+    "repair_target": "sione_a02_02"
+  },
+  "sione_a02_02_repair": {
+    "english": "Are you ready? Let’s go.",
+    "choices": [
+      "Yes. Let’s go."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "A02",
+    "area": 1,
+    "kind": "repair"
+  },
+  "sione_a02_03": {
+    "english": "This way.",
+    "choices": [
+      "Thank you.",
+      "Let’s go."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "A02",
+    "area": 1,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_b01_01": {
+    "english": "Look. That is a coconut tree.",
+    "choices": [
+      "That is a coconut tree.",
+      "Look."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "B01",
+    "area": 2,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_b01_02": {
+    "english": "Look ahead. That is a church.",
+    "choices": [
+      "That is a church.",
+      "That is a coconut tree."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "B01",
+    "area": 2,
+    "kind": "repair_check",
+    "repair_target": "sione_b01_02"
+  },
+  "sione_b01_02_repair": {
+    "english": "Look ahead. The church is there.",
+    "choices": [
+      "That is a church."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "B01",
+    "area": 2,
+    "kind": "repair"
+  },
+  "sione_b01_03": {
+    "english": "That is the village. We are going this way.",
+    "choices": [
+      "That is the village.",
+      "This way."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "B01",
+    "area": 2,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_b01_04": {
+    "english": "Look. There is the sea.",
+    "choices": [
+      "That is the sea.",
+      "Look at the sea."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "B01",
+    "area": 2,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_b02_01": {
+    "english": "Look ahead. What is that?",
+    "choices": [
+      "That is a church.",
+      "That is the sea."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "B02",
+    "area": 2,
+    "kind": "repair_check",
+    "repair_target": "sione_b02_01"
+  },
+  "sione_b02_01_repair": {
+    "english": "Look again. That is a church.",
+    "choices": [
+      "That is a church."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "B02",
+    "area": 2,
+    "kind": "repair"
+  },
+  "sione_b02_02": {
+    "english": "Good. We are almost there. Your family’s house is ahead.",
+    "choices": [
+      "That is the house.",
+      "We are almost there."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "B02",
+    "area": 2,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_c01_01": {
+    "english": "Hello. You have arrived.",
+    "choices": [
+      "Hello. I am Sione.",
+      "Hello. Thank you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C01",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_c01_02": {
+    "english": "I am your grandmother. Come and sit with me.",
+    "choices": [
+      "Hello, Grandmother.",
+      "Thank you, Grandmother."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C01",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_c01_03": {
+    "english": "Come in. Sit here.",
+    "choices": [
+      "Thank you.",
+      "Here?"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C01",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_c01_04": {
+    "english": "Yes, here. How are you?",
+    "choices": [
+      "Good, thank you.",
+      "A little tired."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C01",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_c01_05": {
+    "english": "The wedding is soon. We are glad you came.",
+    "choices": [
+      "I am glad to be here.",
+      "Thank you for having me."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C01",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_c01_06": {
+    "english": "This is your family. There is a place for you.",
+    "choices": [
+      "Thank you.",
+      "I am happy to be with my family."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C01",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_c02_01": {
+    "english": "This is your cousin.",
+    "choices": [
+      "Hello. I am Sione.",
+      "Hello. How are you?"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_c02_02": {
+    "english": "Hello.",
+    "choices": [
+      "Good to see you.",
+      "Hello."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_c02_03": {
+    "english": "Are you hungry? Here is rice.",
+    "choices": [
+      "Yes, please. Thank you.",
+      "No, thank you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_c02_04": {
+    "english": "Here is fish. Here is taro.",
+    "choices": [
+      "I would like fish, please.",
+      "I would like taro, please."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_c02_05": {
+    "english": "Would you like water?",
+    "choices": [
+      "Yes, please.",
+      "No, thank you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_c02_06": {
+    "english": "There is more food. Would you like some?",
+    "choices": [
+      "Yes, thank you.",
+      "No, thank you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_c02_07": {
+    "english": "Those two are brother and sister. They are helping too.",
+    "choices": [
+      "Your brother and sister?",
+      "Brother and sister."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_c03_01": {
+    "english": "Your cousin can show you around.",
+    "choices": [
+      "Only if you want to.",
+      "We can go together later.",
+      "Let’s go. We can talk later."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C03",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_c03_02": {
+    "english": "Everyone asks me to show people around.",
+    "choices": [
+      "We can just eat.",
+      "You can say no."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C03",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_c03_03": {
+    "english": "You don’t know all the words either?",
+    "choices": [
+      "No. I am learning.",
+      "Some words. Not all."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C03",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_c03_04": {
+    "english": "I know what they mean. Sometimes I don’t want to say them.",
+    "choices": [
+      "We can try together.",
+      "I can listen."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C03",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_c03_05": {
+    "english": "Maybe later.",
+    "choices": [
+      "All right.",
+      "See you later."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C03",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_c04_01": {
+    "english": "We need help with the wedding. Can you help?",
+    "choices": [
+      "Yes. I will help.",
+      "Yes. Please show me."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C04",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_c04_02": {
+    "english": "We need food and drinks from the market. Two bundles of food. Three drinks.",
+    "choices": [
+      "Two bundles. Three drinks.",
+      "Please say it again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C04",
+    "area": 3,
+    "kind": "repair_check",
+    "repair_target": "sione_c04_02"
+  },
+  "sione_c04_02_repair": {
+    "english": "Two bundles of food. Three drinks.",
+    "choices": [
+      "Two bundles. Three drinks."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C04",
+    "area": 3,
+    "kind": "repair"
+  },
+  "sione_c04_03": {
+    "english": "Then ask the minister about the time. We will go together.",
+    "choices": [
+      "What time?",
+      "We will go together."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C04",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_c04_04": {
+    "english": "You will have a small part at the wedding, too. We will practise.",
+    "choices": [
+      "I will try.",
+      "Will you help me?"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C04",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_c04_05": {
+    "english": "Yes. First the market. One thing at a time.",
+    "choices": [
+      "Thank you for your help.",
+      "Let’s go."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C04",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_d01_01": {
+    "english": "Look. That is the food stall.",
+    "choices": [
+      "That is the food stall.",
+      "That is the church."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D01",
+    "area": 4,
+    "kind": "repair_check",
+    "repair_target": "sione_d01_01"
+  },
+  "sione_d01_01_repair": {
+    "english": "Look here. Food is on this table.",
+    "choices": [
+      "That is the food stall."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D01",
+    "area": 4,
+    "kind": "repair"
+  },
+  "sione_d01_02": {
+    "english": "Hello. How are you?",
+    "choices": [
+      "Good, thank you.",
+      "Hello. I am Sione."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D01",
+    "area": 4,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_d01_03": {
+    "english": "What do you need?",
+    "choices": [
+      "I need food, please.",
+      "I need the sea."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D01",
+    "area": 4,
+    "kind": "repair_check",
+    "repair_target": "sione_d01_03"
+  },
+  "sione_d01_03_repair": {
+    "english": "Food is here. What do you need?",
+    "choices": [
+      "I need food, please."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D01",
+    "area": 4,
+    "kind": "repair"
+  },
+  "sione_d01_04": {
+    "english": "We need two bundles.",
+    "choices": [
+      "Two bundles.",
+      "Three bundles."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D01",
+    "area": 4,
+    "kind": "repair_check",
+    "repair_target": "sione_d01_04"
+  },
+  "sione_d01_04_repair": {
+    "english": "Two bundles of food.",
+    "choices": [
+      "Two bundles."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D01",
+    "area": 4,
+    "kind": "repair"
+  },
+  "sione_d02_01": {
+    "english": "How many bundles?",
+    "choices": [
+      "Two, please.",
+      "Three, please."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D02",
+    "area": 4,
+    "kind": "repair_check",
+    "repair_target": "sione_d02_01"
+  },
+  "sione_d02_01_repair": {
+    "english": "The family asked for two bundles.",
+    "choices": [
+      "Two, please."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D02",
+    "area": 4,
+    "kind": "repair"
+  },
+  "sione_d02_02": {
+    "english": "Two bundles. Is that enough?",
+    "choices": [
+      "Yes. That is enough.",
+      "Please show me again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D02",
+    "area": 4,
+    "kind": "repair_check",
+    "repair_target": "sione_d02_02"
+  },
+  "sione_d02_02_repair": {
+    "english": "Here are the two bundles.",
+    "choices": [
+      "Yes. That is enough."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D02",
+    "area": 4,
+    "kind": "repair"
+  },
+  "sione_d02_03": {
+    "english": "We also need three drinks.",
+    "choices": [
+      "I need three drinks, please.",
+      "I need two drinks."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D02",
+    "area": 4,
+    "kind": "repair_check",
+    "repair_target": "sione_d02_03"
+  },
+  "sione_d02_03_repair": {
+    "english": "Three drinks. One, two, three.",
+    "choices": [
+      "I need three drinks, please."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D02",
+    "area": 4,
+    "kind": "repair"
+  },
+  "sione_d02_04": {
+    "english": "Two drinks?",
+    "choices": [
+      "No. Three, please.",
+      "Yes. Two."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D02",
+    "area": 4,
+    "kind": "repair_check",
+    "repair_target": "sione_d02_04"
+  },
+  "sione_d02_04_repair": {
+    "english": "You asked for three. Let’s count again.",
+    "choices": [
+      "No. Three, please."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D02",
+    "area": 4,
+    "kind": "repair"
+  },
+  "sione_d02_05": {
+    "english": "Three. Is that enough?",
+    "choices": [
+      "Yes. Thank you.",
+      "Three. Thank you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D02",
+    "area": 4,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_d03_01": {
+    "english": "What do you need for the wedding?",
+    "choices": [
+      "I need two bundles of food and three drinks.",
+      "I need three bundles and two drinks."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D03",
+    "area": 4,
+    "kind": "repair_check",
+    "repair_target": "sione_d03_01"
+  },
+  "sione_d03_01_repair": {
+    "english": "Two bundles of food. Three drinks.",
+    "choices": [
+      "I need two bundles of food and three drinks."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D03",
+    "area": 4,
+    "kind": "repair"
+  },
+  "sione_d03_02": {
+    "english": "Good. Two bundles and three drinks.",
+    "choices": [
+      "That is enough. Thank you.",
+      "Thank you for your help."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D03",
+    "area": 4,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_d03_03": {
+    "english": "I will pay. You asked for what we needed.",
+    "choices": [
+      "Thank you.",
+      "I can carry these."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D03",
+    "area": 4,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_d03_04": {
+    "english": "Thank you. See you again.",
+    "choices": [
+      "Thank you. Goodbye.",
+      "Goodbye."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D03",
+    "area": 4,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_d04_01": {
+    "english": "Your cousin might come next time.",
+    "choices": [
+      "I can ask.",
+      "I can go with you again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D04",
+    "area": 4,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_d04_02": {
+    "english": "The food is ready. What did you ask for?",
+    "choices": [
+      "Two bundles of food. Three drinks.",
+      "Three bundles of food."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D04",
+    "area": 4,
+    "kind": "repair_check",
+    "repair_target": "sione_d04_02"
+  },
+  "sione_d04_02_repair": {
+    "english": "Two bundles. Three drinks.",
+    "choices": [
+      "Two bundles of food. Three drinks."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D04",
+    "area": 4,
+    "kind": "repair"
+  },
+  "sione_d04_03": {
+    "english": "Thank you. At the wedding, speak slowly too.",
+    "choices": [
+      "Slowly. I can do that.",
+      "Please help me practise."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D04",
+    "area": 4,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_d05s_01": {
+    "english": "You will give a short speech. Not a long one.",
+    "choices": [
+      "I want to thank them properly.",
+      "Please help me practise."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D05S",
+    "area": 4,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_d05s_02": {
+    "english": "You can ask to try again.",
+    "choices": [
+      "Let’s try again.",
+      "Thank you for your help."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D05S",
+    "area": 4,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_e01_01": {
+    "english": "Here is the minister. We are here about the wedding.",
+    "choices": [
+      "Hello, Minister.",
+      "Hello. We are preparing the wedding."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E01",
+    "area": 5,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_e01_02": {
+    "english": "Hello. Welcome. How can I help?",
+    "choices": [
+      "We are preparing the wedding.",
+      "Thank you for your help."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E01",
+    "area": 5,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_e01_03": {
+    "english": "The family is getting ready. You have come a long way.",
+    "choices": [
+      "I am happy to be with my family.",
+      "Yes. I am here to help."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E01",
+    "area": 5,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_e01_04": {
+    "english": "Please ask about the time.",
+    "choices": [
+      "What time does it start?",
+      "What food is there?"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E01",
+    "area": 5,
+    "kind": "repair_check",
+    "repair_target": "sione_e01_04"
+  },
+  "sione_e01_04_repair": {
+    "english": "Ask about the time. What time does it start?",
+    "choices": [
+      "What time does it start?"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E01",
+    "area": 5,
+    "kind": "repair"
+  },
+  "sione_e02_01": {
+    "english": "The family gathering starts at ten.",
+    "choices": [
+      "At ten. Thank you.",
+      "Please say it again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E02",
+    "area": 5,
+    "kind": "repair_check",
+    "repair_target": "sione_e02_01"
+  },
+  "sione_e02_01_repair": {
+    "english": "At ten.",
+    "choices": [
+      "At ten. Thank you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E02",
+    "area": 5,
+    "kind": "repair"
+  },
+  "sione_e02_02": {
+    "english": "At ten. We will see your family there.",
+    "choices": [
+      "We will be there at ten.",
+      "We will be there at two."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E02",
+    "area": 5,
+    "kind": "repair_check",
+    "repair_target": "sione_e02_02"
+  },
+  "sione_e02_02_repair": {
+    "english": "At ten. Look at the clock.",
+    "choices": [
+      "We will be there at ten."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E02",
+    "area": 5,
+    "kind": "repair"
+  },
+  "sione_e02_03": {
+    "english": "What time will we be there?",
+    "choices": [
+      "At ten.",
+      "At two."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E02",
+    "area": 5,
+    "kind": "repair_check",
+    "repair_target": "sione_e02_03"
+  },
+  "sione_e02_03_repair": {
+    "english": "At ten.",
+    "choices": [
+      "At ten."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E02",
+    "area": 5,
+    "kind": "repair"
+  },
+  "sione_e02_04": {
+    "english": "Thank you for checking.",
+    "choices": [
+      "Thank you for your help.",
+      "Thank you, Minister."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E02",
+    "area": 5,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_e03_01": {
+    "english": "You thanked the minister yourself.",
+    "choices": [
+      "I knew that part.",
+      "I was nervous."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E03",
+    "area": 5,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_e03_02": {
+    "english": "That is enough for today. Your wedding part will be short.",
+    "choices": [
+      "Short is good.",
+      "Please practise with me."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E03",
+    "area": 5,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_e03_03": {
+    "english": "First understand what you want to say. Then we will practise the words.",
+    "choices": [
+      "I want to thank my family.",
+      "I want to say I am happy to be here."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E03",
+    "area": 5,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_e03_04": {
+    "english": "We will practise at home.",
+    "choices": [
+      "Thank you for your help.",
+      "We will be there at ten."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E03",
+    "area": 5,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_e04s_01": {
+    "english": "There is an order to the acknowledgements. We will use the order our elder gives us.",
+    "choices": [
+      "Show me one part.",
+      "Let’s practise slowly."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E04S",
+    "area": 5,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_e04s_02": {
+    "english": "You can ask to try again.",
+    "choices": [
+      "Let’s try again.",
+      "Thank you for your help."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E04S",
+    "area": 5,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_f01_01": {
+    "english": "You came. There is no shopping here.",
+    "choices": [
+      "I came to see you.",
+      "I came to play."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F01",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_f01_02": {
+    "english": "Come. Let’s play.",
+    "choices": [
+      "Let’s go.",
+      "Please say it again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F01",
+    "area": 6,
+    "kind": "repair_check",
+    "repair_target": "sione_f01_02"
+  },
+  "sione_f01_02_repair": {
+    "english": "Come. Let’s play.",
+    "choices": [
+      "Let’s go."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F01",
+    "area": 6,
+    "kind": "repair"
+  },
+  "sione_f01_03": {
+    "english": "Look. The ball is there.",
+    "choices": [
+      "That is the ball.",
+      "That is the church."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F01",
+    "area": 6,
+    "kind": "repair_check",
+    "repair_target": "sione_f01_03"
+  },
+  "sione_f01_03_repair": {
+    "english": "Look here. The ball.",
+    "choices": [
+      "That is the ball."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F01",
+    "area": 6,
+    "kind": "repair"
+  },
+  "sione_f01_04": {
+    "english": "Kick the ball.",
+    "choices": [
+      "I will try.",
+      "Show me first."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F01",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_f01_05": {
+    "english": "Like this. Come on.",
+    "choices": [
+      "Let’s play.",
+      "I will try."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F01",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_f02_01": {
+    "english": "That went the wrong way. Try again.",
+    "choices": [
+      "I will try again.",
+      "You show me."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F02",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_f02_02": {
+    "english": "You are getting better. Are you tired?",
+    "choices": [
+      "Not yet. Let’s play.",
+      "Yes. Let’s rest."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F02",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_f02_03": {
+    "english": "All right. One more pass, then we rest. Come.",
+    "choices": [
+      "Let’s go.",
+      "How many drinks?"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F02",
+    "area": 6,
+    "kind": "repair_check",
+    "repair_target": "sione_f02_03"
+  },
+  "sione_f02_03_repair": {
+    "english": "Come. Let’s play.",
+    "choices": [
+      "Let’s go."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F02",
+    "area": 6,
+    "kind": "repair"
+  },
+  "sione_f02_04": {
+    "english": "Good. That is enough.",
+    "choices": [
+      "This is fun.",
+      "Thank you for playing."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F02",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_f03_01": {
+    "english": "At home, someone always answers before I do.",
+    "choices": [
+      "I can wait.",
+      "That happens to me too.",
+      "Let’s go. We can talk later."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F03",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_f03_02": {
+    "english": "Then they ask why I am quiet.",
+    "choices": [
+      "You can take your time.",
+      "We can try one line together."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F03",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_f03_03": {
+    "english": "Will everyone look at you at the wedding?",
+    "choices": [
+      "Yes. I am nervous.",
+      "Yes. I will practise."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F03",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_f03_04": {
+    "english": "You still want to do it?",
+    "choices": [
+      "I want to be part of it.",
+      "I want to thank them."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F03",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_f03_05": {
+    "english": "Maybe I can help you practise. Just us.",
+    "choices": [
+      "I would like that.",
+      "Only if you want to."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F03",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_f03_06": {
+    "english": "Come. We should go back.",
+    "choices": [
+      "Let’s go.",
+      "Good. Let’s go."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F03",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_f04s_01": {
+    "english": "You can practise with me. I will not interrupt.",
+    "choices": [
+      "Thank you. I will try.",
+      "Please listen."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F04S",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_f04s_02": {
+    "english": "You can ask to try again.",
+    "choices": [
+      "Let’s try again.",
+      "Thank you for your help."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F04S",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_g01_01": {
+    "english": "The supplies are here. What time tomorrow?",
+    "choices": [
+      "At ten.",
+      "At two."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G01",
+    "area": 7,
+    "kind": "repair_check",
+    "repair_target": "sione_g01_01"
+  },
+  "sione_g01_01_repair": {
+    "english": "At ten. You checked with the minister.",
+    "choices": [
+      "At ten."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G01",
+    "area": 7,
+    "kind": "repair"
+  },
+  "sione_g01_02": {
+    "english": "Two bundles of food. Three drinks. Is that enough?",
+    "choices": [
+      "Yes. That is enough.",
+      "Thank you for your help."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G01",
+    "area": 7,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_g01_03": {
+    "english": "What did you ask for at the market?",
+    "choices": [
+      "I need two bundles of food and three drinks.",
+      "I need three bundles and two drinks."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G01",
+    "area": 7,
+    "kind": "repair_check",
+    "repair_target": "sione_g01_03"
+  },
+  "sione_g01_03_repair": {
+    "english": "Two bundles of food. Three drinks.",
+    "choices": [
+      "I need two bundles of food and three drinks."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G01",
+    "area": 7,
+    "kind": "repair"
+  },
+  "sione_g01_04": {
+    "english": "Tomorrow we will ask you to take your part.",
+    "choices": [
+      "I am ready to practise.",
+      "Please stay near me."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G01",
+    "area": 7,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_g01_05": {
+    "english": "We will be near you.",
+    "choices": [
+      "Thank you.",
+      "I am happy to be here."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G01",
+    "area": 7,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_g02_01": {
+    "english": "Do you want me to stay?",
+    "choices": [
+      "Yes, please.",
+      "You can just listen."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G02",
+    "area": 7,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_g02_02": {
+    "english": "If you stop, I can wait. Like you did.",
+    "choices": [
+      "Thank you.",
+      "Then let’s try."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G02",
+    "area": 7,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_g02_03": {
+    "english": "We will practise one part at a time.",
+    "choices": [
+      "One part at a time.",
+      "I will try."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G02",
+    "area": 7,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_g03_01": {
+    "english": "Say: Hello, everyone.",
+    "choices": [
+      "Hello, everyone.",
+      "Goodbye, everyone."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G03",
+    "area": 7,
+    "kind": "repair_check",
+    "repair_target": "sione_g03_01"
+  },
+  "sione_g03_01_repair": {
+    "english": "Hello, everyone.",
+    "choices": [
+      "Hello, everyone."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G03",
+    "area": 7,
+    "kind": "repair"
+  },
+  "sione_g03_02": {
+    "english": "Say: I give thanks.",
+    "choices": [
+      "I give thanks.",
+      "What time?"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G03",
+    "area": 7,
+    "kind": "repair_check",
+    "repair_target": "sione_g03_02"
+  },
+  "sione_g03_02_repair": {
+    "english": "I give thanks.",
+    "choices": [
+      "I give thanks."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G03",
+    "area": 7,
+    "kind": "repair"
+  },
+  "sione_g03_03": {
+    "english": "Your family is here.",
+    "choices": [
+      "I love my family.",
+      "I am happy to be with my family."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G03",
+    "area": 7,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_g03_04": {
+    "english": "Good. Now your own part.",
+    "choices": [
+      "I am ready.",
+      "Let’s practise."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G03",
+    "area": 7,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_h01_01": {
+    "english": "We are here. The family is ready.",
+    "choices": [
+      "I am happy to be with my family.",
+      "Thank you for your help."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H01",
+    "area": 8,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_h01_02": {
+    "english": "There is water for the table. What do you need?",
+    "choices": [
+      "I need water, please.",
+      "I need the sea."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H01",
+    "area": 8,
+    "kind": "repair_check",
+    "repair_target": "sione_h01_02"
+  },
+  "sione_h01_02_repair": {
+    "english": "Water is here. I need water, please.",
+    "choices": [
+      "I need water, please."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H01",
+    "area": 8,
+    "kind": "repair"
+  },
+  "sione_h01_03": {
+    "english": "Hello, everyone. Thank you for coming.",
+    "choices": [
+      "Hello, everyone.",
+      "Thank you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H01",
+    "area": 8,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_h01_04": {
+    "english": "I will be here.",
+    "choices": [
+      "Thank you.",
+      "I am glad you came."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H01",
+    "area": 8,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_h01_05": {
+    "english": "Slowly. Just as we practised.",
+    "choices": [
+      "I am ready.",
+      "Stay near me."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H01",
+    "area": 8,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_h02_01": {
+    "english": "Thank you. Come and sit with us.",
+    "choices": [
+      "Thank you.",
+      "I am happy to be here."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H02",
+    "area": 8,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_h02_02": {
+    "english": "You did your part. Now eat with us.",
+    "choices": [
+      "Thank you for the food.",
+      "Yes, please."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H02",
+    "area": 8,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_h02_03": {
+    "english": "I knew that line. I said it with you.",
+    "choices": [
+      "I heard you.",
+      "We did it together."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H02",
+    "area": 8,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_h02_04": {
+    "english": "Not all of it. Just that part.",
+    "choices": [
+      "That part was enough.",
+      "We can practise again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H02",
+    "area": 8,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_i01_01": {
+    "english": "Here we are again. Are you ready?",
+    "choices": [
+      "Yes. Thank you.",
+      "Almost."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I01",
+    "area": 9,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_i01_02": {
+    "english": "Would you like water before you go?",
+    "choices": [
+      "I need water, please.",
+      "No, thank you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I01",
+    "area": 9,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_i01_03": {
+    "english": "Thank you for being with us.",
+    "choices": [
+      "I give thanks to my family.",
+      "I love my family."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I01",
+    "area": 9,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_i01_04": {
+    "english": "You are leaving. Goodbye. Travel safely.",
+    "choices": [
+      "Goodbye. I will come back.",
+      "Goodbye. Thank you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I01",
+    "area": 9,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_i01_05": {
+    "english": "We will stay here. Say goodbye to us.",
+    "choices": [
+      "Goodbye.",
+      "Please show me."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I01",
+    "area": 9,
+    "kind": "repair_check",
+    "repair_target": "sione_i01_05",
+    "addressing": {
+      "0": "staying group"
+    }
+  },
+  "sione_i01_05_repair": {
+    "english": "You go. We stay. Goodbye to those staying.",
+    "choices": [
+      "Goodbye."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I01",
+    "area": 9,
+    "kind": "repair",
+    "addressing": {
+      "0": "staying group"
+    }
+  },
+  "sione_i01_06": {
+    "english": "We love you.",
+    "choices": [
+      "I love you all.",
+      "Thank you. I love you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I01",
+    "area": 9,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_i02_01": {
+    "english": "Message me when you get home.",
+    "choices": [
+      "I will.",
+      "You message me too."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I02",
+    "area": 9,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_i02_02": {
+    "english": "Next time, let me say hello first.",
+    "choices": [
+      "I will wait.",
+      "We can say it together."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I02",
+    "area": 9,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_i02_03": {
+    "english": "Hello. I am your cousin.",
+    "choices": [
+      "Hello. I am Sione.",
+      "Good to see you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I02",
+    "area": 9,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_i02_04": {
+    "english": "All right. Goodbye.",
+    "choices": [
+      "Goodbye. I will come back.",
+      "Goodbye. I love you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I02",
+    "area": 9,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_i03_01": {
+    "english": "They are staying. You are leaving.",
+    "choices": [
+      "Goodbye.",
+      "Goodbye."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I03",
+    "area": 9,
+    "kind": "repair_check",
+    "repair_target": "sione_i03_01",
+    "addressing": {
+      "0": "staying group",
+      "1": "departing person"
+    }
+  },
+  "sione_i03_01_repair": {
+    "english": "You are leaving. They are staying.",
+    "choices": [
+      "Goodbye to those staying."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I03",
+    "area": 9,
+    "kind": "repair"
+  },
+  "sione_i03_02": {
+    "english": "Come back soon.",
+    "choices": [
+      "I will come back.",
+      "Thank you for your help."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I03",
+    "area": 9,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_i03_03": {
+    "english": "Goodbye. We love you.",
+    "choices": [
+      "Goodbye. I love you all.",
+      "Goodbye. Thank you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I03",
+    "area": 9,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "sione_practice_sione_4_1": {
+    "english": "Practise this part with me: [S1 PROVISIONAL ENGLISH: Hello, everyone.]",
+    "choices": [
+      "[S1 PROVISIONAL ENGLISH: Hello, everyone.]",
+      "Please show me again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D05S",
+    "area": 4,
+    "kind": "slot_introduction",
+    "slot": "sione_1"
+  },
+  "sione_practice_sione_4_2": {
+    "english": "Practise this part with me: [S2 PROVISIONAL ENGLISH: Thank you for coming.]",
+    "choices": [
+      "[S2 PROVISIONAL ENGLISH: Thank you for coming.]",
+      "Please show me again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D05S",
+    "area": 4,
+    "kind": "slot_introduction",
+    "slot": "sione_2"
+  },
+  "sione_practice_sione_5_1": {
+    "english": "Practise this part with me: [S3 PROVISIONAL ENGLISH: I am happy to be with my family.]",
+    "choices": [
+      "[S3 PROVISIONAL ENGLISH: I am happy to be with my family.]",
+      "Please show me again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E04S",
+    "area": 5,
+    "kind": "slot_introduction",
+    "slot": "sione_3"
+  },
+  "sione_practice_sione_5_2": {
+    "english": "Practise this part with me: [S4 PROVISIONAL ENGLISH: Thank you to the elders.]",
+    "choices": [
+      "[S4 PROVISIONAL ENGLISH: Thank you to the elders.]",
+      "Please show me again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E04S",
+    "area": 5,
+    "kind": "slot_introduction",
+    "slot": "sione_4"
+  },
+  "sione_practice_sione_6_1": {
+    "english": "Practise this part with me: [S5 PROVISIONAL ENGLISH: God bless this wedding.]",
+    "choices": [
+      "[S5 PROVISIONAL ENGLISH: God bless this wedding.]",
+      "Please show me again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F04S",
+    "area": 6,
+    "kind": "slot_introduction",
+    "slot": "sione_5"
+  },
+  "sione_practice_sione_6_2": {
+    "english": "Practise this part with me: [S6 PROVISIONAL ENGLISH: Thank you.]",
+    "choices": [
+      "[S6 PROVISIONAL ENGLISH: Thank you.]",
+      "Please show me again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F04S",
+    "area": 6,
+    "kind": "slot_introduction",
+    "slot": "sione_6"
+  },
+  "sione_eve_sione_1": {
+    "english": "Your next part is [S1 PROVISIONAL ENGLISH: Hello, everyone.]. Try it now.",
+    "choices": [
+      "[S1 PROVISIONAL ENGLISH: Hello, everyone.]",
+      "Please show me again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G04S",
+    "area": 7,
+    "kind": "slot_retrieval",
+    "slot": "sione_1"
+  },
+  "sione_eve_sione_1_model": {
+    "english": "Here is that part again: [S1 PROVISIONAL ENGLISH: Hello, everyone.]",
+    "choices": [
+      "[S1 PROVISIONAL ENGLISH: Hello, everyone.]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G04S",
+    "area": 7,
+    "kind": "slot_model",
+    "slot": "sione_1"
+  },
+  "sione_eve_sione_2": {
+    "english": "Your next part is [S2 PROVISIONAL ENGLISH: Thank you for coming.]. Try it now.",
+    "choices": [
+      "[S2 PROVISIONAL ENGLISH: Thank you for coming.]",
+      "Please show me again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G04S",
+    "area": 7,
+    "kind": "slot_retrieval",
+    "slot": "sione_2"
+  },
+  "sione_eve_sione_2_model": {
+    "english": "Here is that part again: [S2 PROVISIONAL ENGLISH: Thank you for coming.]",
+    "choices": [
+      "[S2 PROVISIONAL ENGLISH: Thank you for coming.]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G04S",
+    "area": 7,
+    "kind": "slot_model",
+    "slot": "sione_2"
+  },
+  "sione_eve_sione_3": {
+    "english": "Your next part is [S3 PROVISIONAL ENGLISH: I am happy to be with my family.]. Try it now.",
+    "choices": [
+      "[S3 PROVISIONAL ENGLISH: I am happy to be with my family.]",
+      "Please show me again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G04S",
+    "area": 7,
+    "kind": "slot_retrieval",
+    "slot": "sione_3"
+  },
+  "sione_eve_sione_3_model": {
+    "english": "Here is that part again: [S3 PROVISIONAL ENGLISH: I am happy to be with my family.]",
+    "choices": [
+      "[S3 PROVISIONAL ENGLISH: I am happy to be with my family.]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G04S",
+    "area": 7,
+    "kind": "slot_model",
+    "slot": "sione_3"
+  },
+  "sione_eve_sione_4": {
+    "english": "Your next part is [S4 PROVISIONAL ENGLISH: Thank you to the elders.]. Try it now.",
+    "choices": [
+      "[S4 PROVISIONAL ENGLISH: Thank you to the elders.]",
+      "Please show me again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G04S",
+    "area": 7,
+    "kind": "slot_retrieval",
+    "slot": "sione_4"
+  },
+  "sione_eve_sione_4_model": {
+    "english": "Here is that part again: [S4 PROVISIONAL ENGLISH: Thank you to the elders.]",
+    "choices": [
+      "[S4 PROVISIONAL ENGLISH: Thank you to the elders.]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G04S",
+    "area": 7,
+    "kind": "slot_model",
+    "slot": "sione_4"
+  },
+  "sione_eve_sione_5": {
+    "english": "Your next part is [S5 PROVISIONAL ENGLISH: God bless this wedding.]. Try it now.",
+    "choices": [
+      "[S5 PROVISIONAL ENGLISH: God bless this wedding.]",
+      "Please show me again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G04S",
+    "area": 7,
+    "kind": "slot_retrieval",
+    "slot": "sione_5"
+  },
+  "sione_eve_sione_5_model": {
+    "english": "Here is that part again: [S5 PROVISIONAL ENGLISH: God bless this wedding.]",
+    "choices": [
+      "[S5 PROVISIONAL ENGLISH: God bless this wedding.]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G04S",
+    "area": 7,
+    "kind": "slot_model",
+    "slot": "sione_5"
+  },
+  "sione_eve_sione_6": {
+    "english": "Your next part is [S6 PROVISIONAL ENGLISH: Thank you.]. Try it now.",
+    "choices": [
+      "[S6 PROVISIONAL ENGLISH: Thank you.]",
+      "Please show me again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G04S",
+    "area": 7,
+    "kind": "slot_retrieval",
+    "slot": "sione_6"
+  },
+  "sione_eve_sione_6_model": {
+    "english": "Here is that part again: [S6 PROVISIONAL ENGLISH: Thank you.]",
+    "choices": [
+      "[S6 PROVISIONAL ENGLISH: Thank you.]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G04S",
+    "area": 7,
+    "kind": "slot_model",
+    "slot": "sione_6"
+  },
+  "sione_eve_finish": {
+    "english": "Good. We will be there with you.",
+    "choices": [
+      "I give thanks.",
+      "Please practise the opening again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G04S",
+    "area": 7,
+    "kind": "revision"
+  },
+  "sione_climax_sione_start": {
+    "english": "Now Sione will speak.",
+    "choices": [
+      "I am ready."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "sequence_start",
+    "reset": "Reset local strike/joiner sequence state and hide joiners; retain prior area flags."
+  },
+  "sione_speech_1_0": {
+    "english": "The family listens.",
+    "choices": [
+      "[S1 PROVISIONAL ENGLISH: Hello, everyone.]",
+      "[PROVISIONAL DISTRACTOR using S2: Thank you for coming.]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 1,
+    "strikes": 0,
+    "correct_destination": "sione_speech_2_0",
+    "wrong_destination": "sione_speech_1_1"
+  },
+  "sione_speech_1_0_nod": {
+    "english": "The elder nods.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Elder nods. No correct label. This is staging, not spoken dialogue."
+  },
+  "sione_speech_1_0_confusion": {
+    "english": "The elder pauses. Your relative steps closer.",
+    "choices": [
+      "Try again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Confused glance, no ridicule. Third error: relative takes microphone and returns it for restart."
+  },
+  "sione_speech_1_1": {
+    "english": "The family listens.",
+    "choices": [
+      "[S1 PROVISIONAL ENGLISH: Hello, everyone.]",
+      "[PROVISIONAL DISTRACTOR using S2: Thank you for coming.]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 1,
+    "strikes": 1,
+    "correct_destination": "sione_speech_2_1",
+    "wrong_destination": "sione_speech_1_2"
+  },
+  "sione_speech_1_1_nod": {
+    "english": "The elder nods.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Elder nods. No correct label. This is staging, not spoken dialogue."
+  },
+  "sione_speech_1_1_confusion": {
+    "english": "The elder pauses. Your relative steps closer.",
+    "choices": [
+      "Try again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Confused glance, no ridicule. Third error: relative takes microphone and returns it for restart."
+  },
+  "sione_speech_1_2": {
+    "english": "The family listens.",
+    "choices": [
+      "[S1 PROVISIONAL ENGLISH: Hello, everyone.]",
+      "[PROVISIONAL DISTRACTOR using S2: Thank you for coming.]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 1,
+    "strikes": 2,
+    "correct_destination": "sione_speech_2_2",
+    "wrong_destination": "sione_speech_reset"
+  },
+  "sione_speech_1_2_nod": {
+    "english": "The elder nods.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Elder nods. No correct label. This is staging, not spoken dialogue."
+  },
+  "sione_speech_1_2_confusion": {
+    "english": "The elder pauses. Your relative steps closer.",
+    "choices": [
+      "Try again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Confused glance, no ridicule. Third error: relative takes microphone and returns it for restart."
+  },
+  "sione_speech_2_0": {
+    "english": "The family listens.",
+    "choices": [
+      "[S2 PROVISIONAL ENGLISH: Thank you for coming.]",
+      "[PROVISIONAL DISTRACTOR using S3: I am happy to be with my family.]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 2,
+    "strikes": 0,
+    "correct_destination": "sione_speech_3_0",
+    "wrong_destination": "sione_speech_2_1"
+  },
+  "sione_speech_2_0_nod": {
+    "english": "The elder nods.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Elder nods. No correct label. This is staging, not spoken dialogue."
+  },
+  "sione_speech_2_0_confusion": {
+    "english": "The elder pauses. Your relative steps closer.",
+    "choices": [
+      "Try again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Confused glance, no ridicule. Third error: relative takes microphone and returns it for restart."
+  },
+  "sione_speech_2_1": {
+    "english": "The family listens.",
+    "choices": [
+      "[S2 PROVISIONAL ENGLISH: Thank you for coming.]",
+      "[PROVISIONAL DISTRACTOR using S3: I am happy to be with my family.]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 2,
+    "strikes": 1,
+    "correct_destination": "sione_speech_3_1",
+    "wrong_destination": "sione_speech_2_2"
+  },
+  "sione_speech_2_1_nod": {
+    "english": "The elder nods.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Elder nods. No correct label. This is staging, not spoken dialogue."
+  },
+  "sione_speech_2_1_confusion": {
+    "english": "The elder pauses. Your relative steps closer.",
+    "choices": [
+      "Try again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Confused glance, no ridicule. Third error: relative takes microphone and returns it for restart."
+  },
+  "sione_speech_2_2": {
+    "english": "The family listens.",
+    "choices": [
+      "[S2 PROVISIONAL ENGLISH: Thank you for coming.]",
+      "[PROVISIONAL DISTRACTOR using S3: I am happy to be with my family.]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 2,
+    "strikes": 2,
+    "correct_destination": "sione_speech_3_2",
+    "wrong_destination": "sione_speech_reset"
+  },
+  "sione_speech_2_2_nod": {
+    "english": "The elder nods.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Elder nods. No correct label. This is staging, not spoken dialogue."
+  },
+  "sione_speech_2_2_confusion": {
+    "english": "The elder pauses. Your relative steps closer.",
+    "choices": [
+      "Try again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Confused glance, no ridicule. Third error: relative takes microphone and returns it for restart."
+  },
+  "sione_speech_3_0": {
+    "english": "The family listens.",
+    "choices": [
+      "[S3 PROVISIONAL ENGLISH: I am happy to be with my family.]",
+      "[PROVISIONAL DISTRACTOR using S4: Thank you to the elders.]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 3,
+    "strikes": 0,
+    "correct_destination": "sione_speech_4_0",
+    "wrong_destination": "sione_speech_3_1"
+  },
+  "sione_speech_3_0_nod": {
+    "english": "The elder nods.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Elder nods. No correct label. This is staging, not spoken dialogue."
+  },
+  "sione_speech_3_0_confusion": {
+    "english": "The elder pauses. Your relative steps closer.",
+    "choices": [
+      "Try again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Confused glance, no ridicule. Third error: relative takes microphone and returns it for restart."
+  },
+  "sione_speech_3_1": {
+    "english": "The family listens.",
+    "choices": [
+      "[S3 PROVISIONAL ENGLISH: I am happy to be with my family.]",
+      "[PROVISIONAL DISTRACTOR using S4: Thank you to the elders.]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 3,
+    "strikes": 1,
+    "correct_destination": "sione_speech_4_1",
+    "wrong_destination": "sione_speech_3_2"
+  },
+  "sione_speech_3_1_nod": {
+    "english": "The elder nods.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Elder nods. No correct label. This is staging, not spoken dialogue."
+  },
+  "sione_speech_3_1_confusion": {
+    "english": "The elder pauses. Your relative steps closer.",
+    "choices": [
+      "Try again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Confused glance, no ridicule. Third error: relative takes microphone and returns it for restart."
+  },
+  "sione_speech_3_2": {
+    "english": "The family listens.",
+    "choices": [
+      "[S3 PROVISIONAL ENGLISH: I am happy to be with my family.]",
+      "[PROVISIONAL DISTRACTOR using S4: Thank you to the elders.]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 3,
+    "strikes": 2,
+    "correct_destination": "sione_speech_4_2",
+    "wrong_destination": "sione_speech_reset"
+  },
+  "sione_speech_3_2_nod": {
+    "english": "The elder nods.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Elder nods. No correct label. This is staging, not spoken dialogue."
+  },
+  "sione_speech_3_2_confusion": {
+    "english": "The elder pauses. Your relative steps closer.",
+    "choices": [
+      "Try again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Confused glance, no ridicule. Third error: relative takes microphone and returns it for restart."
+  },
+  "sione_speech_4_0": {
+    "english": "The family listens.",
+    "choices": [
+      "[S4 PROVISIONAL ENGLISH: Thank you to the elders.]",
+      "[PROVISIONAL DISTRACTOR using S5: God bless this wedding.]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 4,
+    "strikes": 0,
+    "correct_destination": "sione_speech_5_0",
+    "wrong_destination": "sione_speech_4_1"
+  },
+  "sione_speech_4_0_nod": {
+    "english": "The elder nods.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Elder nods. No correct label. This is staging, not spoken dialogue."
+  },
+  "sione_speech_4_0_confusion": {
+    "english": "The elder pauses. Your relative steps closer.",
+    "choices": [
+      "Try again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Confused glance, no ridicule. Third error: relative takes microphone and returns it for restart."
+  },
+  "sione_speech_4_1": {
+    "english": "The family listens.",
+    "choices": [
+      "[S4 PROVISIONAL ENGLISH: Thank you to the elders.]",
+      "[PROVISIONAL DISTRACTOR using S5: God bless this wedding.]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 4,
+    "strikes": 1,
+    "correct_destination": "sione_speech_5_1",
+    "wrong_destination": "sione_speech_4_2"
+  },
+  "sione_speech_4_1_nod": {
+    "english": "The elder nods.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Elder nods. No correct label. This is staging, not spoken dialogue."
+  },
+  "sione_speech_4_1_confusion": {
+    "english": "The elder pauses. Your relative steps closer.",
+    "choices": [
+      "Try again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Confused glance, no ridicule. Third error: relative takes microphone and returns it for restart."
+  },
+  "sione_speech_4_2": {
+    "english": "The family listens.",
+    "choices": [
+      "[S4 PROVISIONAL ENGLISH: Thank you to the elders.]",
+      "[PROVISIONAL DISTRACTOR using S5: God bless this wedding.]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 4,
+    "strikes": 2,
+    "correct_destination": "sione_speech_5_2",
+    "wrong_destination": "sione_speech_reset"
+  },
+  "sione_speech_4_2_nod": {
+    "english": "The elder nods.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Elder nods. No correct label. This is staging, not spoken dialogue."
+  },
+  "sione_speech_4_2_confusion": {
+    "english": "The elder pauses. Your relative steps closer.",
+    "choices": [
+      "Try again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Confused glance, no ridicule. Third error: relative takes microphone and returns it for restart."
+  },
+  "sione_speech_5_0": {
+    "english": "The family listens.",
+    "choices": [
+      "[S5 PROVISIONAL ENGLISH: God bless this wedding.]",
+      "[PROVISIONAL DISTRACTOR using S6: Thank you.]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 5,
+    "strikes": 0,
+    "correct_destination": "sione_speech_6_0",
+    "wrong_destination": "sione_speech_5_1"
+  },
+  "sione_speech_5_0_nod": {
+    "english": "The elder nods.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Elder nods. No correct label. This is staging, not spoken dialogue."
+  },
+  "sione_speech_5_0_confusion": {
+    "english": "The elder pauses. Your relative steps closer.",
+    "choices": [
+      "Try again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Confused glance, no ridicule. Third error: relative takes microphone and returns it for restart."
+  },
+  "sione_speech_5_1": {
+    "english": "The family listens.",
+    "choices": [
+      "[S5 PROVISIONAL ENGLISH: God bless this wedding.]",
+      "[PROVISIONAL DISTRACTOR using S6: Thank you.]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 5,
+    "strikes": 1,
+    "correct_destination": "sione_speech_6_1",
+    "wrong_destination": "sione_speech_5_2"
+  },
+  "sione_speech_5_1_nod": {
+    "english": "The elder nods.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Elder nods. No correct label. This is staging, not spoken dialogue."
+  },
+  "sione_speech_5_1_confusion": {
+    "english": "The elder pauses. Your relative steps closer.",
+    "choices": [
+      "Try again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Confused glance, no ridicule. Third error: relative takes microphone and returns it for restart."
+  },
+  "sione_speech_5_2": {
+    "english": "The family listens.",
+    "choices": [
+      "[S5 PROVISIONAL ENGLISH: God bless this wedding.]",
+      "[PROVISIONAL DISTRACTOR using S6: Thank you.]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 5,
+    "strikes": 2,
+    "correct_destination": "sione_speech_6_2",
+    "wrong_destination": "sione_speech_reset"
+  },
+  "sione_speech_5_2_nod": {
+    "english": "The elder nods.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Elder nods. No correct label. This is staging, not spoken dialogue."
+  },
+  "sione_speech_5_2_confusion": {
+    "english": "The elder pauses. Your relative steps closer.",
+    "choices": [
+      "Try again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Confused glance, no ridicule. Third error: relative takes microphone and returns it for restart."
+  },
+  "sione_speech_6_0": {
+    "english": "The family listens.",
+    "choices": [
+      "[S6 PROVISIONAL ENGLISH: Thank you.]",
+      "[PROVISIONAL DISTRACTOR using S1: Hello, everyone.]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 6,
+    "strikes": 0,
+    "correct_destination": "sione_h02_01",
+    "wrong_destination": "sione_speech_6_1"
+  },
+  "sione_speech_6_0_nod": {
+    "english": "The elder nods.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Elder nods. No correct label. This is staging, not spoken dialogue."
+  },
+  "sione_speech_6_0_confusion": {
+    "english": "The elder pauses. Your relative steps closer.",
+    "choices": [
+      "Try again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Confused glance, no ridicule. Third error: relative takes microphone and returns it for restart."
+  },
+  "sione_speech_6_1": {
+    "english": "The family listens.",
+    "choices": [
+      "[S6 PROVISIONAL ENGLISH: Thank you.]",
+      "[PROVISIONAL DISTRACTOR using S1: Hello, everyone.]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 6,
+    "strikes": 1,
+    "correct_destination": "sione_h02_01",
+    "wrong_destination": "sione_speech_6_2"
+  },
+  "sione_speech_6_1_nod": {
+    "english": "The elder nods.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Elder nods. No correct label. This is staging, not spoken dialogue."
+  },
+  "sione_speech_6_1_confusion": {
+    "english": "The elder pauses. Your relative steps closer.",
+    "choices": [
+      "Try again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Confused glance, no ridicule. Third error: relative takes microphone and returns it for restart."
+  },
+  "sione_speech_6_2": {
+    "english": "The family listens.",
+    "choices": [
+      "[S6 PROVISIONAL ENGLISH: Thank you.]",
+      "[PROVISIONAL DISTRACTOR using S1: Hello, everyone.]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 6,
+    "strikes": 2,
+    "correct_destination": "sione_h02_01",
+    "wrong_destination": "sione_speech_reset"
+  },
+  "sione_speech_6_2_nod": {
+    "english": "The elder nods.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Elder nods. No correct label. This is staging, not spoken dialogue."
+  },
+  "sione_speech_6_2_confusion": {
+    "english": "The elder pauses. Your relative steps closer.",
+    "choices": [
+      "Try again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Confused glance, no ridicule. Third error: relative takes microphone and returns it for restart."
+  },
+  "sione_speech_reset": {
+    "english": "Let’s begin again. Slowly.",
+    "choices": [
+      "I am ready."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03S",
+    "area": 8,
+    "kind": "sequence_reset"
+  },
+  "mele_a01_02": {
+    "english": "Welcome. I am your family’s driver today. How are you?",
+    "choices": [
+      "Good, thank you.",
+      "A little tired."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "A01",
+    "area": 1,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_a01_03": {
+    "english": "A long flight. Your family is waiting.",
+    "choices": [
+      "I am happy to be here.",
+      "Thank you for coming."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "A01",
+    "area": 1,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_a01_04": {
+    "english": "One more time, so I have your name right. Who are you?",
+    "choices": [
+      "I am Mele.",
+      "You are Mele."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "A01",
+    "area": 1,
+    "kind": "repair_check",
+    "repair_target": "mele_a01_04"
+  },
+  "mele_a01_04_repair": {
+    "english": "I am the driver. You are Mele.",
+    "choices": [
+      "I am Mele."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "A01",
+    "area": 1,
+    "kind": "repair"
+  },
+  "mele_a02_01": {
+    "english": "Your return flight is after the wedding. A short visit.",
+    "choices": [
+      "Yes. I want to help.",
+      "Yes. I want to see everyone."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "A02",
+    "area": 1,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_a02_02": {
+    "english": "Are you ready? We can go now.",
+    "choices": [
+      "Yes. Let’s go.",
+      "Please, say it again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "A02",
+    "area": 1,
+    "kind": "repair_check",
+    "repair_target": "mele_a02_02"
+  },
+  "mele_a02_02_repair": {
+    "english": "Are you ready? Let’s go.",
+    "choices": [
+      "Yes. Let’s go."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "A02",
+    "area": 1,
+    "kind": "repair"
+  },
+  "mele_a02_03": {
+    "english": "This way.",
+    "choices": [
+      "Thank you.",
+      "Let’s go."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "A02",
+    "area": 1,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_b01_01": {
+    "english": "Look. That is a coconut tree.",
+    "choices": [
+      "That is a coconut tree.",
+      "Look."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "B01",
+    "area": 2,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_b01_02": {
+    "english": "Look ahead. That is a church.",
+    "choices": [
+      "That is a church.",
+      "That is a coconut tree."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "B01",
+    "area": 2,
+    "kind": "repair_check",
+    "repair_target": "mele_b01_02"
+  },
+  "mele_b01_02_repair": {
+    "english": "Look ahead. The church is there.",
+    "choices": [
+      "That is a church."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "B01",
+    "area": 2,
+    "kind": "repair"
+  },
+  "mele_b01_03": {
+    "english": "That is the village. We are going this way.",
+    "choices": [
+      "That is the village.",
+      "This way."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "B01",
+    "area": 2,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_b01_04": {
+    "english": "Look. There is the sea.",
+    "choices": [
+      "That is the sea.",
+      "Look at the sea."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "B01",
+    "area": 2,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_b02_01": {
+    "english": "Look ahead. What is that?",
+    "choices": [
+      "That is a church.",
+      "That is the sea."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "B02",
+    "area": 2,
+    "kind": "repair_check",
+    "repair_target": "mele_b02_01"
+  },
+  "mele_b02_01_repair": {
+    "english": "Look again. That is a church.",
+    "choices": [
+      "That is a church."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "B02",
+    "area": 2,
+    "kind": "repair"
+  },
+  "mele_b02_02": {
+    "english": "Good. We are almost there. Your family’s house is ahead.",
+    "choices": [
+      "That is the house.",
+      "We are almost there."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "B02",
+    "area": 2,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_c01_01": {
+    "english": "Hello. You have arrived.",
+    "choices": [
+      "Hello. I am Mele.",
+      "Hello. Thank you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C01",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_c01_02": {
+    "english": "I am your grandmother. Come and sit with me.",
+    "choices": [
+      "Hello, Grandmother.",
+      "Thank you, Grandmother."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C01",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_c01_03": {
+    "english": "Come in. Sit here.",
+    "choices": [
+      "Thank you.",
+      "Here?"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C01",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_c01_04": {
+    "english": "Yes, here. How are you?",
+    "choices": [
+      "Good, thank you.",
+      "A little tired."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C01",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_c01_05": {
+    "english": "The wedding is soon. We are glad you came.",
+    "choices": [
+      "I am glad to be here.",
+      "Thank you for having me."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C01",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_c01_06": {
+    "english": "This is your family. There is a place for you.",
+    "choices": [
+      "Thank you.",
+      "I am happy to be with my family."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C01",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_c02_01": {
+    "english": "This is your cousin.",
+    "choices": [
+      "Hello. I am Mele.",
+      "Hello. How are you?"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_c02_02": {
+    "english": "Hello.",
+    "choices": [
+      "Good to see you.",
+      "Hello."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_c02_03": {
+    "english": "Are you hungry? Here is rice.",
+    "choices": [
+      "Yes, please. Thank you.",
+      "No, thank you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_c02_04": {
+    "english": "Here is fish. Here is taro.",
+    "choices": [
+      "I would like fish, please.",
+      "I would like taro, please."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_c02_05": {
+    "english": "Would you like water?",
+    "choices": [
+      "Yes, please.",
+      "No, thank you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_c02_06": {
+    "english": "There is more food. Would you like some?",
+    "choices": [
+      "Yes, thank you.",
+      "No, thank you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_c02_07": {
+    "english": "Those two are brother and sister. They are helping too.",
+    "choices": [
+      "Your brother and sister?",
+      "Brother and sister."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_c03_01": {
+    "english": "Your cousin can show you around.",
+    "choices": [
+      "Only if you want to.",
+      "We can go together later.",
+      "Let’s go. We can talk later."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C03",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_c03_02": {
+    "english": "Everyone asks me to show people around.",
+    "choices": [
+      "We can just eat.",
+      "You can say no."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C03",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_c03_03": {
+    "english": "You don’t know all the words either?",
+    "choices": [
+      "No. I am learning.",
+      "Some words. Not all."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C03",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_c03_04": {
+    "english": "I know what they mean. Sometimes I don’t want to say them.",
+    "choices": [
+      "We can try together.",
+      "I can listen."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C03",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_c03_05": {
+    "english": "Maybe later.",
+    "choices": [
+      "All right.",
+      "See you later."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C03",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_c04_01": {
+    "english": "We need help with the wedding. Can you help?",
+    "choices": [
+      "Yes. I will help.",
+      "Yes. Please show me."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C04",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_c04_02": {
+    "english": "We need food and drinks from the market. Two bundles of food. Three drinks.",
+    "choices": [
+      "Two bundles. Three drinks.",
+      "Please say it again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C04",
+    "area": 3,
+    "kind": "repair_check",
+    "repair_target": "mele_c04_02"
+  },
+  "mele_c04_02_repair": {
+    "english": "Two bundles of food. Three drinks.",
+    "choices": [
+      "Two bundles. Three drinks."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C04",
+    "area": 3,
+    "kind": "repair"
+  },
+  "mele_c04_03": {
+    "english": "Then ask the minister about the time. We will go together.",
+    "choices": [
+      "What time?",
+      "We will go together."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C04",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_c04_04": {
+    "english": "You will have a small part at the wedding, too. We will practise.",
+    "choices": [
+      "I will try.",
+      "Will you help me?"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C04",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_c04_05": {
+    "english": "Yes. First the market. One thing at a time.",
+    "choices": [
+      "Thank you for your help.",
+      "Let’s go."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C04",
+    "area": 3,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_d01_01": {
+    "english": "Look. That is the food stall.",
+    "choices": [
+      "That is the food stall.",
+      "That is the church."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D01",
+    "area": 4,
+    "kind": "repair_check",
+    "repair_target": "mele_d01_01"
+  },
+  "mele_d01_01_repair": {
+    "english": "Look here. Food is on this table.",
+    "choices": [
+      "That is the food stall."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D01",
+    "area": 4,
+    "kind": "repair"
+  },
+  "mele_d01_02": {
+    "english": "Hello. How are you?",
+    "choices": [
+      "Good, thank you.",
+      "Hello. I am Mele."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D01",
+    "area": 4,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_d01_03": {
+    "english": "What do you need?",
+    "choices": [
+      "I need food, please.",
+      "I need the sea."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D01",
+    "area": 4,
+    "kind": "repair_check",
+    "repair_target": "mele_d01_03"
+  },
+  "mele_d01_03_repair": {
+    "english": "Food is here. What do you need?",
+    "choices": [
+      "I need food, please."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D01",
+    "area": 4,
+    "kind": "repair"
+  },
+  "mele_d01_04": {
+    "english": "We need two bundles.",
+    "choices": [
+      "Two bundles.",
+      "Three bundles."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D01",
+    "area": 4,
+    "kind": "repair_check",
+    "repair_target": "mele_d01_04"
+  },
+  "mele_d01_04_repair": {
+    "english": "Two bundles of food.",
+    "choices": [
+      "Two bundles."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D01",
+    "area": 4,
+    "kind": "repair"
+  },
+  "mele_d02_01": {
+    "english": "How many bundles?",
+    "choices": [
+      "Two, please.",
+      "Three, please."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D02",
+    "area": 4,
+    "kind": "repair_check",
+    "repair_target": "mele_d02_01"
+  },
+  "mele_d02_01_repair": {
+    "english": "The family asked for two bundles.",
+    "choices": [
+      "Two, please."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D02",
+    "area": 4,
+    "kind": "repair"
+  },
+  "mele_d02_02": {
+    "english": "Two bundles. Is that enough?",
+    "choices": [
+      "Yes. That is enough.",
+      "Please show me again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D02",
+    "area": 4,
+    "kind": "repair_check",
+    "repair_target": "mele_d02_02"
+  },
+  "mele_d02_02_repair": {
+    "english": "Here are the two bundles.",
+    "choices": [
+      "Yes. That is enough."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D02",
+    "area": 4,
+    "kind": "repair"
+  },
+  "mele_d02_03": {
+    "english": "We also need three drinks.",
+    "choices": [
+      "I need three drinks, please.",
+      "I need two drinks."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D02",
+    "area": 4,
+    "kind": "repair_check",
+    "repair_target": "mele_d02_03"
+  },
+  "mele_d02_03_repair": {
+    "english": "Three drinks. One, two, three.",
+    "choices": [
+      "I need three drinks, please."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D02",
+    "area": 4,
+    "kind": "repair"
+  },
+  "mele_d02_04": {
+    "english": "Two drinks?",
+    "choices": [
+      "No. Three, please.",
+      "Yes. Two."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D02",
+    "area": 4,
+    "kind": "repair_check",
+    "repair_target": "mele_d02_04"
+  },
+  "mele_d02_04_repair": {
+    "english": "You asked for three. Let’s count again.",
+    "choices": [
+      "No. Three, please."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D02",
+    "area": 4,
+    "kind": "repair"
+  },
+  "mele_d02_05": {
+    "english": "Three. Is that enough?",
+    "choices": [
+      "Yes. Thank you.",
+      "Three. Thank you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D02",
+    "area": 4,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_d03_01": {
+    "english": "What do you need for the wedding?",
+    "choices": [
+      "I need two bundles of food and three drinks.",
+      "I need three bundles and two drinks."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D03",
+    "area": 4,
+    "kind": "repair_check",
+    "repair_target": "mele_d03_01"
+  },
+  "mele_d03_01_repair": {
+    "english": "Two bundles of food. Three drinks.",
+    "choices": [
+      "I need two bundles of food and three drinks."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D03",
+    "area": 4,
+    "kind": "repair"
+  },
+  "mele_d03_02": {
+    "english": "Good. Two bundles and three drinks.",
+    "choices": [
+      "That is enough. Thank you.",
+      "Thank you for your help."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D03",
+    "area": 4,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_d03_03": {
+    "english": "I will pay. You asked for what we needed.",
+    "choices": [
+      "Thank you.",
+      "I can carry these."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D03",
+    "area": 4,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_d03_04": {
+    "english": "Thank you. See you again.",
+    "choices": [
+      "Thank you. Goodbye.",
+      "Goodbye."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D03",
+    "area": 4,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_d04_01": {
+    "english": "Your cousin might come next time.",
+    "choices": [
+      "I can ask.",
+      "I can go with you again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D04",
+    "area": 4,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_d04_02": {
+    "english": "The food is ready. What did you ask for?",
+    "choices": [
+      "Two bundles of food. Three drinks.",
+      "Three bundles of food."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D04",
+    "area": 4,
+    "kind": "repair_check",
+    "repair_target": "mele_d04_02"
+  },
+  "mele_d04_02_repair": {
+    "english": "Two bundles. Three drinks.",
+    "choices": [
+      "Two bundles of food. Three drinks."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D04",
+    "area": 4,
+    "kind": "repair"
+  },
+  "mele_d04_03": {
+    "english": "Thank you. At the wedding, speak slowly too.",
+    "choices": [
+      "Slowly. I can do that.",
+      "Please help me practise."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D04",
+    "area": 4,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_d05m_01": {
+    "english": "You will dance. We will practise each movement and what it means.",
+    "choices": [
+      "Please show me.",
+      "I want to understand it."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D05M",
+    "area": 4,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_d05m_02": {
+    "english": "You can ask to try again.",
+    "choices": [
+      "Let’s try again.",
+      "Thank you for your help."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D05M",
+    "area": 4,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_e01_01": {
+    "english": "Here is the minister. We are here about the wedding.",
+    "choices": [
+      "Hello, Minister.",
+      "Hello. We are preparing the wedding."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E01",
+    "area": 5,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_e01_02": {
+    "english": "Hello. Welcome. How can I help?",
+    "choices": [
+      "We are preparing the wedding.",
+      "Thank you for your help."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E01",
+    "area": 5,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_e01_03": {
+    "english": "The family is getting ready. You have come a long way.",
+    "choices": [
+      "I am happy to be with my family.",
+      "Yes. I am here to help."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E01",
+    "area": 5,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_e01_04": {
+    "english": "Please ask about the time.",
+    "choices": [
+      "What time does it start?",
+      "What food is there?"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E01",
+    "area": 5,
+    "kind": "repair_check",
+    "repair_target": "mele_e01_04"
+  },
+  "mele_e01_04_repair": {
+    "english": "Ask about the time. What time does it start?",
+    "choices": [
+      "What time does it start?"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E01",
+    "area": 5,
+    "kind": "repair"
+  },
+  "mele_e02_01": {
+    "english": "The family gathering starts at ten.",
+    "choices": [
+      "At ten. Thank you.",
+      "Please say it again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E02",
+    "area": 5,
+    "kind": "repair_check",
+    "repair_target": "mele_e02_01"
+  },
+  "mele_e02_01_repair": {
+    "english": "At ten.",
+    "choices": [
+      "At ten. Thank you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E02",
+    "area": 5,
+    "kind": "repair"
+  },
+  "mele_e02_02": {
+    "english": "At ten. We will see your family there.",
+    "choices": [
+      "We will be there at ten.",
+      "We will be there at two."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E02",
+    "area": 5,
+    "kind": "repair_check",
+    "repair_target": "mele_e02_02"
+  },
+  "mele_e02_02_repair": {
+    "english": "At ten. Look at the clock.",
+    "choices": [
+      "We will be there at ten."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E02",
+    "area": 5,
+    "kind": "repair"
+  },
+  "mele_e02_03": {
+    "english": "What time will we be there?",
+    "choices": [
+      "At ten.",
+      "At two."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E02",
+    "area": 5,
+    "kind": "repair_check",
+    "repair_target": "mele_e02_03"
+  },
+  "mele_e02_03_repair": {
+    "english": "At ten.",
+    "choices": [
+      "At ten."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E02",
+    "area": 5,
+    "kind": "repair"
+  },
+  "mele_e02_04": {
+    "english": "Thank you for checking.",
+    "choices": [
+      "Thank you for your help.",
+      "Thank you, Minister."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E02",
+    "area": 5,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_e03_01": {
+    "english": "You thanked the minister yourself.",
+    "choices": [
+      "I knew that part.",
+      "I was nervous."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E03",
+    "area": 5,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_e03_02": {
+    "english": "That is enough for today. Your wedding part will be short.",
+    "choices": [
+      "Short is good.",
+      "Please practise with me."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E03",
+    "area": 5,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_e03_03": {
+    "english": "First understand what you want to say. Then we will practise the words.",
+    "choices": [
+      "I want to thank my family.",
+      "I want to say I am happy to be here."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E03",
+    "area": 5,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_e03_04": {
+    "english": "We will practise at home.",
+    "choices": [
+      "Thank you for your help.",
+      "We will be there at ten."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E03",
+    "area": 5,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_e04m_01": {
+    "english": "We will use the movements our elder teaches. Do not guess at their meaning.",
+    "choices": [
+      "Show me one pair.",
+      "Let’s practise slowly."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E04M",
+    "area": 5,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_e04m_02": {
+    "english": "You can ask to try again.",
+    "choices": [
+      "Let’s try again.",
+      "Thank you for your help."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E04M",
+    "area": 5,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_f01_01": {
+    "english": "You came. There is no shopping here.",
+    "choices": [
+      "I came to see you.",
+      "I came to play."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F01",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_f01_02": {
+    "english": "Come. Let’s play.",
+    "choices": [
+      "Let’s go.",
+      "Please say it again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F01",
+    "area": 6,
+    "kind": "repair_check",
+    "repair_target": "mele_f01_02"
+  },
+  "mele_f01_02_repair": {
+    "english": "Come. Let’s play.",
+    "choices": [
+      "Let’s go."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F01",
+    "area": 6,
+    "kind": "repair"
+  },
+  "mele_f01_03": {
+    "english": "Look. The ball is there.",
+    "choices": [
+      "That is the ball.",
+      "That is the church."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F01",
+    "area": 6,
+    "kind": "repair_check",
+    "repair_target": "mele_f01_03"
+  },
+  "mele_f01_03_repair": {
+    "english": "Look here. The ball.",
+    "choices": [
+      "That is the ball."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F01",
+    "area": 6,
+    "kind": "repair"
+  },
+  "mele_f01_04": {
+    "english": "Kick the ball.",
+    "choices": [
+      "I will try.",
+      "Show me first."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F01",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_f01_05": {
+    "english": "Like this. Come on.",
+    "choices": [
+      "Let’s play.",
+      "I will try."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F01",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_f02_01": {
+    "english": "That went the wrong way. Try again.",
+    "choices": [
+      "I will try again.",
+      "You show me."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F02",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_f02_02": {
+    "english": "You are getting better. Are you tired?",
+    "choices": [
+      "Not yet. Let’s play.",
+      "Yes. Let’s rest."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F02",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_f02_03": {
+    "english": "All right. One more pass, then we rest. Come.",
+    "choices": [
+      "Let’s go.",
+      "How many drinks?"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F02",
+    "area": 6,
+    "kind": "repair_check",
+    "repair_target": "mele_f02_03"
+  },
+  "mele_f02_03_repair": {
+    "english": "Come. Let’s play.",
+    "choices": [
+      "Let’s go."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F02",
+    "area": 6,
+    "kind": "repair"
+  },
+  "mele_f02_04": {
+    "english": "Good. That is enough.",
+    "choices": [
+      "This is fun.",
+      "Thank you for playing."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F02",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_f03_01": {
+    "english": "At home, someone always answers before I do.",
+    "choices": [
+      "I can wait.",
+      "That happens to me too.",
+      "Let’s go. We can talk later."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F03",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_f03_02": {
+    "english": "Then they ask why I am quiet.",
+    "choices": [
+      "You can take your time.",
+      "We can try one line together."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F03",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_f03_03": {
+    "english": "Will everyone look at you at the wedding?",
+    "choices": [
+      "Yes. I am nervous.",
+      "Yes. I will practise."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F03",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_f03_04": {
+    "english": "You still want to do it?",
+    "choices": [
+      "I want to be part of it.",
+      "I want to thank them."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F03",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_f03_05": {
+    "english": "Maybe I can help you practise. Just us.",
+    "choices": [
+      "I would like that.",
+      "Only if you want to."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F03",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_f03_06": {
+    "english": "Come. We should go back.",
+    "choices": [
+      "Let’s go.",
+      "Good. Let’s go."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F03",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_f04m_01": {
+    "english": "You can practise here. I can watch if you want.",
+    "choices": [
+      "Yes, please.",
+      "Please wait while I try."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F04M",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_f04m_02": {
+    "english": "You can ask to try again.",
+    "choices": [
+      "Let’s try again.",
+      "Thank you for your help."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F04M",
+    "area": 6,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_g01_01": {
+    "english": "The supplies are here. What time tomorrow?",
+    "choices": [
+      "At ten.",
+      "At two."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G01",
+    "area": 7,
+    "kind": "repair_check",
+    "repair_target": "mele_g01_01"
+  },
+  "mele_g01_01_repair": {
+    "english": "At ten. You checked with the minister.",
+    "choices": [
+      "At ten."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G01",
+    "area": 7,
+    "kind": "repair"
+  },
+  "mele_g01_02": {
+    "english": "Two bundles of food. Three drinks. Is that enough?",
+    "choices": [
+      "Yes. That is enough.",
+      "Thank you for your help."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G01",
+    "area": 7,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_g01_03": {
+    "english": "What did you ask for at the market?",
+    "choices": [
+      "I need two bundles of food and three drinks.",
+      "I need three bundles and two drinks."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G01",
+    "area": 7,
+    "kind": "repair_check",
+    "repair_target": "mele_g01_03"
+  },
+  "mele_g01_03_repair": {
+    "english": "Two bundles of food. Three drinks.",
+    "choices": [
+      "I need two bundles of food and three drinks."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G01",
+    "area": 7,
+    "kind": "repair"
+  },
+  "mele_g01_04": {
+    "english": "Tomorrow we will ask you to take your part.",
+    "choices": [
+      "I am ready to practise.",
+      "Please stay near me."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G01",
+    "area": 7,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_g01_05": {
+    "english": "We will be near you.",
+    "choices": [
+      "Thank you.",
+      "I am happy to be here."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G01",
+    "area": 7,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_g02_01": {
+    "english": "Do you want me to stay?",
+    "choices": [
+      "Yes, please.",
+      "You can just listen."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G02",
+    "area": 7,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_g02_02": {
+    "english": "If you stop, I can wait. Like you did.",
+    "choices": [
+      "Thank you.",
+      "Then let’s try."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G02",
+    "area": 7,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_g02_03": {
+    "english": "We will practise one part at a time.",
+    "choices": [
+      "One part at a time.",
+      "I will try."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G02",
+    "area": 7,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_g03_01": {
+    "english": "Say: Hello, everyone.",
+    "choices": [
+      "Hello, everyone.",
+      "Goodbye, everyone."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G03",
+    "area": 7,
+    "kind": "repair_check",
+    "repair_target": "mele_g03_01"
+  },
+  "mele_g03_01_repair": {
+    "english": "Hello, everyone.",
+    "choices": [
+      "Hello, everyone."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G03",
+    "area": 7,
+    "kind": "repair"
+  },
+  "mele_g03_02": {
+    "english": "Say: I give thanks.",
+    "choices": [
+      "I give thanks.",
+      "What time?"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G03",
+    "area": 7,
+    "kind": "repair_check",
+    "repair_target": "mele_g03_02"
+  },
+  "mele_g03_02_repair": {
+    "english": "I give thanks.",
+    "choices": [
+      "I give thanks."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G03",
+    "area": 7,
+    "kind": "repair"
+  },
+  "mele_g03_03": {
+    "english": "Your family is here.",
+    "choices": [
+      "I love my family.",
+      "I am happy to be with my family."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G03",
+    "area": 7,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_g03_04": {
+    "english": "Good. Now your own part.",
+    "choices": [
+      "I am ready.",
+      "Let’s practise."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G03",
+    "area": 7,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_h01_01": {
+    "english": "We are here. The family is ready.",
+    "choices": [
+      "I am happy to be with my family.",
+      "Thank you for your help."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H01",
+    "area": 8,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_h01_02": {
+    "english": "There is water for the table. What do you need?",
+    "choices": [
+      "I need water, please.",
+      "I need the sea."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H01",
+    "area": 8,
+    "kind": "repair_check",
+    "repair_target": "mele_h01_02"
+  },
+  "mele_h01_02_repair": {
+    "english": "Water is here. I need water, please.",
+    "choices": [
+      "I need water, please."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H01",
+    "area": 8,
+    "kind": "repair"
+  },
+  "mele_h01_03": {
+    "english": "Hello, everyone. Thank you for coming.",
+    "choices": [
+      "Hello, everyone.",
+      "Thank you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H01",
+    "area": 8,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_h01_04": {
+    "english": "I will be here.",
+    "choices": [
+      "Thank you.",
+      "I am glad you came."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H01",
+    "area": 8,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_h01_05": {
+    "english": "Slowly. Just as we practised.",
+    "choices": [
+      "I am ready.",
+      "Stay near me."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H01",
+    "area": 8,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_h02_01": {
+    "english": "Thank you. Come and sit with us.",
+    "choices": [
+      "Thank you.",
+      "I am happy to be here."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H02",
+    "area": 8,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_h02_02": {
+    "english": "You did your part. Now eat with us.",
+    "choices": [
+      "Thank you for the food.",
+      "Yes, please."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H02",
+    "area": 8,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_h02_03": {
+    "english": "I said hello with you.",
+    "choices": [
+      "I heard you.",
+      "We did it together."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H02",
+    "area": 8,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_h02_04": {
+    "english": "Not all of it. Just that part.",
+    "choices": [
+      "That part was enough.",
+      "We can practise again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H02",
+    "area": 8,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_i01_01": {
+    "english": "Here we are again. Are you ready?",
+    "choices": [
+      "Yes. Thank you.",
+      "Almost."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I01",
+    "area": 9,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_i01_02": {
+    "english": "Would you like water before you go?",
+    "choices": [
+      "I need water, please.",
+      "No, thank you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I01",
+    "area": 9,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_i01_03": {
+    "english": "Thank you for being with us.",
+    "choices": [
+      "I give thanks to my family.",
+      "I love my family."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I01",
+    "area": 9,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_i01_04": {
+    "english": "You are leaving. Goodbye. Travel safely.",
+    "choices": [
+      "Goodbye. I will come back.",
+      "Goodbye. Thank you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I01",
+    "area": 9,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_i01_05": {
+    "english": "We will stay here. Say goodbye to us.",
+    "choices": [
+      "Goodbye.",
+      "Please show me."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I01",
+    "area": 9,
+    "kind": "repair_check",
+    "repair_target": "mele_i01_05",
+    "addressing": {
+      "0": "staying group"
+    }
+  },
+  "mele_i01_05_repair": {
+    "english": "You go. We stay. Goodbye to those staying.",
+    "choices": [
+      "Goodbye."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I01",
+    "area": 9,
+    "kind": "repair",
+    "addressing": {
+      "0": "staying group"
+    }
+  },
+  "mele_i01_06": {
+    "english": "We love you.",
+    "choices": [
+      "I love you all.",
+      "Thank you. I love you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I01",
+    "area": 9,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_i02_01": {
+    "english": "Message me when you get home.",
+    "choices": [
+      "I will.",
+      "You message me too."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I02",
+    "area": 9,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_i02_02": {
+    "english": "Next time, let me say hello first.",
+    "choices": [
+      "I will wait.",
+      "We can say it together."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I02",
+    "area": 9,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_i02_03": {
+    "english": "Hello. I am your cousin.",
+    "choices": [
+      "Hello. I am Mele.",
+      "Good to see you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I02",
+    "area": 9,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_i02_04": {
+    "english": "All right. Goodbye.",
+    "choices": [
+      "Goodbye. I will come back.",
+      "Goodbye. I love you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I02",
+    "area": 9,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_i03_01": {
+    "english": "They are staying. You are leaving.",
+    "choices": [
+      "Goodbye.",
+      "Goodbye."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I03",
+    "area": 9,
+    "kind": "repair_check",
+    "repair_target": "mele_i03_01",
+    "addressing": {
+      "0": "staying group",
+      "1": "departing person"
+    }
+  },
+  "mele_i03_01_repair": {
+    "english": "You are leaving. They are staying.",
+    "choices": [
+      "Goodbye to those staying."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I03",
+    "area": 9,
+    "kind": "repair"
+  },
+  "mele_i03_02": {
+    "english": "Come back soon.",
+    "choices": [
+      "I will come back.",
+      "Thank you for your help."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I03",
+    "area": 9,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_i03_03": {
+    "english": "Goodbye. We love you.",
+    "choices": [
+      "Goodbye. I love you all.",
+      "Goodbye. Thank you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I03",
+    "area": 9,
+    "kind": "dialogue",
+    "repair_target": null
+  },
+  "mele_practice_mele_4_1": {
+    "english": "Practise this part with me: [APPROVAL SLOT M1: elder-supplied movement + reason pair]",
+    "choices": [
+      "[APPROVAL SLOT M1: elder-supplied movement + reason pair]",
+      "Please show me again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D05M",
+    "area": 4,
+    "kind": "slot_introduction",
+    "slot": "mele_1"
+  },
+  "mele_practice_mele_4_2": {
+    "english": "Practise this part with me: [APPROVAL SLOT M2: elder-supplied movement + reason pair]",
+    "choices": [
+      "[APPROVAL SLOT M2: elder-supplied movement + reason pair]",
+      "Please show me again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "D05M",
+    "area": 4,
+    "kind": "slot_introduction",
+    "slot": "mele_2"
+  },
+  "mele_practice_mele_5_1": {
+    "english": "Practise this part with me: [APPROVAL SLOT M3: elder-supplied movement + reason pair]",
+    "choices": [
+      "[APPROVAL SLOT M3: elder-supplied movement + reason pair]",
+      "Please show me again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "E04M",
+    "area": 5,
+    "kind": "slot_introduction",
+    "slot": "mele_3"
+  },
+  "mele_practice_mele_6_1": {
+    "english": "Practise this part with me: [APPROVAL SLOT M4: elder-supplied movement + reason pair]",
+    "choices": [
+      "[APPROVAL SLOT M4: elder-supplied movement + reason pair]",
+      "Please show me again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F04M",
+    "area": 6,
+    "kind": "slot_introduction",
+    "slot": "mele_4"
+  },
+  "mele_eve_mele_1": {
+    "english": "Your next part is [APPROVAL SLOT M1]. Try it now.",
+    "choices": [
+      "[APPROVAL SLOT M1]",
+      "Please show me again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G04M",
+    "area": 7,
+    "kind": "slot_retrieval",
+    "slot": "mele_1"
+  },
+  "mele_eve_mele_1_model": {
+    "english": "Here is that part again: [APPROVAL SLOT M1]",
+    "choices": [
+      "[APPROVAL SLOT M1]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G04M",
+    "area": 7,
+    "kind": "slot_model",
+    "slot": "mele_1"
+  },
+  "mele_eve_mele_2": {
+    "english": "Your next part is [APPROVAL SLOT M2]. Try it now.",
+    "choices": [
+      "[APPROVAL SLOT M2]",
+      "Please show me again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G04M",
+    "area": 7,
+    "kind": "slot_retrieval",
+    "slot": "mele_2"
+  },
+  "mele_eve_mele_2_model": {
+    "english": "Here is that part again: [APPROVAL SLOT M2]",
+    "choices": [
+      "[APPROVAL SLOT M2]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G04M",
+    "area": 7,
+    "kind": "slot_model",
+    "slot": "mele_2"
+  },
+  "mele_eve_mele_3": {
+    "english": "Your next part is [APPROVAL SLOT M3]. Try it now.",
+    "choices": [
+      "[APPROVAL SLOT M3]",
+      "Please show me again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G04M",
+    "area": 7,
+    "kind": "slot_retrieval",
+    "slot": "mele_3"
+  },
+  "mele_eve_mele_3_model": {
+    "english": "Here is that part again: [APPROVAL SLOT M3]",
+    "choices": [
+      "[APPROVAL SLOT M3]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G04M",
+    "area": 7,
+    "kind": "slot_model",
+    "slot": "mele_3"
+  },
+  "mele_eve_mele_4": {
+    "english": "Your next part is [APPROVAL SLOT M4]. Try it now.",
+    "choices": [
+      "[APPROVAL SLOT M4]",
+      "Please show me again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G04M",
+    "area": 7,
+    "kind": "slot_retrieval",
+    "slot": "mele_4"
+  },
+  "mele_eve_mele_4_model": {
+    "english": "Here is that part again: [APPROVAL SLOT M4]",
+    "choices": [
+      "[APPROVAL SLOT M4]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G04M",
+    "area": 7,
+    "kind": "slot_model",
+    "slot": "mele_4"
+  },
+  "mele_eve_finish": {
+    "english": "Good. We will be there with you.",
+    "choices": [
+      "I give thanks.",
+      "Please practise the opening again."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G04M",
+    "area": 7,
+    "kind": "revision"
+  },
+  "mele_climax_mele_start": {
+    "english": "Now Mele will dance.",
+    "choices": [
+      "I am ready."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "sequence_start",
+    "reset": "Reset local strike/joiner sequence state and hide joiners; retain prior area flags."
+  },
+  "mele_dance_1_0": {
+    "english": "The next part of the dance.",
+    "choices": [
+      "[APPROVAL SLOT M1: next movement + matching reason]",
+      "[APPROVAL DISTRACTOR M1: practised movement + nonmatching practised reason]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 1,
+    "joiners": 0,
+    "correct_destination": "mele_dance_2_1",
+    "wrong_destination": "mele_dance_2_0"
+  },
+  "mele_dance_1_0_join": {
+    "english": "A guest joins the dancers.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Show 1 preplaced joiners, up to four. No money throwing."
+  },
+  "mele_dance_1_0_wait": {
+    "english": "The guests keep watching.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Keep 0 joiners. No loss of guests or public ridicule."
+  },
+  "mele_dance_2_0": {
+    "english": "The next part of the dance.",
+    "choices": [
+      "[APPROVAL SLOT M2: next movement + matching reason]",
+      "[APPROVAL DISTRACTOR M2: practised movement + nonmatching practised reason]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 2,
+    "joiners": 0,
+    "correct_destination": "mele_dance_3_1",
+    "wrong_destination": "mele_dance_3_0"
+  },
+  "mele_dance_2_0_join": {
+    "english": "A guest joins the dancers.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Show 1 preplaced joiners, up to four. No money throwing."
+  },
+  "mele_dance_2_0_wait": {
+    "english": "The guests keep watching.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Keep 0 joiners. No loss of guests or public ridicule."
+  },
+  "mele_dance_2_1": {
+    "english": "The next part of the dance.",
+    "choices": [
+      "[APPROVAL SLOT M2: next movement + matching reason]",
+      "[APPROVAL DISTRACTOR M2: practised movement + nonmatching practised reason]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 2,
+    "joiners": 1,
+    "correct_destination": "mele_dance_3_2",
+    "wrong_destination": "mele_dance_3_1"
+  },
+  "mele_dance_2_1_join": {
+    "english": "A guest joins the dancers.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Show 2 preplaced joiners, up to four. No money throwing."
+  },
+  "mele_dance_2_1_wait": {
+    "english": "The guests keep watching.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Keep 1 joiners. No loss of guests or public ridicule."
+  },
+  "mele_dance_3_0": {
+    "english": "The next part of the dance.",
+    "choices": [
+      "[APPROVAL SLOT M3: next movement + matching reason]",
+      "[APPROVAL DISTRACTOR M3: practised movement + nonmatching practised reason]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 3,
+    "joiners": 0,
+    "correct_destination": "mele_dance_4_1",
+    "wrong_destination": "mele_dance_4_0"
+  },
+  "mele_dance_3_0_join": {
+    "english": "A guest joins the dancers.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Show 1 preplaced joiners, up to four. No money throwing."
+  },
+  "mele_dance_3_0_wait": {
+    "english": "The guests keep watching.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Keep 0 joiners. No loss of guests or public ridicule."
+  },
+  "mele_dance_3_1": {
+    "english": "The next part of the dance.",
+    "choices": [
+      "[APPROVAL SLOT M3: next movement + matching reason]",
+      "[APPROVAL DISTRACTOR M3: practised movement + nonmatching practised reason]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 3,
+    "joiners": 1,
+    "correct_destination": "mele_dance_4_2",
+    "wrong_destination": "mele_dance_4_1"
+  },
+  "mele_dance_3_1_join": {
+    "english": "A guest joins the dancers.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Show 2 preplaced joiners, up to four. No money throwing."
+  },
+  "mele_dance_3_1_wait": {
+    "english": "The guests keep watching.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Keep 1 joiners. No loss of guests or public ridicule."
+  },
+  "mele_dance_3_2": {
+    "english": "The next part of the dance.",
+    "choices": [
+      "[APPROVAL SLOT M3: next movement + matching reason]",
+      "[APPROVAL DISTRACTOR M3: practised movement + nonmatching practised reason]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 3,
+    "joiners": 2,
+    "correct_destination": "mele_dance_4_3",
+    "wrong_destination": "mele_dance_4_2"
+  },
+  "mele_dance_3_2_join": {
+    "english": "A guest joins the dancers.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Show 3 preplaced joiners, up to four. No money throwing."
+  },
+  "mele_dance_3_2_wait": {
+    "english": "The guests keep watching.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Keep 2 joiners. No loss of guests or public ridicule."
+  },
+  "mele_dance_4_0": {
+    "english": "The next part of the dance.",
+    "choices": [
+      "[APPROVAL SLOT M4: next movement + matching reason]",
+      "[APPROVAL DISTRACTOR M4: practised movement + nonmatching practised reason]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 4,
+    "joiners": 0,
+    "correct_destination": "mele_dance_reset",
+    "wrong_destination": "mele_dance_reset"
+  },
+  "mele_dance_4_0_join": {
+    "english": "A guest joins the dancers.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Show 1 preplaced joiners, up to four. No money throwing."
+  },
+  "mele_dance_4_0_wait": {
+    "english": "The guests keep watching.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Keep 0 joiners. No loss of guests or public ridicule."
+  },
+  "mele_dance_4_1": {
+    "english": "The next part of the dance.",
+    "choices": [
+      "[APPROVAL SLOT M4: next movement + matching reason]",
+      "[APPROVAL DISTRACTOR M4: practised movement + nonmatching practised reason]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 4,
+    "joiners": 1,
+    "correct_destination": "mele_dance_reset",
+    "wrong_destination": "mele_dance_reset"
+  },
+  "mele_dance_4_1_join": {
+    "english": "A guest joins the dancers.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Show 2 preplaced joiners, up to four. No money throwing."
+  },
+  "mele_dance_4_1_wait": {
+    "english": "The guests keep watching.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Keep 1 joiners. No loss of guests or public ridicule."
+  },
+  "mele_dance_4_2": {
+    "english": "The next part of the dance.",
+    "choices": [
+      "[APPROVAL SLOT M4: next movement + matching reason]",
+      "[APPROVAL DISTRACTOR M4: practised movement + nonmatching practised reason]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 4,
+    "joiners": 2,
+    "correct_destination": "mele_dance_success",
+    "wrong_destination": "mele_dance_reset"
+  },
+  "mele_dance_4_2_join": {
+    "english": "A guest joins the dancers.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Show 3 preplaced joiners, up to four. No money throwing."
+  },
+  "mele_dance_4_2_wait": {
+    "english": "The guests keep watching.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Keep 2 joiners. No loss of guests or public ridicule."
+  },
+  "mele_dance_4_3": {
+    "english": "The next part of the dance.",
+    "choices": [
+      "[APPROVAL SLOT M4: next movement + matching reason]",
+      "[APPROVAL DISTRACTOR M4: practised movement + nonmatching practised reason]"
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "climax_binary",
+    "step": 4,
+    "joiners": 3,
+    "correct_destination": "mele_dance_success",
+    "wrong_destination": "mele_dance_success"
+  },
+  "mele_dance_4_3_join": {
+    "english": "A guest joins the dancers.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Show 4 preplaced joiners, up to four. No money throwing."
+  },
+  "mele_dance_4_3_wait": {
+    "english": "The guests keep watching.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "environment",
+    "cue": "Keep 3 joiners. No loss of guests or public ridicule."
+  },
+  "mele_dance_reset": {
+    "english": "Let’s begin again. I am here.",
+    "choices": [
+      "I am ready."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "sequence_reset"
+  },
+  "mele_dance_success": {
+    "english": "Thank you. Come and sit with us.",
+    "choices": [
+      "Thank you."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "H03M",
+    "area": 8,
+    "kind": "sequence_success"
+  },
+  "airport_greeting": {
+    "english": "Hello. Who are you?",
+    "choices": [
+      "I am Sione.",
+      "I am Mele."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "A01",
+    "area": 1,
+    "kind": "identity_select"
+  },
+  "sione_a01_02_response_0": {
+    "english": "Good. Let’s get you home.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "A01",
+    "area": 1,
+    "kind": "branch_response",
+    "cue": "Driver lifts the bag.",
+    "ui_only_choices": true
+  },
+  "sione_a01_02_response_1": {
+    "english": "We can take it slowly.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "A01",
+    "area": 1,
+    "kind": "branch_response",
+    "cue": "Driver sets the bag in the car and waits.",
+    "ui_only_choices": true
+  },
+  "sione_c02_03_response_0": {
+    "english": "Here you are.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "branch_response",
+    "cue": "Elder serves a small portion of rice.",
+    "ui_only_choices": true
+  },
+  "sione_c02_03_response_1": {
+    "english": "All right. It is here if you want it later.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "branch_response",
+    "cue": "Elder leaves the bowl within reach without serving player.",
+    "ui_only_choices": true
+  },
+  "sione_c02_04_response_0": {
+    "english": "Here is the fish.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "branch_response",
+    "cue": "Relative passes the fish dish.",
+    "ui_only_choices": true
+  },
+  "sione_c02_04_response_1": {
+    "english": "Here is the taro.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "branch_response",
+    "cue": "Relative passes the taro dish.",
+    "ui_only_choices": true
+  },
+  "sione_c02_05_response_0": {
+    "english": "Here is water.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "branch_response",
+    "cue": "Relative fills the player’s cup.",
+    "ui_only_choices": true
+  },
+  "sione_c02_05_response_1": {
+    "english": "All right.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "branch_response",
+    "cue": "Jug remains on table; cup stays empty.",
+    "ui_only_choices": true
+  },
+  "sione_c03_02_response_0": {
+    "english": "Good. I am still hungry.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C03",
+    "area": 3,
+    "kind": "branch_response",
+    "cue": "Cousin relaxes and takes another bite.",
+    "ui_only_choices": true
+  },
+  "sione_c03_02_response_1": {
+    "english": "Then maybe later.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C03",
+    "area": 3,
+    "kind": "branch_response",
+    "cue": "Player leaves a pause; cousin stays at table.",
+    "ui_only_choices": true
+  },
+  "sione_c03_04_response_0": {
+    "english": "One line. Not in front of everyone.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C03",
+    "area": 3,
+    "kind": "branch_response",
+    "cue": "Cousin turns a little toward player.",
+    "ui_only_choices": true
+  },
+  "sione_c03_04_response_1": {
+    "english": "Thanks.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C03",
+    "area": 3,
+    "kind": "branch_response",
+    "cue": "Player lets the silence stand.",
+    "ui_only_choices": true
+  },
+  "sione_f02_02_response_0": {
+    "english": "One more, then a rest.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F02",
+    "area": 6,
+    "kind": "branch_response",
+    "cue": "Cousin rolls the ball back.",
+    "ui_only_choices": true
+  },
+  "sione_f02_02_response_1": {
+    "english": "All right. One last easy pass.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F02",
+    "area": 6,
+    "kind": "branch_response",
+    "cue": "Cousin moves closer, reducing the distance.",
+    "ui_only_choices": true
+  },
+  "sione_f03_02_response_0": {
+    "english": "Most people don’t wait.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F03",
+    "area": 6,
+    "kind": "branch_response",
+    "cue": "Player stays beside cousin without prompting.",
+    "ui_only_choices": true
+  },
+  "sione_f03_02_response_1": {
+    "english": "Just us, then.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F03",
+    "area": 6,
+    "kind": "branch_response",
+    "cue": "Cousin faces player; optional rehearsal invitation is personal.",
+    "ui_only_choices": true
+  },
+  "sione_g02_01_response_0": {
+    "english": "I will stay.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G02",
+    "area": 7,
+    "kind": "branch_response",
+    "cue": "Cousin pulls a chair beside player.",
+    "ui_only_choices": true
+  },
+  "sione_g02_01_response_1": {
+    "english": "I can do that.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G02",
+    "area": 7,
+    "kind": "branch_response",
+    "cue": "Cousin sits farther back; no performance demanded.",
+    "ui_only_choices": true
+  },
+  "sione_i02_02_response_0": {
+    "english": "Good. I will try.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I02",
+    "area": 9,
+    "kind": "branch_response",
+    "cue": "Cousin meets the player’s eye.",
+    "ui_only_choices": true
+  },
+  "sione_i02_02_response_1": {
+    "english": "Let me start. You can come after.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I02",
+    "area": 9,
+    "kind": "branch_response",
+    "cue": "Cousin raises a hand, then smiles.",
+    "ui_only_choices": true
+  },
+  "sione_c02_06_response_0": {
+    "english": "Of course.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "branch_response",
+    "cue": "Serve another small portion.",
+    "ui_only_choices": true
+  },
+  "sione_c02_06_response_1": {
+    "english": "Of course.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "branch_response",
+    "cue": "Leave the bowl; elder accepts the refusal warmly.",
+    "ui_only_choices": true
+  },
+  "mele_a01_02_response_0": {
+    "english": "Good. Let’s get you home.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "A01",
+    "area": 1,
+    "kind": "branch_response",
+    "cue": "Driver lifts the bag.",
+    "ui_only_choices": true
+  },
+  "mele_a01_02_response_1": {
+    "english": "We can take it slowly.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "A01",
+    "area": 1,
+    "kind": "branch_response",
+    "cue": "Driver sets the bag in the car and waits.",
+    "ui_only_choices": true
+  },
+  "mele_c02_03_response_0": {
+    "english": "Here you are.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "branch_response",
+    "cue": "Elder serves a small portion of rice.",
+    "ui_only_choices": true
+  },
+  "mele_c02_03_response_1": {
+    "english": "All right. It is here if you want it later.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "branch_response",
+    "cue": "Elder leaves the bowl within reach without serving player.",
+    "ui_only_choices": true
+  },
+  "mele_c02_04_response_0": {
+    "english": "Here is the fish.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "branch_response",
+    "cue": "Relative passes the fish dish.",
+    "ui_only_choices": true
+  },
+  "mele_c02_04_response_1": {
+    "english": "Here is the taro.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "branch_response",
+    "cue": "Relative passes the taro dish.",
+    "ui_only_choices": true
+  },
+  "mele_c02_05_response_0": {
+    "english": "Here is water.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "branch_response",
+    "cue": "Relative fills the player’s cup.",
+    "ui_only_choices": true
+  },
+  "mele_c02_05_response_1": {
+    "english": "All right.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "branch_response",
+    "cue": "Jug remains on table; cup stays empty.",
+    "ui_only_choices": true
+  },
+  "mele_c03_02_response_0": {
+    "english": "Good. I am still hungry.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C03",
+    "area": 3,
+    "kind": "branch_response",
+    "cue": "Cousin relaxes and takes another bite.",
+    "ui_only_choices": true
+  },
+  "mele_c03_02_response_1": {
+    "english": "Then maybe later.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C03",
+    "area": 3,
+    "kind": "branch_response",
+    "cue": "Player leaves a pause; cousin stays at table.",
+    "ui_only_choices": true
+  },
+  "mele_c03_04_response_0": {
+    "english": "One line. Not in front of everyone.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C03",
+    "area": 3,
+    "kind": "branch_response",
+    "cue": "Cousin turns a little toward player.",
+    "ui_only_choices": true
+  },
+  "mele_c03_04_response_1": {
+    "english": "Thanks.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C03",
+    "area": 3,
+    "kind": "branch_response",
+    "cue": "Player lets the silence stand.",
+    "ui_only_choices": true
+  },
+  "mele_f02_02_response_0": {
+    "english": "One more, then a rest.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F02",
+    "area": 6,
+    "kind": "branch_response",
+    "cue": "Cousin rolls the ball back.",
+    "ui_only_choices": true
+  },
+  "mele_f02_02_response_1": {
+    "english": "All right. One last easy pass.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F02",
+    "area": 6,
+    "kind": "branch_response",
+    "cue": "Cousin moves closer, reducing the distance.",
+    "ui_only_choices": true
+  },
+  "mele_f03_02_response_0": {
+    "english": "Most people don’t wait.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F03",
+    "area": 6,
+    "kind": "branch_response",
+    "cue": "Player stays beside cousin without prompting.",
+    "ui_only_choices": true
+  },
+  "mele_f03_02_response_1": {
+    "english": "Just us, then.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "F03",
+    "area": 6,
+    "kind": "branch_response",
+    "cue": "Cousin faces player; optional rehearsal invitation is personal.",
+    "ui_only_choices": true
+  },
+  "mele_g02_01_response_0": {
+    "english": "I will stay.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G02",
+    "area": 7,
+    "kind": "branch_response",
+    "cue": "Cousin pulls a chair beside player.",
+    "ui_only_choices": true
+  },
+  "mele_g02_01_response_1": {
+    "english": "I can do that.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "G02",
+    "area": 7,
+    "kind": "branch_response",
+    "cue": "Cousin sits farther back; no performance demanded.",
+    "ui_only_choices": true
+  },
+  "mele_i02_02_response_0": {
+    "english": "Good. I will try.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I02",
+    "area": 9,
+    "kind": "branch_response",
+    "cue": "Cousin meets the player’s eye.",
+    "ui_only_choices": true
+  },
+  "mele_i02_02_response_1": {
+    "english": "Let me start. You can come after.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "I02",
+    "area": 9,
+    "kind": "branch_response",
+    "cue": "Cousin raises a hand, then smiles.",
+    "ui_only_choices": true
+  },
+  "mele_c02_06_response_0": {
+    "english": "Of course.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "branch_response",
+    "cue": "Serve another small portion.",
+    "ui_only_choices": true
+  },
+  "mele_c02_06_response_1": {
+    "english": "Of course.",
+    "choices": [
+      "Continue."
+    ],
+    "approval": "PENDING_DR_LVS",
+    "scene": "C02",
+    "area": 3,
+    "kind": "branch_response",
+    "cue": "Leave the bowl; elder accepts the refusal warmly.",
+    "ui_only_choices": true
+  }
+}
