@@ -27,4 +27,8 @@ All English text lives in the JSON files under `line_english` and `caption` fiel
 
 Vault design docs are in `/vault`.
 
+## Approved visual direction
+
+[Visual style and reviewed references](assets/style-reference.md): cute chibi characters, top-down 2D exploration through compact connected neighbourhoods/routes, larger dialogue views, and an exterior side-on airport car ride. Optional sights, signs and NPC encounters embed language along the way. This is the approved design direction; the current placeholder implementation does not yet provide the overworld. Cultural/language details remain subject to DR L.V.S review.
+
 Last updated: 2026-10-25
