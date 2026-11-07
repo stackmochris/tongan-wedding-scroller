@@ -1,0 +1,459 @@
+node_id,scene,group,kind,english,choices,slot,review
+sione_a01_02,A01,greeting_identity,dialogue,Welcome. I am your family’s driver today. How are you?,"Good, thank you. / A little tired.",,PENDING_DR_LVS
+sione_a01_03,A01,greeting_identity,dialogue,A long flight. Your family is waiting.,I am happy to be here. / Thank you for coming.,,PENDING_DR_LVS
+sione_a01_04,A01,greeting_identity,repair_check,"One more time, so I have your name right. Who are you?",I am Sione. / You are Sione.,,PENDING_DR_LVS
+sione_a01_04_repair,A01,greeting_identity,repair,I am the driver. You are Sione.,I am Sione.,,PENDING_DR_LVS
+sione_a02_01,A02,greeting_identity,dialogue,Your return flight is after the wedding. A short visit.,Yes. I want to help. / Yes. I want to see everyone.,,PENDING_DR_LVS
+sione_a02_02,A02,greeting_identity,repair_check,Are you ready? We can go now.,"Yes. Let’s go. / Please, say it again.",,PENDING_DR_LVS
+sione_a02_02_repair,A02,greeting_identity,repair,Are you ready? Let’s go.,Yes. Let’s go.,,PENDING_DR_LVS
+sione_a02_03,A02,greeting_identity,dialogue,This way.,Thank you. / Let’s go.,,PENDING_DR_LVS
+sione_b01_01,B01,pointing,dialogue,Look. That is a coconut tree.,That is a coconut tree. / Look.,,PENDING_DR_LVS
+sione_b01_02,B01,pointing,repair_check,Look ahead. That is a church.,That is a church. / That is a coconut tree.,,PENDING_DR_LVS
+sione_b01_02_repair,B01,pointing,repair,Look ahead. The church is there.,That is a church.,,PENDING_DR_LVS
+sione_b01_03,B01,pointing,dialogue,That is the village. We are going this way.,That is the village. / This way.,,PENDING_DR_LVS
+sione_b01_04,B01,pointing,dialogue,Look. There is the sea.,That is the sea. / Look at the sea.,,PENDING_DR_LVS
+sione_b02_01,B02,pointing,repair_check,Look ahead. What is that?,That is a church. / That is the sea.,,PENDING_DR_LVS
+sione_b02_01_repair,B02,pointing,repair,Look again. That is a church.,That is a church.,,PENDING_DR_LVS
+sione_b02_02,B02,pointing,dialogue,Good. We are almost there. Your family’s house is ahead.,That is the house. / We are almost there.,,PENDING_DR_LVS
+sione_c01_01,C01,family_food,dialogue,Hello. You have arrived.,Hello. I am Sione. / Hello. Thank you.,,PENDING_DR_LVS
+sione_c01_02,C01,family_food,dialogue,I am your grandmother. Come and sit with me.,"Hello, Grandmother. / Thank you, Grandmother.",,PENDING_DR_LVS
+sione_c01_03,C01,family_food,dialogue,Come in. Sit here.,Thank you. / Here?,,PENDING_DR_LVS
+sione_c01_04,C01,family_food,dialogue,"Yes, here. How are you?","Good, thank you. / A little tired.",,PENDING_DR_LVS
+sione_c01_05,C01,family_food,dialogue,The wedding is soon. We are glad you came.,I am glad to be here. / Thank you for having me.,,PENDING_DR_LVS
+sione_c01_06,C01,family_food,dialogue,This is your family. There is a place for you.,Thank you. / I am happy to be with my family.,,PENDING_DR_LVS
+sione_c02_01,C02,family_food,dialogue,This is your cousin.,Hello. I am Sione. / Hello. How are you?,,PENDING_DR_LVS
+sione_c02_02,C02,family_food,dialogue,Hello.,Good to see you. / Hello.,,PENDING_DR_LVS
+sione_c02_03,C02,family_food,dialogue,Are you hungry? Here is rice.,"Yes, please. Thank you. / No, thank you.",,PENDING_DR_LVS
+sione_c02_04,C02,family_food,dialogue,Here is fish. Here is taro.,"I would like fish, please. / I would like taro, please.",,PENDING_DR_LVS
+sione_c02_05,C02,family_food,dialogue,Would you like water?,"Yes, please. / No, thank you.",,PENDING_DR_LVS
+sione_c02_06,C02,family_food,dialogue,There is more food. Would you like some?,"Yes, thank you. / No, thank you.",,PENDING_DR_LVS
+sione_c02_07,C02,family_food,dialogue,Those two are brother and sister. They are helping too.,Your brother and sister? / Brother and sister.,,PENDING_DR_LVS
+sione_c03_01,C03,family_food,dialogue,Your cousin can show you around.,Only if you want to. / We can go together later. / Let’s go. We can talk later.,,PENDING_DR_LVS
+sione_c03_02,C03,family_food,dialogue,Everyone asks me to show people around.,We can just eat. / You can say no.,,PENDING_DR_LVS
+sione_c03_03,C03,family_food,dialogue,You don’t know all the words either?,No. I am learning. / Some words. Not all.,,PENDING_DR_LVS
+sione_c03_04,C03,family_food,dialogue,I know what they mean. Sometimes I don’t want to say them.,We can try together. / I can listen.,,PENDING_DR_LVS
+sione_c03_05,C03,family_food,dialogue,Maybe later.,All right. / See you later.,,PENDING_DR_LVS
+sione_c04_01,C04,family_food,dialogue,We need help with the wedding. Can you help?,Yes. I will help. / Yes. Please show me.,,PENDING_DR_LVS
+sione_c04_02,C04,family_food,repair_check,We need food and drinks from the market. Two bundles of food. Three drinks.,Two bundles. Three drinks. / Please say it again.,,PENDING_DR_LVS
+sione_c04_02_repair,C04,family_food,repair,Two bundles of food. Three drinks.,Two bundles. Three drinks.,,PENDING_DR_LVS
+sione_c04_03,C04,family_food,dialogue,Then ask the minister about the time. We will go together.,What time? / We will go together.,,PENDING_DR_LVS
+sione_c04_04,C04,family_food,dialogue,"You will have a small part at the wedding, too. We will practise.",I will try. / Will you help me?,,PENDING_DR_LVS
+sione_c04_05,C04,family_food,dialogue,Yes. First the market. One thing at a time.,Thank you for your help. / Let’s go.,,PENDING_DR_LVS
+sione_d01_01,D01,requests_quantity,repair_check,Look. That is the food stall.,That is the food stall. / That is the church.,,PENDING_DR_LVS
+sione_d01_01_repair,D01,requests_quantity,repair,Look here. Food is on this table.,That is the food stall.,,PENDING_DR_LVS
+sione_d01_02,D01,requests_quantity,dialogue,Hello. How are you?,"Good, thank you. / Hello. I am Sione.",,PENDING_DR_LVS
+sione_d01_03,D01,requests_quantity,repair_check,What do you need?,"I need food, please. / I need the sea.",,PENDING_DR_LVS
+sione_d01_03_repair,D01,requests_quantity,repair,Food is here. What do you need?,"I need food, please.",,PENDING_DR_LVS
+sione_d01_04,D01,requests_quantity,repair_check,We need two bundles.,Two bundles. / Three bundles.,,PENDING_DR_LVS
+sione_d01_04_repair,D01,requests_quantity,repair,Two bundles of food.,Two bundles.,,PENDING_DR_LVS
+sione_d02_01,D02,requests_quantity,repair_check,How many bundles?,"Two, please. / Three, please.",,PENDING_DR_LVS
+sione_d02_01_repair,D02,requests_quantity,repair,The family asked for two bundles.,"Two, please.",,PENDING_DR_LVS
+sione_d02_02,D02,requests_quantity,repair_check,Two bundles. Is that enough?,Yes. That is enough. / Please show me again.,,PENDING_DR_LVS
+sione_d02_02_repair,D02,requests_quantity,repair,Here are the two bundles.,Yes. That is enough.,,PENDING_DR_LVS
+sione_d02_03,D02,requests_quantity,repair_check,We also need three drinks.,"I need three drinks, please. / I need two drinks.",,PENDING_DR_LVS
+sione_d02_03_repair,D02,requests_quantity,repair,"Three drinks. One, two, three.","I need three drinks, please.",,PENDING_DR_LVS
+sione_d02_04,D02,requests_quantity,repair_check,Two drinks?,"No. Three, please. / Yes. Two.",,PENDING_DR_LVS
+sione_d02_04_repair,D02,requests_quantity,repair,You asked for three. Let’s count again.,"No. Three, please.",,PENDING_DR_LVS
+sione_d02_05,D02,requests_quantity,dialogue,Three. Is that enough?,Yes. Thank you. / Three. Thank you.,,PENDING_DR_LVS
+sione_d03_01,D03,requests_quantity,repair_check,What do you need for the wedding?,I need two bundles of food and three drinks. / I need three bundles and two drinks.,,PENDING_DR_LVS
+sione_d03_01_repair,D03,requests_quantity,repair,Two bundles of food. Three drinks.,I need two bundles of food and three drinks.,,PENDING_DR_LVS
+sione_d03_02,D03,requests_quantity,dialogue,Good. Two bundles and three drinks.,That is enough. Thank you. / Thank you for your help.,,PENDING_DR_LVS
+sione_d03_03,D03,requests_quantity,dialogue,I will pay. You asked for what we needed.,Thank you. / I can carry these.,,PENDING_DR_LVS
+sione_d03_04,D03,requests_quantity,dialogue,Thank you. See you again.,Thank you. Goodbye. / Goodbye.,,PENDING_DR_LVS
+sione_d04_01,D04,requests_quantity,dialogue,Your cousin might come next time.,I can ask. / I can go with you again.,,PENDING_DR_LVS
+sione_d04_02,D04,requests_quantity,repair_check,The food is ready. What did you ask for?,Two bundles of food. Three drinks. / Three bundles of food.,,PENDING_DR_LVS
+sione_d04_02_repair,D04,requests_quantity,repair,Two bundles. Three drinks.,Two bundles of food. Three drinks.,,PENDING_DR_LVS
+sione_d04_03,D04,requests_quantity,dialogue,"Thank you. At the wedding, speak slowly too.",Slowly. I can do that. / Please help me practise.,,PENDING_DR_LVS
+sione_d05s_01,D05S,speech,dialogue,You will give a short speech. Not a long one.,I want to thank them properly. / Please help me practise.,,PENDING_DR_LVS
+sione_d05s_02,D05S,speech,dialogue,You can ask to try again.,Let’s try again. / Thank you for your help.,,PENDING_DR_LVS
+sione_e01_01,E01,polite_time,dialogue,Here is the minister. We are here about the wedding.,"Hello, Minister. / Hello. We are preparing the wedding.",,PENDING_DR_LVS
+sione_e01_02,E01,polite_time,dialogue,Hello. Welcome. How can I help?,We are preparing the wedding. / Thank you for your help.,,PENDING_DR_LVS
+sione_e01_03,E01,polite_time,dialogue,The family is getting ready. You have come a long way.,I am happy to be with my family. / Yes. I am here to help.,,PENDING_DR_LVS
+sione_e01_04,E01,polite_time,repair_check,Please ask about the time.,What time does it start? / What food is there?,,PENDING_DR_LVS
+sione_e01_04_repair,E01,polite_time,repair,Ask about the time. What time does it start?,What time does it start?,,PENDING_DR_LVS
+sione_e02_01,E02,polite_time,repair_check,The family gathering starts at ten.,At ten. Thank you. / Please say it again.,,PENDING_DR_LVS
+sione_e02_01_repair,E02,polite_time,repair,At ten.,At ten. Thank you.,,PENDING_DR_LVS
+sione_e02_02,E02,polite_time,repair_check,At ten. We will see your family there.,We will be there at ten. / We will be there at two.,,PENDING_DR_LVS
+sione_e02_02_repair,E02,polite_time,repair,At ten. Look at the clock.,We will be there at ten.,,PENDING_DR_LVS
+sione_e02_03,E02,polite_time,repair_check,What time will we be there?,At ten. / At two.,,PENDING_DR_LVS
+sione_e02_03_repair,E02,polite_time,repair,At ten.,At ten.,,PENDING_DR_LVS
+sione_e02_04,E02,polite_time,dialogue,Thank you for checking.,"Thank you for your help. / Thank you, Minister.",,PENDING_DR_LVS
+sione_e03_01,E03,ceremonial,dialogue,You thanked the minister yourself.,I knew that part. / I was nervous.,,PENDING_DR_LVS
+sione_e03_02,E03,ceremonial,dialogue,That is enough for today. Your wedding part will be short.,Short is good. / Please practise with me.,,PENDING_DR_LVS
+sione_e03_03,E03,ceremonial,dialogue,First understand what you want to say. Then we will practise the words.,I want to thank my family. / I want to say I am happy to be here.,,PENDING_DR_LVS
+sione_e03_04,E03,ceremonial,dialogue,We will practise at home.,Thank you for your help. / We will be there at ten.,,PENDING_DR_LVS
+sione_e04s_01,E04S,speech,dialogue,There is an order to the acknowledgements. We will use the order our elder gives us.,Show me one part. / Let’s practise slowly.,,PENDING_DR_LVS
+sione_e04s_02,E04S,speech,dialogue,You can ask to try again.,Let’s try again. / Thank you for your help.,,PENDING_DR_LVS
+sione_f01_01,F01,motion,dialogue,You came. There is no shopping here.,I came to see you. / I came to play.,,PENDING_DR_LVS
+sione_f01_02,F01,motion,repair_check,Come. Let’s play.,Let’s go. / Please say it again.,,PENDING_DR_LVS
+sione_f01_02_repair,F01,motion,repair,Come. Let’s play.,Let’s go.,,PENDING_DR_LVS
+sione_f01_03,F01,motion,repair_check,Look. The ball is there.,That is the ball. / That is the church.,,PENDING_DR_LVS
+sione_f01_03_repair,F01,motion,repair,Look here. The ball.,That is the ball.,,PENDING_DR_LVS
+sione_f01_04,F01,motion,dialogue,Kick the ball.,I will try. / Show me first.,,PENDING_DR_LVS
+sione_f01_05,F01,motion,dialogue,Like this. Come on.,Let’s play. / I will try.,,PENDING_DR_LVS
+sione_f02_01,F02,motion,dialogue,That went the wrong way. Try again.,I will try again. / You show me.,,PENDING_DR_LVS
+sione_f02_02,F02,motion,dialogue,You are getting better. Are you tired?,Not yet. Let’s play. / Yes. Let’s rest.,,PENDING_DR_LVS
+sione_f02_03,F02,motion,repair_check,"All right. One more pass, then we rest. Come.",Let’s go. / How many drinks?,,PENDING_DR_LVS
+sione_f02_03_repair,F02,motion,repair,Come. Let’s play.,Let’s go.,,PENDING_DR_LVS
+sione_f02_04,F02,motion,dialogue,Good. That is enough.,This is fun. / Thank you for playing.,,PENDING_DR_LVS
+sione_f03_01,F03,motion,dialogue,"At home, someone always answers before I do.",I can wait. / That happens to me too. / Let’s go. We can talk later.,,PENDING_DR_LVS
+sione_f03_02,F03,motion,dialogue,Then they ask why I am quiet.,You can take your time. / We can try one line together.,,PENDING_DR_LVS
+sione_f03_03,F03,motion,dialogue,Will everyone look at you at the wedding?,Yes. I am nervous. / Yes. I will practise.,,PENDING_DR_LVS
+sione_f03_04,F03,motion,dialogue,You still want to do it?,I want to be part of it. / I want to thank them.,,PENDING_DR_LVS
+sione_f03_05,F03,motion,dialogue,Maybe I can help you practise. Just us.,I would like that. / Only if you want to.,,PENDING_DR_LVS
+sione_f03_06,F03,motion,dialogue,Come. We should go back.,Let’s go. / Good. Let’s go.,,PENDING_DR_LVS
+sione_f04s_01,F04S,speech,dialogue,You can practise with me. I will not interrupt.,Thank you. I will try. / Please listen.,,PENDING_DR_LVS
+sione_f04s_02,F04S,speech,dialogue,You can ask to try again.,Let’s try again. / Thank you for your help.,,PENDING_DR_LVS
+sione_g01_01,G01,ceremonial,repair_check,The supplies are here. What time tomorrow?,At ten. / At two.,,PENDING_DR_LVS
+sione_g01_01_repair,G01,ceremonial,repair,At ten. You checked with the minister.,At ten.,,PENDING_DR_LVS
+sione_g01_02,G01,ceremonial,dialogue,Two bundles of food. Three drinks. Is that enough?,Yes. That is enough. / Thank you for your help.,,PENDING_DR_LVS
+sione_g01_03,G01,ceremonial,repair_check,What did you ask for at the market?,I need two bundles of food and three drinks. / I need three bundles and two drinks.,,PENDING_DR_LVS
+sione_g01_03_repair,G01,ceremonial,repair,Two bundles of food. Three drinks.,I need two bundles of food and three drinks.,,PENDING_DR_LVS
+sione_g01_04,G01,ceremonial,dialogue,Tomorrow we will ask you to take your part.,I am ready to practise. / Please stay near me.,,PENDING_DR_LVS
+sione_g01_05,G01,ceremonial,dialogue,We will be near you.,Thank you. / I am happy to be here.,,PENDING_DR_LVS
+sione_g02_01,G02,ceremonial,dialogue,Do you want me to stay?,"Yes, please. / You can just listen.",,PENDING_DR_LVS
+sione_g02_02,G02,ceremonial,dialogue,"If you stop, I can wait. Like you did.",Thank you. / Then let’s try.,,PENDING_DR_LVS
+sione_g02_03,G02,ceremonial,dialogue,We will practise one part at a time.,One part at a time. / I will try.,,PENDING_DR_LVS
+sione_g03_01,G03,ceremonial,repair_check,"Say: Hello, everyone.","Hello, everyone. / Goodbye, everyone.",,PENDING_DR_LVS
+sione_g03_01_repair,G03,ceremonial,repair,"Hello, everyone.","Hello, everyone.",,PENDING_DR_LVS
+sione_g03_02,G03,ceremonial,repair_check,Say: I give thanks.,I give thanks. / What time?,,PENDING_DR_LVS
+sione_g03_02_repair,G03,ceremonial,repair,I give thanks.,I give thanks.,,PENDING_DR_LVS
+sione_g03_03,G03,ceremonial,dialogue,Your family is here.,I love my family. / I am happy to be with my family.,,PENDING_DR_LVS
+sione_g03_04,G03,ceremonial,dialogue,Good. Now your own part.,I am ready. / Let’s practise.,,PENDING_DR_LVS
+sione_h01_01,H01,ceremonial,dialogue,We are here. The family is ready.,I am happy to be with my family. / Thank you for your help.,,PENDING_DR_LVS
+sione_h01_02,H01,ceremonial,repair_check,There is water for the table. What do you need?,"I need water, please. / I need the sea.",,PENDING_DR_LVS
+sione_h01_02_repair,H01,ceremonial,repair,"Water is here. I need water, please.","I need water, please.",,PENDING_DR_LVS
+sione_h01_03,H01,ceremonial,dialogue,"Hello, everyone. Thank you for coming.","Hello, everyone. / Thank you.",,PENDING_DR_LVS
+sione_h01_04,H01,ceremonial,dialogue,I will be here.,Thank you. / I am glad you came.,,PENDING_DR_LVS
+sione_h01_05,H01,ceremonial,dialogue,Slowly. Just as we practised.,I am ready. / Stay near me.,,PENDING_DR_LVS
+sione_h02_01,H02,ceremonial,dialogue,Thank you. Come and sit with us.,Thank you. / I am happy to be here.,,PENDING_DR_LVS
+sione_h02_02,H02,ceremonial,dialogue,You did your part. Now eat with us.,"Thank you for the food. / Yes, please.",,PENDING_DR_LVS
+sione_h02_03,H02,ceremonial,dialogue,I knew that line. I said it with you.,I heard you. / We did it together.,,PENDING_DR_LVS
+sione_h02_04,H02,ceremonial,dialogue,Not all of it. Just that part.,That part was enough. / We can practise again.,,PENDING_DR_LVS
+sione_i01_01,I01,farewell,dialogue,Here we are again. Are you ready?,Yes. Thank you. / Almost.,,PENDING_DR_LVS
+sione_i01_02,I01,farewell,dialogue,Would you like water before you go?,"I need water, please. / No, thank you.",,PENDING_DR_LVS
+sione_i01_03,I01,farewell,dialogue,Thank you for being with us.,I give thanks to my family. / I love my family.,,PENDING_DR_LVS
+sione_i01_04,I01,farewell,dialogue,You are leaving. Goodbye. Travel safely.,Goodbye. I will come back. / Goodbye. Thank you.,,PENDING_DR_LVS
+sione_i01_05,I01,farewell,repair_check,We will stay here. Say goodbye to us.,Goodbye. / Please show me.,,PENDING_DR_LVS
+sione_i01_05_repair,I01,farewell,repair,You go. We stay. Goodbye to those staying.,Goodbye.,,PENDING_DR_LVS
+sione_i01_06,I01,farewell,dialogue,We love you.,I love you all. / Thank you. I love you.,,PENDING_DR_LVS
+sione_i02_01,I02,farewell,dialogue,Message me when you get home.,I will. / You message me too.,,PENDING_DR_LVS
+sione_i02_02,I02,farewell,dialogue,"Next time, let me say hello first.",I will wait. / We can say it together.,,PENDING_DR_LVS
+sione_i02_03,I02,farewell,dialogue,Hello. I am your cousin.,Hello. I am Sione. / Good to see you.,,PENDING_DR_LVS
+sione_i02_04,I02,farewell,dialogue,All right. Goodbye.,Goodbye. I will come back. / Goodbye. I love you.,,PENDING_DR_LVS
+sione_i03_01,I03,farewell,repair_check,They are staying. You are leaving.,Goodbye. / Goodbye.,,PENDING_DR_LVS
+sione_i03_01_repair,I03,farewell,repair,You are leaving. They are staying.,Goodbye to those staying.,,PENDING_DR_LVS
+sione_i03_02,I03,farewell,dialogue,Come back soon.,I will come back. / Thank you for your help.,,PENDING_DR_LVS
+sione_i03_03,I03,farewell,dialogue,Goodbye. We love you.,Goodbye. I love you all. / Goodbye. Thank you.,,PENDING_DR_LVS
+sione_practice_sione_4_1,D05S,speech,slot_introduction,"Practise this part with me: [S1 PROVISIONAL ENGLISH: Hello, everyone.]","[S1 PROVISIONAL ENGLISH: Hello, everyone.] / Please show me again.",sione_1,PENDING_DR_LVS
+sione_practice_sione_4_2,D05S,speech,slot_introduction,Practise this part with me: [S2 PROVISIONAL ENGLISH: Thank you for coming.],[S2 PROVISIONAL ENGLISH: Thank you for coming.] / Please show me again.,sione_2,PENDING_DR_LVS
+sione_practice_sione_5_1,E04S,speech,slot_introduction,Practise this part with me: [S3 PROVISIONAL ENGLISH: I am happy to be with my family.],[S3 PROVISIONAL ENGLISH: I am happy to be with my family.] / Please show me again.,sione_3,PENDING_DR_LVS
+sione_practice_sione_5_2,E04S,speech,slot_introduction,Practise this part with me: [S4 PROVISIONAL ENGLISH: Thank you to the elders.],[S4 PROVISIONAL ENGLISH: Thank you to the elders.] / Please show me again.,sione_4,PENDING_DR_LVS
+sione_practice_sione_6_1,F04S,speech,slot_introduction,Practise this part with me: [S5 PROVISIONAL ENGLISH: God bless this wedding.],[S5 PROVISIONAL ENGLISH: God bless this wedding.] / Please show me again.,sione_5,PENDING_DR_LVS
+sione_practice_sione_6_2,F04S,speech,slot_introduction,Practise this part with me: [S6 PROVISIONAL ENGLISH: Thank you.],[S6 PROVISIONAL ENGLISH: Thank you.] / Please show me again.,sione_6,PENDING_DR_LVS
+sione_eve_sione_1,G04S,speech,slot_retrieval,"Your next part is [S1 PROVISIONAL ENGLISH: Hello, everyone.]. Try it now.","[S1 PROVISIONAL ENGLISH: Hello, everyone.] / Please show me again.",sione_1,PENDING_DR_LVS
+sione_eve_sione_1_model,G04S,speech,slot_model,"Here is that part again: [S1 PROVISIONAL ENGLISH: Hello, everyone.]","[S1 PROVISIONAL ENGLISH: Hello, everyone.]",sione_1,PENDING_DR_LVS
+sione_eve_sione_2,G04S,speech,slot_retrieval,Your next part is [S2 PROVISIONAL ENGLISH: Thank you for coming.]. Try it now.,[S2 PROVISIONAL ENGLISH: Thank you for coming.] / Please show me again.,sione_2,PENDING_DR_LVS
+sione_eve_sione_2_model,G04S,speech,slot_model,Here is that part again: [S2 PROVISIONAL ENGLISH: Thank you for coming.],[S2 PROVISIONAL ENGLISH: Thank you for coming.],sione_2,PENDING_DR_LVS
+sione_eve_sione_3,G04S,speech,slot_retrieval,Your next part is [S3 PROVISIONAL ENGLISH: I am happy to be with my family.]. Try it now.,[S3 PROVISIONAL ENGLISH: I am happy to be with my family.] / Please show me again.,sione_3,PENDING_DR_LVS
+sione_eve_sione_3_model,G04S,speech,slot_model,Here is that part again: [S3 PROVISIONAL ENGLISH: I am happy to be with my family.],[S3 PROVISIONAL ENGLISH: I am happy to be with my family.],sione_3,PENDING_DR_LVS
+sione_eve_sione_4,G04S,speech,slot_retrieval,Your next part is [S4 PROVISIONAL ENGLISH: Thank you to the elders.]. Try it now.,[S4 PROVISIONAL ENGLISH: Thank you to the elders.] / Please show me again.,sione_4,PENDING_DR_LVS
+sione_eve_sione_4_model,G04S,speech,slot_model,Here is that part again: [S4 PROVISIONAL ENGLISH: Thank you to the elders.],[S4 PROVISIONAL ENGLISH: Thank you to the elders.],sione_4,PENDING_DR_LVS
+sione_eve_sione_5,G04S,speech,slot_retrieval,Your next part is [S5 PROVISIONAL ENGLISH: God bless this wedding.]. Try it now.,[S5 PROVISIONAL ENGLISH: God bless this wedding.] / Please show me again.,sione_5,PENDING_DR_LVS
+sione_eve_sione_5_model,G04S,speech,slot_model,Here is that part again: [S5 PROVISIONAL ENGLISH: God bless this wedding.],[S5 PROVISIONAL ENGLISH: God bless this wedding.],sione_5,PENDING_DR_LVS
+sione_eve_sione_6,G04S,speech,slot_retrieval,Your next part is [S6 PROVISIONAL ENGLISH: Thank you.]. Try it now.,[S6 PROVISIONAL ENGLISH: Thank you.] / Please show me again.,sione_6,PENDING_DR_LVS
+sione_eve_sione_6_model,G04S,speech,slot_model,Here is that part again: [S6 PROVISIONAL ENGLISH: Thank you.],[S6 PROVISIONAL ENGLISH: Thank you.],sione_6,PENDING_DR_LVS
+sione_eve_finish,G04S,speech,revision,Good. We will be there with you.,I give thanks. / Please practise the opening again.,,PENDING_DR_LVS
+sione_climax_sione_start,H03S,speech,sequence_start,Now Sione will speak.,I am ready.,,PENDING_DR_LVS
+sione_speech_1_0,H03S,speech,climax_binary,The family listens.,"[S1 PROVISIONAL ENGLISH: Hello, everyone.] / [PROVISIONAL DISTRACTOR using S2: Thank you for coming.]",,PENDING_DR_LVS
+sione_speech_1_0_nod,H03S,speech,environment,The elder nods.,Continue.,,PENDING_DR_LVS
+sione_speech_1_0_confusion,H03S,speech,environment,The elder pauses. Your relative steps closer.,Try again.,,PENDING_DR_LVS
+sione_speech_1_1,H03S,speech,climax_binary,The family listens.,"[S1 PROVISIONAL ENGLISH: Hello, everyone.] / [PROVISIONAL DISTRACTOR using S2: Thank you for coming.]",,PENDING_DR_LVS
+sione_speech_1_1_nod,H03S,speech,environment,The elder nods.,Continue.,,PENDING_DR_LVS
+sione_speech_1_1_confusion,H03S,speech,environment,The elder pauses. Your relative steps closer.,Try again.,,PENDING_DR_LVS
+sione_speech_1_2,H03S,speech,climax_binary,The family listens.,"[S1 PROVISIONAL ENGLISH: Hello, everyone.] / [PROVISIONAL DISTRACTOR using S2: Thank you for coming.]",,PENDING_DR_LVS
+sione_speech_1_2_nod,H03S,speech,environment,The elder nods.,Continue.,,PENDING_DR_LVS
+sione_speech_1_2_confusion,H03S,speech,environment,The elder pauses. Your relative steps closer.,Try again.,,PENDING_DR_LVS
+sione_speech_2_0,H03S,speech,climax_binary,The family listens.,[S2 PROVISIONAL ENGLISH: Thank you for coming.] / [PROVISIONAL DISTRACTOR using S3: I am happy to be with my family.],,PENDING_DR_LVS
+sione_speech_2_0_nod,H03S,speech,environment,The elder nods.,Continue.,,PENDING_DR_LVS
+sione_speech_2_0_confusion,H03S,speech,environment,The elder pauses. Your relative steps closer.,Try again.,,PENDING_DR_LVS
+sione_speech_2_1,H03S,speech,climax_binary,The family listens.,[S2 PROVISIONAL ENGLISH: Thank you for coming.] / [PROVISIONAL DISTRACTOR using S3: I am happy to be with my family.],,PENDING_DR_LVS
+sione_speech_2_1_nod,H03S,speech,environment,The elder nods.,Continue.,,PENDING_DR_LVS
+sione_speech_2_1_confusion,H03S,speech,environment,The elder pauses. Your relative steps closer.,Try again.,,PENDING_DR_LVS
+sione_speech_2_2,H03S,speech,climax_binary,The family listens.,[S2 PROVISIONAL ENGLISH: Thank you for coming.] / [PROVISIONAL DISTRACTOR using S3: I am happy to be with my family.],,PENDING_DR_LVS
+sione_speech_2_2_nod,H03S,speech,environment,The elder nods.,Continue.,,PENDING_DR_LVS
+sione_speech_2_2_confusion,H03S,speech,environment,The elder pauses. Your relative steps closer.,Try again.,,PENDING_DR_LVS
+sione_speech_3_0,H03S,speech,climax_binary,The family listens.,[S3 PROVISIONAL ENGLISH: I am happy to be with my family.] / [PROVISIONAL DISTRACTOR using S4: Thank you to the elders.],,PENDING_DR_LVS
+sione_speech_3_0_nod,H03S,speech,environment,The elder nods.,Continue.,,PENDING_DR_LVS
+sione_speech_3_0_confusion,H03S,speech,environment,The elder pauses. Your relative steps closer.,Try again.,,PENDING_DR_LVS
+sione_speech_3_1,H03S,speech,climax_binary,The family listens.,[S3 PROVISIONAL ENGLISH: I am happy to be with my family.] / [PROVISIONAL DISTRACTOR using S4: Thank you to the elders.],,PENDING_DR_LVS
+sione_speech_3_1_nod,H03S,speech,environment,The elder nods.,Continue.,,PENDING_DR_LVS
+sione_speech_3_1_confusion,H03S,speech,environment,The elder pauses. Your relative steps closer.,Try again.,,PENDING_DR_LVS
+sione_speech_3_2,H03S,speech,climax_binary,The family listens.,[S3 PROVISIONAL ENGLISH: I am happy to be with my family.] / [PROVISIONAL DISTRACTOR using S4: Thank you to the elders.],,PENDING_DR_LVS
+sione_speech_3_2_nod,H03S,speech,environment,The elder nods.,Continue.,,PENDING_DR_LVS
+sione_speech_3_2_confusion,H03S,speech,environment,The elder pauses. Your relative steps closer.,Try again.,,PENDING_DR_LVS
+sione_speech_4_0,H03S,speech,climax_binary,The family listens.,[S4 PROVISIONAL ENGLISH: Thank you to the elders.] / [PROVISIONAL DISTRACTOR using S5: God bless this wedding.],,PENDING_DR_LVS
+sione_speech_4_0_nod,H03S,speech,environment,The elder nods.,Continue.,,PENDING_DR_LVS
+sione_speech_4_0_confusion,H03S,speech,environment,The elder pauses. Your relative steps closer.,Try again.,,PENDING_DR_LVS
+sione_speech_4_1,H03S,speech,climax_binary,The family listens.,[S4 PROVISIONAL ENGLISH: Thank you to the elders.] / [PROVISIONAL DISTRACTOR using S5: God bless this wedding.],,PENDING_DR_LVS
+sione_speech_4_1_nod,H03S,speech,environment,The elder nods.,Continue.,,PENDING_DR_LVS
+sione_speech_4_1_confusion,H03S,speech,environment,The elder pauses. Your relative steps closer.,Try again.,,PENDING_DR_LVS
+sione_speech_4_2,H03S,speech,climax_binary,The family listens.,[S4 PROVISIONAL ENGLISH: Thank you to the elders.] / [PROVISIONAL DISTRACTOR using S5: God bless this wedding.],,PENDING_DR_LVS
+sione_speech_4_2_nod,H03S,speech,environment,The elder nods.,Continue.,,PENDING_DR_LVS
+sione_speech_4_2_confusion,H03S,speech,environment,The elder pauses. Your relative steps closer.,Try again.,,PENDING_DR_LVS
+sione_speech_5_0,H03S,speech,climax_binary,The family listens.,[S5 PROVISIONAL ENGLISH: God bless this wedding.] / [PROVISIONAL DISTRACTOR using S6: Thank you.],,PENDING_DR_LVS
+sione_speech_5_0_nod,H03S,speech,environment,The elder nods.,Continue.,,PENDING_DR_LVS
+sione_speech_5_0_confusion,H03S,speech,environment,The elder pauses. Your relative steps closer.,Try again.,,PENDING_DR_LVS
+sione_speech_5_1,H03S,speech,climax_binary,The family listens.,[S5 PROVISIONAL ENGLISH: God bless this wedding.] / [PROVISIONAL DISTRACTOR using S6: Thank you.],,PENDING_DR_LVS
+sione_speech_5_1_nod,H03S,speech,environment,The elder nods.,Continue.,,PENDING_DR_LVS
+sione_speech_5_1_confusion,H03S,speech,environment,The elder pauses. Your relative steps closer.,Try again.,,PENDING_DR_LVS
+sione_speech_5_2,H03S,speech,climax_binary,The family listens.,[S5 PROVISIONAL ENGLISH: God bless this wedding.] / [PROVISIONAL DISTRACTOR using S6: Thank you.],,PENDING_DR_LVS
+sione_speech_5_2_nod,H03S,speech,environment,The elder nods.,Continue.,,PENDING_DR_LVS
+sione_speech_5_2_confusion,H03S,speech,environment,The elder pauses. Your relative steps closer.,Try again.,,PENDING_DR_LVS
+sione_speech_6_0,H03S,speech,climax_binary,The family listens.,"[S6 PROVISIONAL ENGLISH: Thank you.] / [PROVISIONAL DISTRACTOR using S1: Hello, everyone.]",,PENDING_DR_LVS
+sione_speech_6_0_nod,H03S,speech,environment,The elder nods.,Continue.,,PENDING_DR_LVS
+sione_speech_6_0_confusion,H03S,speech,environment,The elder pauses. Your relative steps closer.,Try again.,,PENDING_DR_LVS
+sione_speech_6_1,H03S,speech,climax_binary,The family listens.,"[S6 PROVISIONAL ENGLISH: Thank you.] / [PROVISIONAL DISTRACTOR using S1: Hello, everyone.]",,PENDING_DR_LVS
+sione_speech_6_1_nod,H03S,speech,environment,The elder nods.,Continue.,,PENDING_DR_LVS
+sione_speech_6_1_confusion,H03S,speech,environment,The elder pauses. Your relative steps closer.,Try again.,,PENDING_DR_LVS
+sione_speech_6_2,H03S,speech,climax_binary,The family listens.,"[S6 PROVISIONAL ENGLISH: Thank you.] / [PROVISIONAL DISTRACTOR using S1: Hello, everyone.]",,PENDING_DR_LVS
+sione_speech_6_2_nod,H03S,speech,environment,The elder nods.,Continue.,,PENDING_DR_LVS
+sione_speech_6_2_confusion,H03S,speech,environment,The elder pauses. Your relative steps closer.,Try again.,,PENDING_DR_LVS
+sione_speech_reset,H03S,speech,sequence_reset,Let’s begin again. Slowly.,I am ready.,,PENDING_DR_LVS
+mele_a01_02,A01,greeting_identity,dialogue,Welcome. I am your family’s driver today. How are you?,"Good, thank you. / A little tired.",,PENDING_DR_LVS
+mele_a01_03,A01,greeting_identity,dialogue,A long flight. Your family is waiting.,I am happy to be here. / Thank you for coming.,,PENDING_DR_LVS
+mele_a01_04,A01,greeting_identity,repair_check,"One more time, so I have your name right. Who are you?",I am Mele. / You are Mele.,,PENDING_DR_LVS
+mele_a01_04_repair,A01,greeting_identity,repair,I am the driver. You are Mele.,I am Mele.,,PENDING_DR_LVS
+mele_a02_01,A02,greeting_identity,dialogue,Your return flight is after the wedding. A short visit.,Yes. I want to help. / Yes. I want to see everyone.,,PENDING_DR_LVS
+mele_a02_02,A02,greeting_identity,repair_check,Are you ready? We can go now.,"Yes. Let’s go. / Please, say it again.",,PENDING_DR_LVS
+mele_a02_02_repair,A02,greeting_identity,repair,Are you ready? Let’s go.,Yes. Let’s go.,,PENDING_DR_LVS
+mele_a02_03,A02,greeting_identity,dialogue,This way.,Thank you. / Let’s go.,,PENDING_DR_LVS
+mele_b01_01,B01,pointing,dialogue,Look. That is a coconut tree.,That is a coconut tree. / Look.,,PENDING_DR_LVS
+mele_b01_02,B01,pointing,repair_check,Look ahead. That is a church.,That is a church. / That is a coconut tree.,,PENDING_DR_LVS
+mele_b01_02_repair,B01,pointing,repair,Look ahead. The church is there.,That is a church.,,PENDING_DR_LVS
+mele_b01_03,B01,pointing,dialogue,That is the village. We are going this way.,That is the village. / This way.,,PENDING_DR_LVS
+mele_b01_04,B01,pointing,dialogue,Look. There is the sea.,That is the sea. / Look at the sea.,,PENDING_DR_LVS
+mele_b02_01,B02,pointing,repair_check,Look ahead. What is that?,That is a church. / That is the sea.,,PENDING_DR_LVS
+mele_b02_01_repair,B02,pointing,repair,Look again. That is a church.,That is a church.,,PENDING_DR_LVS
+mele_b02_02,B02,pointing,dialogue,Good. We are almost there. Your family’s house is ahead.,That is the house. / We are almost there.,,PENDING_DR_LVS
+mele_c01_01,C01,family_food,dialogue,Hello. You have arrived.,Hello. I am Mele. / Hello. Thank you.,,PENDING_DR_LVS
+mele_c01_02,C01,family_food,dialogue,I am your grandmother. Come and sit with me.,"Hello, Grandmother. / Thank you, Grandmother.",,PENDING_DR_LVS
+mele_c01_03,C01,family_food,dialogue,Come in. Sit here.,Thank you. / Here?,,PENDING_DR_LVS
+mele_c01_04,C01,family_food,dialogue,"Yes, here. How are you?","Good, thank you. / A little tired.",,PENDING_DR_LVS
+mele_c01_05,C01,family_food,dialogue,The wedding is soon. We are glad you came.,I am glad to be here. / Thank you for having me.,,PENDING_DR_LVS
+mele_c01_06,C01,family_food,dialogue,This is your family. There is a place for you.,Thank you. / I am happy to be with my family.,,PENDING_DR_LVS
+mele_c02_01,C02,family_food,dialogue,This is your cousin.,Hello. I am Mele. / Hello. How are you?,,PENDING_DR_LVS
+mele_c02_02,C02,family_food,dialogue,Hello.,Good to see you. / Hello.,,PENDING_DR_LVS
+mele_c02_03,C02,family_food,dialogue,Are you hungry? Here is rice.,"Yes, please. Thank you. / No, thank you.",,PENDING_DR_LVS
+mele_c02_04,C02,family_food,dialogue,Here is fish. Here is taro.,"I would like fish, please. / I would like taro, please.",,PENDING_DR_LVS
+mele_c02_05,C02,family_food,dialogue,Would you like water?,"Yes, please. / No, thank you.",,PENDING_DR_LVS
+mele_c02_06,C02,family_food,dialogue,There is more food. Would you like some?,"Yes, thank you. / No, thank you.",,PENDING_DR_LVS
+mele_c02_07,C02,family_food,dialogue,Those two are brother and sister. They are helping too.,Your brother and sister? / Brother and sister.,,PENDING_DR_LVS
+mele_c03_01,C03,family_food,dialogue,Your cousin can show you around.,Only if you want to. / We can go together later. / Let’s go. We can talk later.,,PENDING_DR_LVS
+mele_c03_02,C03,family_food,dialogue,Everyone asks me to show people around.,We can just eat. / You can say no.,,PENDING_DR_LVS
+mele_c03_03,C03,family_food,dialogue,You don’t know all the words either?,No. I am learning. / Some words. Not all.,,PENDING_DR_LVS
+mele_c03_04,C03,family_food,dialogue,I know what they mean. Sometimes I don’t want to say them.,We can try together. / I can listen.,,PENDING_DR_LVS
+mele_c03_05,C03,family_food,dialogue,Maybe later.,All right. / See you later.,,PENDING_DR_LVS
+mele_c04_01,C04,family_food,dialogue,We need help with the wedding. Can you help?,Yes. I will help. / Yes. Please show me.,,PENDING_DR_LVS
+mele_c04_02,C04,family_food,repair_check,We need food and drinks from the market. Two bundles of food. Three drinks.,Two bundles. Three drinks. / Please say it again.,,PENDING_DR_LVS
+mele_c04_02_repair,C04,family_food,repair,Two bundles of food. Three drinks.,Two bundles. Three drinks.,,PENDING_DR_LVS
+mele_c04_03,C04,family_food,dialogue,Then ask the minister about the time. We will go together.,What time? / We will go together.,,PENDING_DR_LVS
+mele_c04_04,C04,family_food,dialogue,"You will have a small part at the wedding, too. We will practise.",I will try. / Will you help me?,,PENDING_DR_LVS
+mele_c04_05,C04,family_food,dialogue,Yes. First the market. One thing at a time.,Thank you for your help. / Let’s go.,,PENDING_DR_LVS
+mele_d01_01,D01,requests_quantity,repair_check,Look. That is the food stall.,That is the food stall. / That is the church.,,PENDING_DR_LVS
+mele_d01_01_repair,D01,requests_quantity,repair,Look here. Food is on this table.,That is the food stall.,,PENDING_DR_LVS
+mele_d01_02,D01,requests_quantity,dialogue,Hello. How are you?,"Good, thank you. / Hello. I am Mele.",,PENDING_DR_LVS
+mele_d01_03,D01,requests_quantity,repair_check,What do you need?,"I need food, please. / I need the sea.",,PENDING_DR_LVS
+mele_d01_03_repair,D01,requests_quantity,repair,Food is here. What do you need?,"I need food, please.",,PENDING_DR_LVS
+mele_d01_04,D01,requests_quantity,repair_check,We need two bundles.,Two bundles. / Three bundles.,,PENDING_DR_LVS
+mele_d01_04_repair,D01,requests_quantity,repair,Two bundles of food.,Two bundles.,,PENDING_DR_LVS
+mele_d02_01,D02,requests_quantity,repair_check,How many bundles?,"Two, please. / Three, please.",,PENDING_DR_LVS
+mele_d02_01_repair,D02,requests_quantity,repair,The family asked for two bundles.,"Two, please.",,PENDING_DR_LVS
+mele_d02_02,D02,requests_quantity,repair_check,Two bundles. Is that enough?,Yes. That is enough. / Please show me again.,,PENDING_DR_LVS
+mele_d02_02_repair,D02,requests_quantity,repair,Here are the two bundles.,Yes. That is enough.,,PENDING_DR_LVS
+mele_d02_03,D02,requests_quantity,repair_check,We also need three drinks.,"I need three drinks, please. / I need two drinks.",,PENDING_DR_LVS
+mele_d02_03_repair,D02,requests_quantity,repair,"Three drinks. One, two, three.","I need three drinks, please.",,PENDING_DR_LVS
+mele_d02_04,D02,requests_quantity,repair_check,Two drinks?,"No. Three, please. / Yes. Two.",,PENDING_DR_LVS
+mele_d02_04_repair,D02,requests_quantity,repair,You asked for three. Let’s count again.,"No. Three, please.",,PENDING_DR_LVS
+mele_d02_05,D02,requests_quantity,dialogue,Three. Is that enough?,Yes. Thank you. / Three. Thank you.,,PENDING_DR_LVS
+mele_d03_01,D03,requests_quantity,repair_check,What do you need for the wedding?,I need two bundles of food and three drinks. / I need three bundles and two drinks.,,PENDING_DR_LVS
+mele_d03_01_repair,D03,requests_quantity,repair,Two bundles of food. Three drinks.,I need two bundles of food and three drinks.,,PENDING_DR_LVS
+mele_d03_02,D03,requests_quantity,dialogue,Good. Two bundles and three drinks.,That is enough. Thank you. / Thank you for your help.,,PENDING_DR_LVS
+mele_d03_03,D03,requests_quantity,dialogue,I will pay. You asked for what we needed.,Thank you. / I can carry these.,,PENDING_DR_LVS
+mele_d03_04,D03,requests_quantity,dialogue,Thank you. See you again.,Thank you. Goodbye. / Goodbye.,,PENDING_DR_LVS
+mele_d04_01,D04,requests_quantity,dialogue,Your cousin might come next time.,I can ask. / I can go with you again.,,PENDING_DR_LVS
+mele_d04_02,D04,requests_quantity,repair_check,The food is ready. What did you ask for?,Two bundles of food. Three drinks. / Three bundles of food.,,PENDING_DR_LVS
+mele_d04_02_repair,D04,requests_quantity,repair,Two bundles. Three drinks.,Two bundles of food. Three drinks.,,PENDING_DR_LVS
+mele_d04_03,D04,requests_quantity,dialogue,"Thank you. At the wedding, speak slowly too.",Slowly. I can do that. / Please help me practise.,,PENDING_DR_LVS
+mele_d05m_01,D05M,dance,dialogue,You will dance. We will practise each movement and what it means.,Please show me. / I want to understand it.,,PENDING_DR_LVS
+mele_d05m_02,D05M,dance,dialogue,You can ask to try again.,Let’s try again. / Thank you for your help.,,PENDING_DR_LVS
+mele_e01_01,E01,polite_time,dialogue,Here is the minister. We are here about the wedding.,"Hello, Minister. / Hello. We are preparing the wedding.",,PENDING_DR_LVS
+mele_e01_02,E01,polite_time,dialogue,Hello. Welcome. How can I help?,We are preparing the wedding. / Thank you for your help.,,PENDING_DR_LVS
+mele_e01_03,E01,polite_time,dialogue,The family is getting ready. You have come a long way.,I am happy to be with my family. / Yes. I am here to help.,,PENDING_DR_LVS
+mele_e01_04,E01,polite_time,repair_check,Please ask about the time.,What time does it start? / What food is there?,,PENDING_DR_LVS
+mele_e01_04_repair,E01,polite_time,repair,Ask about the time. What time does it start?,What time does it start?,,PENDING_DR_LVS
+mele_e02_01,E02,polite_time,repair_check,The family gathering starts at ten.,At ten. Thank you. / Please say it again.,,PENDING_DR_LVS
+mele_e02_01_repair,E02,polite_time,repair,At ten.,At ten. Thank you.,,PENDING_DR_LVS
+mele_e02_02,E02,polite_time,repair_check,At ten. We will see your family there.,We will be there at ten. / We will be there at two.,,PENDING_DR_LVS
+mele_e02_02_repair,E02,polite_time,repair,At ten. Look at the clock.,We will be there at ten.,,PENDING_DR_LVS
+mele_e02_03,E02,polite_time,repair_check,What time will we be there?,At ten. / At two.,,PENDING_DR_LVS
+mele_e02_03_repair,E02,polite_time,repair,At ten.,At ten.,,PENDING_DR_LVS
+mele_e02_04,E02,polite_time,dialogue,Thank you for checking.,"Thank you for your help. / Thank you, Minister.",,PENDING_DR_LVS
+mele_e03_01,E03,ceremonial,dialogue,You thanked the minister yourself.,I knew that part. / I was nervous.,,PENDING_DR_LVS
+mele_e03_02,E03,ceremonial,dialogue,That is enough for today. Your wedding part will be short.,Short is good. / Please practise with me.,,PENDING_DR_LVS
+mele_e03_03,E03,ceremonial,dialogue,First understand what you want to say. Then we will practise the words.,I want to thank my family. / I want to say I am happy to be here.,,PENDING_DR_LVS
+mele_e03_04,E03,ceremonial,dialogue,We will practise at home.,Thank you for your help. / We will be there at ten.,,PENDING_DR_LVS
+mele_e04m_01,E04M,dance,dialogue,We will use the movements our elder teaches. Do not guess at their meaning.,Show me one pair. / Let’s practise slowly.,,PENDING_DR_LVS
+mele_e04m_02,E04M,dance,dialogue,You can ask to try again.,Let’s try again. / Thank you for your help.,,PENDING_DR_LVS
+mele_f01_01,F01,motion,dialogue,You came. There is no shopping here.,I came to see you. / I came to play.,,PENDING_DR_LVS
+mele_f01_02,F01,motion,repair_check,Come. Let’s play.,Let’s go. / Please say it again.,,PENDING_DR_LVS
+mele_f01_02_repair,F01,motion,repair,Come. Let’s play.,Let’s go.,,PENDING_DR_LVS
+mele_f01_03,F01,motion,repair_check,Look. The ball is there.,That is the ball. / That is the church.,,PENDING_DR_LVS
+mele_f01_03_repair,F01,motion,repair,Look here. The ball.,That is the ball.,,PENDING_DR_LVS
+mele_f01_04,F01,motion,dialogue,Kick the ball.,I will try. / Show me first.,,PENDING_DR_LVS
+mele_f01_05,F01,motion,dialogue,Like this. Come on.,Let’s play. / I will try.,,PENDING_DR_LVS
+mele_f02_01,F02,motion,dialogue,That went the wrong way. Try again.,I will try again. / You show me.,,PENDING_DR_LVS
+mele_f02_02,F02,motion,dialogue,You are getting better. Are you tired?,Not yet. Let’s play. / Yes. Let’s rest.,,PENDING_DR_LVS
+mele_f02_03,F02,motion,repair_check,"All right. One more pass, then we rest. Come.",Let’s go. / How many drinks?,,PENDING_DR_LVS
+mele_f02_03_repair,F02,motion,repair,Come. Let’s play.,Let’s go.,,PENDING_DR_LVS
+mele_f02_04,F02,motion,dialogue,Good. That is enough.,This is fun. / Thank you for playing.,,PENDING_DR_LVS
+mele_f03_01,F03,motion,dialogue,"At home, someone always answers before I do.",I can wait. / That happens to me too. / Let’s go. We can talk later.,,PENDING_DR_LVS
+mele_f03_02,F03,motion,dialogue,Then they ask why I am quiet.,You can take your time. / We can try one line together.,,PENDING_DR_LVS
+mele_f03_03,F03,motion,dialogue,Will everyone look at you at the wedding?,Yes. I am nervous. / Yes. I will practise.,,PENDING_DR_LVS
+mele_f03_04,F03,motion,dialogue,You still want to do it?,I want to be part of it. / I want to thank them.,,PENDING_DR_LVS
+mele_f03_05,F03,motion,dialogue,Maybe I can help you practise. Just us.,I would like that. / Only if you want to.,,PENDING_DR_LVS
+mele_f03_06,F03,motion,dialogue,Come. We should go back.,Let’s go. / Good. Let’s go.,,PENDING_DR_LVS
+mele_f04m_01,F04M,dance,dialogue,You can practise here. I can watch if you want.,"Yes, please. / Please wait while I try.",,PENDING_DR_LVS
+mele_f04m_02,F04M,dance,dialogue,You can ask to try again.,Let’s try again. / Thank you for your help.,,PENDING_DR_LVS
+mele_g01_01,G01,ceremonial,repair_check,The supplies are here. What time tomorrow?,At ten. / At two.,,PENDING_DR_LVS
+mele_g01_01_repair,G01,ceremonial,repair,At ten. You checked with the minister.,At ten.,,PENDING_DR_LVS
+mele_g01_02,G01,ceremonial,dialogue,Two bundles of food. Three drinks. Is that enough?,Yes. That is enough. / Thank you for your help.,,PENDING_DR_LVS
+mele_g01_03,G01,ceremonial,repair_check,What did you ask for at the market?,I need two bundles of food and three drinks. / I need three bundles and two drinks.,,PENDING_DR_LVS
+mele_g01_03_repair,G01,ceremonial,repair,Two bundles of food. Three drinks.,I need two bundles of food and three drinks.,,PENDING_DR_LVS
+mele_g01_04,G01,ceremonial,dialogue,Tomorrow we will ask you to take your part.,I am ready to practise. / Please stay near me.,,PENDING_DR_LVS
+mele_g01_05,G01,ceremonial,dialogue,We will be near you.,Thank you. / I am happy to be here.,,PENDING_DR_LVS
+mele_g02_01,G02,ceremonial,dialogue,Do you want me to stay?,"Yes, please. / You can just listen.",,PENDING_DR_LVS
+mele_g02_02,G02,ceremonial,dialogue,"If you stop, I can wait. Like you did.",Thank you. / Then let’s try.,,PENDING_DR_LVS
+mele_g02_03,G02,ceremonial,dialogue,We will practise one part at a time.,One part at a time. / I will try.,,PENDING_DR_LVS
+mele_g03_01,G03,ceremonial,repair_check,"Say: Hello, everyone.","Hello, everyone. / Goodbye, everyone.",,PENDING_DR_LVS
+mele_g03_01_repair,G03,ceremonial,repair,"Hello, everyone.","Hello, everyone.",,PENDING_DR_LVS
+mele_g03_02,G03,ceremonial,repair_check,Say: I give thanks.,I give thanks. / What time?,,PENDING_DR_LVS
+mele_g03_02_repair,G03,ceremonial,repair,I give thanks.,I give thanks.,,PENDING_DR_LVS
+mele_g03_03,G03,ceremonial,dialogue,Your family is here.,I love my family. / I am happy to be with my family.,,PENDING_DR_LVS
+mele_g03_04,G03,ceremonial,dialogue,Good. Now your own part.,I am ready. / Let’s practise.,,PENDING_DR_LVS
+mele_h01_01,H01,ceremonial,dialogue,We are here. The family is ready.,I am happy to be with my family. / Thank you for your help.,,PENDING_DR_LVS
+mele_h01_02,H01,ceremonial,repair_check,There is water for the table. What do you need?,"I need water, please. / I need the sea.",,PENDING_DR_LVS
+mele_h01_02_repair,H01,ceremonial,repair,"Water is here. I need water, please.","I need water, please.",,PENDING_DR_LVS
+mele_h01_03,H01,ceremonial,dialogue,"Hello, everyone. Thank you for coming.","Hello, everyone. / Thank you.",,PENDING_DR_LVS
+mele_h01_04,H01,ceremonial,dialogue,I will be here.,Thank you. / I am glad you came.,,PENDING_DR_LVS
+mele_h01_05,H01,ceremonial,dialogue,Slowly. Just as we practised.,I am ready. / Stay near me.,,PENDING_DR_LVS
+mele_h02_01,H02,ceremonial,dialogue,Thank you. Come and sit with us.,Thank you. / I am happy to be here.,,PENDING_DR_LVS
+mele_h02_02,H02,ceremonial,dialogue,You did your part. Now eat with us.,"Thank you for the food. / Yes, please.",,PENDING_DR_LVS
+mele_h02_03,H02,ceremonial,dialogue,I said hello with you.,I heard you. / We did it together.,,PENDING_DR_LVS
+mele_h02_04,H02,ceremonial,dialogue,Not all of it. Just that part.,That part was enough. / We can practise again.,,PENDING_DR_LVS
+mele_i01_01,I01,farewell,dialogue,Here we are again. Are you ready?,Yes. Thank you. / Almost.,,PENDING_DR_LVS
+mele_i01_02,I01,farewell,dialogue,Would you like water before you go?,"I need water, please. / No, thank you.",,PENDING_DR_LVS
+mele_i01_03,I01,farewell,dialogue,Thank you for being with us.,I give thanks to my family. / I love my family.,,PENDING_DR_LVS
+mele_i01_04,I01,farewell,dialogue,You are leaving. Goodbye. Travel safely.,Goodbye. I will come back. / Goodbye. Thank you.,,PENDING_DR_LVS
+mele_i01_05,I01,farewell,repair_check,We will stay here. Say goodbye to us.,Goodbye. / Please show me.,,PENDING_DR_LVS
+mele_i01_05_repair,I01,farewell,repair,You go. We stay. Goodbye to those staying.,Goodbye.,,PENDING_DR_LVS
+mele_i01_06,I01,farewell,dialogue,We love you.,I love you all. / Thank you. I love you.,,PENDING_DR_LVS
+mele_i02_01,I02,farewell,dialogue,Message me when you get home.,I will. / You message me too.,,PENDING_DR_LVS
+mele_i02_02,I02,farewell,dialogue,"Next time, let me say hello first.",I will wait. / We can say it together.,,PENDING_DR_LVS
+mele_i02_03,I02,farewell,dialogue,Hello. I am your cousin.,Hello. I am Mele. / Good to see you.,,PENDING_DR_LVS
+mele_i02_04,I02,farewell,dialogue,All right. Goodbye.,Goodbye. I will come back. / Goodbye. I love you.,,PENDING_DR_LVS
+mele_i03_01,I03,farewell,repair_check,They are staying. You are leaving.,Goodbye. / Goodbye.,,PENDING_DR_LVS
+mele_i03_01_repair,I03,farewell,repair,You are leaving. They are staying.,Goodbye to those staying.,,PENDING_DR_LVS
+mele_i03_02,I03,farewell,dialogue,Come back soon.,I will come back. / Thank you for your help.,,PENDING_DR_LVS
+mele_i03_03,I03,farewell,dialogue,Goodbye. We love you.,Goodbye. I love you all. / Goodbye. Thank you.,,PENDING_DR_LVS
+mele_practice_mele_4_1,D05M,dance,slot_introduction,Practise this part with me: [APPROVAL SLOT M1: elder-supplied movement + reason pair],[APPROVAL SLOT M1: elder-supplied movement + reason pair] / Please show me again.,mele_1,PENDING_DR_LVS
+mele_practice_mele_4_2,D05M,dance,slot_introduction,Practise this part with me: [APPROVAL SLOT M2: elder-supplied movement + reason pair],[APPROVAL SLOT M2: elder-supplied movement + reason pair] / Please show me again.,mele_2,PENDING_DR_LVS
+mele_practice_mele_5_1,E04M,dance,slot_introduction,Practise this part with me: [APPROVAL SLOT M3: elder-supplied movement + reason pair],[APPROVAL SLOT M3: elder-supplied movement + reason pair] / Please show me again.,mele_3,PENDING_DR_LVS
+mele_practice_mele_6_1,F04M,dance,slot_introduction,Practise this part with me: [APPROVAL SLOT M4: elder-supplied movement + reason pair],[APPROVAL SLOT M4: elder-supplied movement + reason pair] / Please show me again.,mele_4,PENDING_DR_LVS
+mele_eve_mele_1,G04M,dance,slot_retrieval,Your next part is [APPROVAL SLOT M1]. Try it now.,[APPROVAL SLOT M1] / Please show me again.,mele_1,PENDING_DR_LVS
+mele_eve_mele_1_model,G04M,dance,slot_model,Here is that part again: [APPROVAL SLOT M1],[APPROVAL SLOT M1],mele_1,PENDING_DR_LVS
+mele_eve_mele_2,G04M,dance,slot_retrieval,Your next part is [APPROVAL SLOT M2]. Try it now.,[APPROVAL SLOT M2] / Please show me again.,mele_2,PENDING_DR_LVS
+mele_eve_mele_2_model,G04M,dance,slot_model,Here is that part again: [APPROVAL SLOT M2],[APPROVAL SLOT M2],mele_2,PENDING_DR_LVS
+mele_eve_mele_3,G04M,dance,slot_retrieval,Your next part is [APPROVAL SLOT M3]. Try it now.,[APPROVAL SLOT M3] / Please show me again.,mele_3,PENDING_DR_LVS
+mele_eve_mele_3_model,G04M,dance,slot_model,Here is that part again: [APPROVAL SLOT M3],[APPROVAL SLOT M3],mele_3,PENDING_DR_LVS
+mele_eve_mele_4,G04M,dance,slot_retrieval,Your next part is [APPROVAL SLOT M4]. Try it now.,[APPROVAL SLOT M4] / Please show me again.,mele_4,PENDING_DR_LVS
+mele_eve_mele_4_model,G04M,dance,slot_model,Here is that part again: [APPROVAL SLOT M4],[APPROVAL SLOT M4],mele_4,PENDING_DR_LVS
+mele_eve_finish,G04M,dance,revision,Good. We will be there with you.,I give thanks. / Please practise the opening again.,,PENDING_DR_LVS
+mele_climax_mele_start,H03M,dance,sequence_start,Now Mele will dance.,I am ready.,,PENDING_DR_LVS
+mele_dance_1_0,H03M,dance,climax_binary,The next part of the dance.,[APPROVAL SLOT M1: next movement + matching reason] / [APPROVAL DISTRACTOR M1: practised movement + nonmatching practised reason],,PENDING_DR_LVS
+mele_dance_1_0_join,H03M,dance,environment,A guest joins the dancers.,Continue.,,PENDING_DR_LVS
+mele_dance_1_0_wait,H03M,dance,environment,The guests keep watching.,Continue.,,PENDING_DR_LVS
+mele_dance_2_0,H03M,dance,climax_binary,The next part of the dance.,[APPROVAL SLOT M2: next movement + matching reason] / [APPROVAL DISTRACTOR M2: practised movement + nonmatching practised reason],,PENDING_DR_LVS
+mele_dance_2_0_join,H03M,dance,environment,A guest joins the dancers.,Continue.,,PENDING_DR_LVS
+mele_dance_2_0_wait,H03M,dance,environment,The guests keep watching.,Continue.,,PENDING_DR_LVS
+mele_dance_2_1,H03M,dance,climax_binary,The next part of the dance.,[APPROVAL SLOT M2: next movement + matching reason] / [APPROVAL DISTRACTOR M2: practised movement + nonmatching practised reason],,PENDING_DR_LVS
+mele_dance_2_1_join,H03M,dance,environment,A guest joins the dancers.,Continue.,,PENDING_DR_LVS
+mele_dance_2_1_wait,H03M,dance,environment,The guests keep watching.,Continue.,,PENDING_DR_LVS
+mele_dance_3_0,H03M,dance,climax_binary,The next part of the dance.,[APPROVAL SLOT M3: next movement + matching reason] / [APPROVAL DISTRACTOR M3: practised movement + nonmatching practised reason],,PENDING_DR_LVS
+mele_dance_3_0_join,H03M,dance,environment,A guest joins the dancers.,Continue.,,PENDING_DR_LVS
+mele_dance_3_0_wait,H03M,dance,environment,The guests keep watching.,Continue.,,PENDING_DR_LVS
+mele_dance_3_1,H03M,dance,climax_binary,The next part of the dance.,[APPROVAL SLOT M3: next movement + matching reason] / [APPROVAL DISTRACTOR M3: practised movement + nonmatching practised reason],,PENDING_DR_LVS
+mele_dance_3_1_join,H03M,dance,environment,A guest joins the dancers.,Continue.,,PENDING_DR_LVS
+mele_dance_3_1_wait,H03M,dance,environment,The guests keep watching.,Continue.,,PENDING_DR_LVS
+mele_dance_3_2,H03M,dance,climax_binary,The next part of the dance.,[APPROVAL SLOT M3: next movement + matching reason] / [APPROVAL DISTRACTOR M3: practised movement + nonmatching practised reason],,PENDING_DR_LVS
+mele_dance_3_2_join,H03M,dance,environment,A guest joins the dancers.,Continue.,,PENDING_DR_LVS
+mele_dance_3_2_wait,H03M,dance,environment,The guests keep watching.,Continue.,,PENDING_DR_LVS
+mele_dance_4_0,H03M,dance,climax_binary,The next part of the dance.,[APPROVAL SLOT M4: next movement + matching reason] / [APPROVAL DISTRACTOR M4: practised movement + nonmatching practised reason],,PENDING_DR_LVS
+mele_dance_4_0_join,H03M,dance,environment,A guest joins the dancers.,Continue.,,PENDING_DR_LVS
+mele_dance_4_0_wait,H03M,dance,environment,The guests keep watching.,Continue.,,PENDING_DR_LVS
+mele_dance_4_1,H03M,dance,climax_binary,The next part of the dance.,[APPROVAL SLOT M4: next movement + matching reason] / [APPROVAL DISTRACTOR M4: practised movement + nonmatching practised reason],,PENDING_DR_LVS
+mele_dance_4_1_join,H03M,dance,environment,A guest joins the dancers.,Continue.,,PENDING_DR_LVS
+mele_dance_4_1_wait,H03M,dance,environment,The guests keep watching.,Continue.,,PENDING_DR_LVS
+mele_dance_4_2,H03M,dance,climax_binary,The next part of the dance.,[APPROVAL SLOT M4: next movement + matching reason] / [APPROVAL DISTRACTOR M4: practised movement + nonmatching practised reason],,PENDING_DR_LVS
+mele_dance_4_2_join,H03M,dance,environment,A guest joins the dancers.,Continue.,,PENDING_DR_LVS
+mele_dance_4_2_wait,H03M,dance,environment,The guests keep watching.,Continue.,,PENDING_DR_LVS
+mele_dance_4_3,H03M,dance,climax_binary,The next part of the dance.,[APPROVAL SLOT M4: next movement + matching reason] / [APPROVAL DISTRACTOR M4: practised movement + nonmatching practised reason],,PENDING_DR_LVS
+mele_dance_4_3_join,H03M,dance,environment,A guest joins the dancers.,Continue.,,PENDING_DR_LVS
+mele_dance_4_3_wait,H03M,dance,environment,The guests keep watching.,Continue.,,PENDING_DR_LVS
+mele_dance_reset,H03M,dance,sequence_reset,Let’s begin again. I am here.,I am ready.,,PENDING_DR_LVS
+mele_dance_success,H03M,dance,sequence_success,Thank you. Come and sit with us.,Thank you.,,PENDING_DR_LVS
+airport_greeting,A01,greeting_identity,identity_select,Hello. Who are you?,I am Sione. / I am Mele.,,PENDING_DR_LVS
+sione_a01_02_response_0,A01,greeting_identity,branch_response,Good. Let’s get you home.,Continue.,,PENDING_DR_LVS
+sione_a01_02_response_1,A01,greeting_identity,branch_response,We can take it slowly.,Continue.,,PENDING_DR_LVS
+sione_c02_03_response_0,C02,family_food,branch_response,Here you are.,Continue.,,PENDING_DR_LVS
+sione_c02_03_response_1,C02,family_food,branch_response,All right. It is here if you want it later.,Continue.,,PENDING_DR_LVS
+sione_c02_04_response_0,C02,family_food,branch_response,Here is the fish.,Continue.,,PENDING_DR_LVS
+sione_c02_04_response_1,C02,family_food,branch_response,Here is the taro.,Continue.,,PENDING_DR_LVS
+sione_c02_05_response_0,C02,family_food,branch_response,Here is water.,Continue.,,PENDING_DR_LVS
+sione_c02_05_response_1,C02,family_food,branch_response,All right.,Continue.,,PENDING_DR_LVS
+sione_c03_02_response_0,C03,family_food,branch_response,Good. I am still hungry.,Continue.,,PENDING_DR_LVS
+sione_c03_02_response_1,C03,family_food,branch_response,Then maybe later.,Continue.,,PENDING_DR_LVS
+sione_c03_04_response_0,C03,family_food,branch_response,One line. Not in front of everyone.,Continue.,,PENDING_DR_LVS
+sione_c03_04_response_1,C03,family_food,branch_response,Thanks.,Continue.,,PENDING_DR_LVS
+sione_f02_02_response_0,F02,motion,branch_response,"One more, then a rest.",Continue.,,PENDING_DR_LVS
+sione_f02_02_response_1,F02,motion,branch_response,All right. One last easy pass.,Continue.,,PENDING_DR_LVS
+sione_f03_02_response_0,F03,motion,branch_response,Most people don’t wait.,Continue.,,PENDING_DR_LVS
+sione_f03_02_response_1,F03,motion,branch_response,"Just us, then.",Continue.,,PENDING_DR_LVS
+sione_g02_01_response_0,G02,ceremonial,branch_response,I will stay.,Continue.,,PENDING_DR_LVS
+sione_g02_01_response_1,G02,ceremonial,branch_response,I can do that.,Continue.,,PENDING_DR_LVS
+sione_i02_02_response_0,I02,farewell,branch_response,Good. I will try.,Continue.,,PENDING_DR_LVS
+sione_i02_02_response_1,I02,farewell,branch_response,Let me start. You can come after.,Continue.,,PENDING_DR_LVS
+sione_c02_06_response_0,C02,family_food,branch_response,Of course.,Continue.,,PENDING_DR_LVS
+sione_c02_06_response_1,C02,family_food,branch_response,Of course.,Continue.,,PENDING_DR_LVS
+mele_a01_02_response_0,A01,greeting_identity,branch_response,Good. Let’s get you home.,Continue.,,PENDING_DR_LVS
+mele_a01_02_response_1,A01,greeting_identity,branch_response,We can take it slowly.,Continue.,,PENDING_DR_LVS
+mele_c02_03_response_0,C02,family_food,branch_response,Here you are.,Continue.,,PENDING_DR_LVS
+mele_c02_03_response_1,C02,family_food,branch_response,All right. It is here if you want it later.,Continue.,,PENDING_DR_LVS
+mele_c02_04_response_0,C02,family_food,branch_response,Here is the fish.,Continue.,,PENDING_DR_LVS
+mele_c02_04_response_1,C02,family_food,branch_response,Here is the taro.,Continue.,,PENDING_DR_LVS
+mele_c02_05_response_0,C02,family_food,branch_response,Here is water.,Continue.,,PENDING_DR_LVS
+mele_c02_05_response_1,C02,family_food,branch_response,All right.,Continue.,,PENDING_DR_LVS
+mele_c03_02_response_0,C03,family_food,branch_response,Good. I am still hungry.,Continue.,,PENDING_DR_LVS
+mele_c03_02_response_1,C03,family_food,branch_response,Then maybe later.,Continue.,,PENDING_DR_LVS
+mele_c03_04_response_0,C03,family_food,branch_response,One line. Not in front of everyone.,Continue.,,PENDING_DR_LVS
+mele_c03_04_response_1,C03,family_food,branch_response,Thanks.,Continue.,,PENDING_DR_LVS
+mele_f02_02_response_0,F02,motion,branch_response,"One more, then a rest.",Continue.,,PENDING_DR_LVS
+mele_f02_02_response_1,F02,motion,branch_response,All right. One last easy pass.,Continue.,,PENDING_DR_LVS
+mele_f03_02_response_0,F03,motion,branch_response,Most people don’t wait.,Continue.,,PENDING_DR_LVS
+mele_f03_02_response_1,F03,motion,branch_response,"Just us, then.",Continue.,,PENDING_DR_LVS
+mele_g02_01_response_0,G02,ceremonial,branch_response,I will stay.,Continue.,,PENDING_DR_LVS
+mele_g02_01_response_1,G02,ceremonial,branch_response,I can do that.,Continue.,,PENDING_DR_LVS
+mele_i02_02_response_0,I02,farewell,branch_response,Good. I will try.,Continue.,,PENDING_DR_LVS
+mele_i02_02_response_1,I02,farewell,branch_response,Let me start. You can come after.,Continue.,,PENDING_DR_LVS
+mele_c02_06_response_0,C02,family_food,branch_response,Of course.,Continue.,,PENDING_DR_LVS
+mele_c02_06_response_1,C02,family_food,branch_response,Of course.,Continue.,,PENDING_DR_LVS

@@ -1,0 +1,330 @@
+{
+  "optional_airport_direction": {
+    "node_id": "optional_airport_direction",
+    "speaker": "environment",
+    "line_tongan": "[DR LVS PENDING: optional_airport_direction.line]",
+    "line_english": "This way.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "[DR LVS PENDING: optional_airport_direction.choice.0]",
+        "caption": "This way.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": "optional_airport_direction_response"
+      },
+      {
+        "tongan": "[DR LVS PENDING: optional_airport_direction.choice.1]",
+        "caption": "Let’s go.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_airport_direction_response": {
+    "node_id": "optional_airport_direction_response",
+    "speaker": "environment",
+    "line_tongan": "[DR LVS PENDING: optional_airport_direction_response.line]",
+    "line_english": "Good.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "[DR LVS PENDING: optional_airport_direction_response.choice.0]",
+        "caption": "Let’s go.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_popua_coconut": {
+    "node_id": "optional_popua_coconut",
+    "speaker": "environment",
+    "line_tongan": "[DR LVS PENDING: optional_popua_coconut.line]",
+    "line_english": "Look. That is a coconut tree.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "[DR LVS PENDING: optional_popua_coconut.choice.0]",
+        "caption": "That is a coconut tree.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": "optional_popua_coconut_response"
+      },
+      {
+        "tongan": "[DR LVS PENDING: optional_popua_coconut.choice.1]",
+        "caption": "Let’s go.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_popua_coconut_response": {
+    "node_id": "optional_popua_coconut_response",
+    "speaker": "environment",
+    "line_tongan": "[DR LVS PENDING: optional_popua_coconut_response.line]",
+    "line_english": "Look.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "[DR LVS PENDING: optional_popua_coconut_response.choice.0]",
+        "caption": "Let’s go.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_market_display": {
+    "node_id": "optional_market_display",
+    "speaker": "environment",
+    "line_tongan": "[DR LVS PENDING: optional_market_display.line]",
+    "line_english": "Two bundles. Three drinks.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "[DR LVS PENDING: optional_market_display.choice.0]",
+        "caption": "That is enough.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": "optional_market_display_response"
+      },
+      {
+        "tongan": "[DR LVS PENDING: optional_market_display.choice.1]",
+        "caption": "Let’s go.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_market_display_response": {
+    "node_id": "optional_market_display_response",
+    "speaker": "environment",
+    "line_tongan": "[DR LVS PENDING: optional_market_display_response.line]",
+    "line_english": "Good.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "[DR LVS PENDING: optional_market_display_response.choice.0]",
+        "caption": "Let’s go.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_church_sign": {
+    "node_id": "optional_church_sign",
+    "speaker": "environment",
+    "line_tongan": "[DR LVS PENDING: optional_church_sign.line]",
+    "line_english": "That is the church.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "[DR LVS PENDING: optional_church_sign.choice.0]",
+        "caption": "That is the church.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": "optional_church_sign_response"
+      },
+      {
+        "tongan": "[DR LVS PENDING: optional_church_sign.choice.1]",
+        "caption": "Let’s go.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_church_sign_response": {
+    "node_id": "optional_church_sign_response",
+    "speaker": "environment",
+    "line_tongan": "[DR LVS PENDING: optional_church_sign_response.line]",
+    "line_english": "Look.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "[DR LVS PENDING: optional_church_sign_response.choice.0]",
+        "caption": "Let’s go.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_sports_ball": {
+    "node_id": "optional_sports_ball",
+    "speaker": "environment",
+    "line_tongan": "[DR LVS PENDING: optional_sports_ball.line]",
+    "line_english": "Look. The ball is there.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "[DR LVS PENDING: optional_sports_ball.choice.0]",
+        "caption": "That is the ball.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": "optional_sports_ball_response"
+      },
+      {
+        "tongan": "[DR LVS PENDING: optional_sports_ball.choice.1]",
+        "caption": "Let’s go.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_sports_ball_response": {
+    "node_id": "optional_sports_ball_response",
+    "speaker": "environment",
+    "line_tongan": "[DR LVS PENDING: optional_sports_ball_response.line]",
+    "line_english": "Good.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "[DR LVS PENDING: optional_sports_ball_response.choice.0]",
+        "caption": "Let’s go.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_eve_table": {
+    "node_id": "optional_eve_table",
+    "speaker": "environment",
+    "line_tongan": "[DR LVS PENDING: optional_eve_table.line]",
+    "line_english": "Two bundles of food. Three drinks.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "[DR LVS PENDING: optional_eve_table.choice.0]",
+        "caption": "That is enough.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": "optional_eve_table_response"
+      },
+      {
+        "tongan": "[DR LVS PENDING: optional_eve_table.choice.1]",
+        "caption": "Let’s go.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_eve_table_response": {
+    "node_id": "optional_eve_table_response",
+    "speaker": "environment",
+    "line_tongan": "[DR LVS PENDING: optional_eve_table_response.line]",
+    "line_english": "Good.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "[DR LVS PENDING: optional_eve_table_response.choice.0]",
+        "caption": "Let’s go.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_wedding_sea": {
+    "node_id": "optional_wedding_sea",
+    "speaker": "environment",
+    "line_tongan": "[DR LVS PENDING: optional_wedding_sea.line]",
+    "line_english": "Look. That is the sea.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "[DR LVS PENDING: optional_wedding_sea.choice.0]",
+        "caption": "That is the sea.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": "optional_wedding_sea_response"
+      },
+      {
+        "tongan": "[DR LVS PENDING: optional_wedding_sea.choice.1]",
+        "caption": "Let’s go.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_wedding_sea_response": {
+    "node_id": "optional_wedding_sea_response",
+    "speaker": "environment",
+    "line_tongan": "[DR LVS PENDING: optional_wedding_sea_response.line]",
+    "line_english": "Look.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "[DR LVS PENDING: optional_wedding_sea_response.choice.0]",
+        "caption": "Let’s go.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_departure_route": {
+    "node_id": "optional_departure_route",
+    "speaker": "environment",
+    "line_tongan": "[DR LVS PENDING: optional_departure_route.line]",
+    "line_english": "This way.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "[DR LVS PENDING: optional_departure_route.choice.0]",
+        "caption": "Let’s go.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": "optional_departure_route_response"
+      },
+      {
+        "tongan": "[DR LVS PENDING: optional_departure_route.choice.1]",
+        "caption": "Let’s go.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_departure_route_response": {
+    "node_id": "optional_departure_route_response",
+    "speaker": "environment",
+    "line_tongan": "[DR LVS PENDING: optional_departure_route_response.line]",
+    "line_english": "Good.",
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "[DR LVS PENDING: optional_departure_route_response.choice.0]",
+        "caption": "Let’s go.",
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  }
+}

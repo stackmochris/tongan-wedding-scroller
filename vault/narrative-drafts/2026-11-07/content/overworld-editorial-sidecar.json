@@ -1,0 +1,170 @@
+{
+  "optional_airport_direction": {
+    "english": "This way.",
+    "choices": [
+      "This way.",
+      "Let’s go."
+    ],
+    "area": 1,
+    "kind": "optional_environment",
+    "approval": "PENDING_DR_LVS",
+    "cue": "Small directional sign on forecourt, immediately beside the existing route; no required detour."
+  },
+  "optional_airport_direction_response": {
+    "english": "Good.",
+    "choices": [
+      "Let’s go."
+    ],
+    "area": 1,
+    "kind": "optional_environment",
+    "approval": "PENDING_DR_LVS",
+    "cue": "Brief highlight then return to original world position; no progress reward."
+  },
+  "optional_popua_coconut": {
+    "english": "Look. That is a coconut tree.",
+    "choices": [
+      "That is a coconut tree.",
+      "Let’s go."
+    ],
+    "area": 3,
+    "kind": "optional_environment",
+    "approval": "PENDING_DR_LVS",
+    "cue": "One palm at open gate; subtle outline only within interaction reach."
+  },
+  "optional_popua_coconut_response": {
+    "english": "Look.",
+    "choices": [
+      "Let’s go."
+    ],
+    "area": 3,
+    "kind": "optional_environment",
+    "approval": "PENDING_DR_LVS",
+    "cue": "Brief highlight then return to original world position; no progress reward."
+  },
+  "optional_market_display": {
+    "english": "Two bundles. Three drinks.",
+    "choices": [
+      "That is enough.",
+      "Let’s go."
+    ],
+    "area": 4,
+    "kind": "optional_environment",
+    "approval": "PENDING_DR_LVS",
+    "cue": "Highlight the same purchased display, no additional buy/collect interaction."
+  },
+  "optional_market_display_response": {
+    "english": "Good.",
+    "choices": [
+      "Let’s go."
+    ],
+    "area": 4,
+    "kind": "optional_environment",
+    "approval": "PENDING_DR_LVS",
+    "cue": "Brief highlight then return to original world position; no progress reward."
+  },
+  "optional_church_sign": {
+    "english": "That is the church.",
+    "choices": [
+      "That is the church.",
+      "Let’s go."
+    ],
+    "area": 5,
+    "kind": "optional_environment",
+    "approval": "PENDING_DR_LVS",
+    "cue": "Sign/entrance repeats an already-seen landmark; approved text separate from art."
+  },
+  "optional_church_sign_response": {
+    "english": "Look.",
+    "choices": [
+      "Let’s go."
+    ],
+    "area": 5,
+    "kind": "optional_environment",
+    "approval": "PENDING_DR_LVS",
+    "cue": "Brief highlight then return to original world position; no progress reward."
+  },
+  "optional_sports_ball": {
+    "english": "Look. The ball is there.",
+    "choices": [
+      "That is the ball.",
+      "Let’s go."
+    ],
+    "area": 6,
+    "kind": "optional_environment",
+    "approval": "PENDING_DR_LVS",
+    "cue": "Stationary spare ball at pitch edge; no new noun, passing task or dexterity challenge."
+  },
+  "optional_sports_ball_response": {
+    "english": "Good.",
+    "choices": [
+      "Let’s go."
+    ],
+    "area": 6,
+    "kind": "optional_environment",
+    "approval": "PENDING_DR_LVS",
+    "cue": "Brief highlight then return to original world position; no progress reward."
+  },
+  "optional_eve_table": {
+    "english": "Two bundles of food. Three drinks.",
+    "choices": [
+      "That is enough.",
+      "Let’s go."
+    ],
+    "area": 7,
+    "kind": "optional_environment",
+    "approval": "PENDING_DR_LVS",
+    "cue": "Prepared table reflects successful errand; reuse existing supply props."
+  },
+  "optional_eve_table_response": {
+    "english": "Good.",
+    "choices": [
+      "Let’s go."
+    ],
+    "area": 7,
+    "kind": "optional_environment",
+    "approval": "PENDING_DR_LVS",
+    "cue": "Brief highlight then return to original world position; no progress reward."
+  },
+  "optional_wedding_sea": {
+    "english": "Look. That is the sea.",
+    "choices": [
+      "That is the sea.",
+      "Let’s go."
+    ],
+    "area": 8,
+    "kind": "optional_environment",
+    "approval": "PENDING_DR_LVS",
+    "cue": "Coastline glimpse from existing venue path; no new beach map or mandatory conversation."
+  },
+  "optional_wedding_sea_response": {
+    "english": "Look.",
+    "choices": [
+      "Let’s go."
+    ],
+    "area": 8,
+    "kind": "optional_environment",
+    "approval": "PENDING_DR_LVS",
+    "cue": "Brief highlight then return to original world position; no progress reward."
+  },
+  "optional_departure_route": {
+    "english": "This way.",
+    "choices": [
+      "Let’s go.",
+      "Let’s go."
+    ],
+    "area": 9,
+    "kind": "optional_environment",
+    "approval": "PENDING_DR_LVS",
+    "cue": "Terminal entrance direction marker; bypassing it never prevents boarding."
+  },
+  "optional_departure_route_response": {
+    "english": "Good.",
+    "choices": [
+      "Let’s go."
+    ],
+    "area": 9,
+    "kind": "optional_environment",
+    "approval": "PENDING_DR_LVS",
+    "cue": "Brief highlight then return to original world position; no progress reward."
+  }
+}

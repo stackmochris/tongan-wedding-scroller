@@ -1,0 +1,330 @@
+{
+  "optional_airport_direction": {
+    "node_id": "optional_airport_direction",
+    "speaker": "environment",
+    "line_tongan": "This way.",
+    "line_english": null,
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "This way.",
+        "caption": null,
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": "optional_airport_direction_response"
+      },
+      {
+        "tongan": "Let’s go.",
+        "caption": null,
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_airport_direction_response": {
+    "node_id": "optional_airport_direction_response",
+    "speaker": "environment",
+    "line_tongan": "Good.",
+    "line_english": null,
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "Let’s go.",
+        "caption": null,
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_popua_coconut": {
+    "node_id": "optional_popua_coconut",
+    "speaker": "environment",
+    "line_tongan": "Look. That is a coconut tree.",
+    "line_english": null,
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "That is a coconut tree.",
+        "caption": null,
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": "optional_popua_coconut_response"
+      },
+      {
+        "tongan": "Let’s go.",
+        "caption": null,
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_popua_coconut_response": {
+    "node_id": "optional_popua_coconut_response",
+    "speaker": "environment",
+    "line_tongan": "Look.",
+    "line_english": null,
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "Let’s go.",
+        "caption": null,
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_market_display": {
+    "node_id": "optional_market_display",
+    "speaker": "environment",
+    "line_tongan": "Two bundles. Three drinks.",
+    "line_english": null,
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "That is enough.",
+        "caption": null,
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": "optional_market_display_response"
+      },
+      {
+        "tongan": "Let’s go.",
+        "caption": null,
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_market_display_response": {
+    "node_id": "optional_market_display_response",
+    "speaker": "environment",
+    "line_tongan": "Good.",
+    "line_english": null,
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "Let’s go.",
+        "caption": null,
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_church_sign": {
+    "node_id": "optional_church_sign",
+    "speaker": "environment",
+    "line_tongan": "That is the church.",
+    "line_english": null,
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "That is the church.",
+        "caption": null,
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": "optional_church_sign_response"
+      },
+      {
+        "tongan": "Let’s go.",
+        "caption": null,
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_church_sign_response": {
+    "node_id": "optional_church_sign_response",
+    "speaker": "environment",
+    "line_tongan": "Look.",
+    "line_english": null,
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "Let’s go.",
+        "caption": null,
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_sports_ball": {
+    "node_id": "optional_sports_ball",
+    "speaker": "environment",
+    "line_tongan": "Look. The ball is there.",
+    "line_english": null,
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "That is the ball.",
+        "caption": null,
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": "optional_sports_ball_response"
+      },
+      {
+        "tongan": "Let’s go.",
+        "caption": null,
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_sports_ball_response": {
+    "node_id": "optional_sports_ball_response",
+    "speaker": "environment",
+    "line_tongan": "Good.",
+    "line_english": null,
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "Let’s go.",
+        "caption": null,
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_eve_table": {
+    "node_id": "optional_eve_table",
+    "speaker": "environment",
+    "line_tongan": "Two bundles of food. Three drinks.",
+    "line_english": null,
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "That is enough.",
+        "caption": null,
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": "optional_eve_table_response"
+      },
+      {
+        "tongan": "Let’s go.",
+        "caption": null,
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_eve_table_response": {
+    "node_id": "optional_eve_table_response",
+    "speaker": "environment",
+    "line_tongan": "Good.",
+    "line_english": null,
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "Let’s go.",
+        "caption": null,
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_wedding_sea": {
+    "node_id": "optional_wedding_sea",
+    "speaker": "environment",
+    "line_tongan": "Look. That is the sea.",
+    "line_english": null,
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "That is the sea.",
+        "caption": null,
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": "optional_wedding_sea_response"
+      },
+      {
+        "tongan": "Let’s go.",
+        "caption": null,
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_wedding_sea_response": {
+    "node_id": "optional_wedding_sea_response",
+    "speaker": "environment",
+    "line_tongan": "Look.",
+    "line_english": null,
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "Let’s go.",
+        "caption": null,
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_departure_route": {
+    "node_id": "optional_departure_route",
+    "speaker": "environment",
+    "line_tongan": "This way.",
+    "line_english": null,
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "Let’s go.",
+        "caption": null,
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": "optional_departure_route_response"
+      },
+      {
+        "tongan": "Let’s go.",
+        "caption": null,
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  },
+  "optional_departure_route_response": {
+    "node_id": "optional_departure_route_response",
+    "speaker": "environment",
+    "line_tongan": "Good.",
+    "line_english": null,
+    "suppress_caption": false,
+    "requires_path": null,
+    "choices": [
+      {
+        "tongan": "Let’s go.",
+        "caption": null,
+        "sets_flag": null,
+        "add_joiner": false,
+        "next": null
+      }
+    ]
+  }
+}

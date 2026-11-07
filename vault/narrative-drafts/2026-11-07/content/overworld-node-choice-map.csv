@@ -1,0 +1,25 @@
+node_id,area,speaker,line_english,choice_index,choice_english,next,sets_flag,add_joiner,approval
+optional_airport_direction,1,environment,This way.,0,This way.,optional_airport_direction_response,,False,PENDING_DR_LVS
+optional_airport_direction,1,environment,This way.,1,Let’s go.,RETURN_TO_SAME_WORLD_POSITION,,False,PENDING_DR_LVS
+optional_airport_direction_response,1,environment,Good.,0,Let’s go.,RETURN_TO_SAME_WORLD_POSITION,,False,PENDING_DR_LVS
+optional_popua_coconut,3,environment,Look. That is a coconut tree.,0,That is a coconut tree.,optional_popua_coconut_response,,False,PENDING_DR_LVS
+optional_popua_coconut,3,environment,Look. That is a coconut tree.,1,Let’s go.,RETURN_TO_SAME_WORLD_POSITION,,False,PENDING_DR_LVS
+optional_popua_coconut_response,3,environment,Look.,0,Let’s go.,RETURN_TO_SAME_WORLD_POSITION,,False,PENDING_DR_LVS
+optional_market_display,4,environment,Two bundles. Three drinks.,0,That is enough.,optional_market_display_response,,False,PENDING_DR_LVS
+optional_market_display,4,environment,Two bundles. Three drinks.,1,Let’s go.,RETURN_TO_SAME_WORLD_POSITION,,False,PENDING_DR_LVS
+optional_market_display_response,4,environment,Good.,0,Let’s go.,RETURN_TO_SAME_WORLD_POSITION,,False,PENDING_DR_LVS
+optional_church_sign,5,environment,That is the church.,0,That is the church.,optional_church_sign_response,,False,PENDING_DR_LVS
+optional_church_sign,5,environment,That is the church.,1,Let’s go.,RETURN_TO_SAME_WORLD_POSITION,,False,PENDING_DR_LVS
+optional_church_sign_response,5,environment,Look.,0,Let’s go.,RETURN_TO_SAME_WORLD_POSITION,,False,PENDING_DR_LVS
+optional_sports_ball,6,environment,Look. The ball is there.,0,That is the ball.,optional_sports_ball_response,,False,PENDING_DR_LVS
+optional_sports_ball,6,environment,Look. The ball is there.,1,Let’s go.,RETURN_TO_SAME_WORLD_POSITION,,False,PENDING_DR_LVS
+optional_sports_ball_response,6,environment,Good.,0,Let’s go.,RETURN_TO_SAME_WORLD_POSITION,,False,PENDING_DR_LVS
+optional_eve_table,7,environment,Two bundles of food. Three drinks.,0,That is enough.,optional_eve_table_response,,False,PENDING_DR_LVS
+optional_eve_table,7,environment,Two bundles of food. Three drinks.,1,Let’s go.,RETURN_TO_SAME_WORLD_POSITION,,False,PENDING_DR_LVS
+optional_eve_table_response,7,environment,Good.,0,Let’s go.,RETURN_TO_SAME_WORLD_POSITION,,False,PENDING_DR_LVS
+optional_wedding_sea,8,environment,Look. That is the sea.,0,That is the sea.,optional_wedding_sea_response,,False,PENDING_DR_LVS
+optional_wedding_sea,8,environment,Look. That is the sea.,1,Let’s go.,RETURN_TO_SAME_WORLD_POSITION,,False,PENDING_DR_LVS
+optional_wedding_sea_response,8,environment,Look.,0,Let’s go.,RETURN_TO_SAME_WORLD_POSITION,,False,PENDING_DR_LVS
+optional_departure_route,9,environment,This way.,0,Let’s go.,optional_departure_route_response,,False,PENDING_DR_LVS
+optional_departure_route,9,environment,This way.,1,Let’s go.,RETURN_TO_SAME_WORLD_POSITION,,False,PENDING_DR_LVS
+optional_departure_route_response,9,environment,Good.,0,Let’s go.,RETURN_TO_SAME_WORLD_POSITION,,False,PENDING_DR_LVS

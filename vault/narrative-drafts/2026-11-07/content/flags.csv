@@ -1,0 +1,24 @@
+flag,set_at,purpose,read_policy
+cousin_invited,sione_f03_06:0; sione_f03_06:1; mele_f03_06:0; mele_f03_06:1,Progress/participation record,Never read by current dialogue loader. Intended integration only; graph links carry this review draft.
+dance_complete,mele_dance_4_2:0; mele_dance_4_3:0; mele_dance_success:0,Progress/participation record,Never read by current dialogue loader. Intended integration only; graph links carry this review draft.
+dance_rehearsed,mele_eve_finish:0,Progress/participation record,Never read by current dialogue loader. Intended integration only; graph links carry this review draft.
+got_supplies,sione_d03_04:0; sione_d03_04:1; mele_d03_04:0; mele_d03_04:1,Progress/participation record,Never read by current dialogue loader. Intended integration only; graph links carry this review draft.
+identity_confirmed,sione_a01_04:0; sione_a01_04_repair:0; mele_a01_04:0; mele_a01_04_repair:0,Progress/participation record,Never read by current dialogue loader. Intended integration only; graph links carry this review draft.
+mele_fragment_1_practised,mele_practice_mele_4_1:0,Progress/participation record,Never read by current dialogue loader. Intended integration only; graph links carry this review draft.
+mele_fragment_2_practised,mele_practice_mele_4_2:0,Progress/participation record,Never read by current dialogue loader. Intended integration only; graph links carry this review draft.
+mele_fragment_3_practised,mele_practice_mele_5_1:0,Progress/participation record,Never read by current dialogue loader. Intended integration only; graph links carry this review draft.
+mele_fragment_4_practised,mele_practice_mele_6_1:0,Progress/participation record,Never read by current dialogue loader. Intended integration only; graph links carry this review draft.
+onboarding_complete,sione_b02_02:0; sione_b02_02:1; mele_b02_02:0; mele_b02_02:1,Progress/participation record,Never read by current dialogue loader. Intended integration only; graph links carry this review draft.
+path_mele,airport_greeting:1,Character selection,Never read by current dialogue loader. Intended integration only; graph links carry this review draft.
+path_sione,airport_greeting:0,Character selection,Never read by current dialogue loader. Intended integration only; graph links carry this review draft.
+sione_fragment_1_practised,sione_practice_sione_4_1:0,Progress/participation record,Never read by current dialogue loader. Intended integration only; graph links carry this review draft.
+sione_fragment_2_practised,sione_practice_sione_4_2:0,Progress/participation record,Never read by current dialogue loader. Intended integration only; graph links carry this review draft.
+sione_fragment_3_practised,sione_practice_sione_5_1:0,Progress/participation record,Never read by current dialogue loader. Intended integration only; graph links carry this review draft.
+sione_fragment_4_practised,sione_practice_sione_5_2:0,Progress/participation record,Never read by current dialogue loader. Intended integration only; graph links carry this review draft.
+sione_fragment_5_practised,sione_practice_sione_6_1:0,Progress/participation record,Never read by current dialogue loader. Intended integration only; graph links carry this review draft.
+sione_fragment_6_practised,sione_practice_sione_6_2:0,Progress/participation record,Never read by current dialogue loader. Intended integration only; graph links carry this review draft.
+speech_complete,sione_speech_6_0:0; sione_speech_6_1:0; sione_speech_6_2:0,Progress/participation record,Never read by current dialogue loader. Intended integration only; graph links carry this review draft.
+speech_rehearsed,sione_eve_finish:0,Progress/participation record,Never read by current dialogue loader. Intended integration only; graph links carry this review draft.
+story_complete,sione_i03_03:0; sione_i03_03:1; mele_i03_03:0; mele_i03_03:1,Progress/participation record,Never read by current dialogue loader. Intended integration only; graph links carry this review draft.
+time_confirmed,sione_e02_04:0; sione_e02_04:1; mele_e02_04:0; mele_e02_04:1,Progress/participation record,Never read by current dialogue loader. Intended integration only; graph links carry this review draft.
+will_help,sione_c04_05:0; sione_c04_05:1; mele_c04_05:0; mele_c04_05:1,Progress/participation record,Never read by current dialogue loader. Intended integration only; graph links carry this review draft.

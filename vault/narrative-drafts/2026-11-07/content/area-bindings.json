@@ -1,0 +1,128 @@
+[
+  {
+    "area": 1,
+    "name": "Airport forecourt",
+    "surface": "top_down_exploration_plus_larger_conversation",
+    "entry_by_path": {
+      "sione": "sione_a01_02",
+      "mele": "mele_a01_02"
+    },
+    "first_area_note": "airport_greeting selects identity before these path entries",
+    "local_routes": "Walkable entrances, exits and interact positions within existing area; no required backtracking",
+    "long_distance_policy": "Explicit travel transition for long journeys; nearby paths remain walkable",
+    "optional_encounters": "Separate optional dictionary returns to original world position; never advances main dialogue",
+    "code_status": "Binding specification only; not implemented"
+  },
+  {
+    "area": 2,
+    "name": "Exterior road travel",
+    "surface": "exterior_side_on_travel",
+    "entry_by_path": {
+      "sione": "sione_b01_01",
+      "mele": "mele_b01_01"
+    },
+    "first_area_note": null,
+    "local_routes": "Walkable entrances, exits and interact positions within existing area; no required backtracking",
+    "long_distance_policy": "Explicit travel transition for long journeys; nearby paths remain walkable",
+    "optional_encounters": "Separate optional dictionary returns to original world position; never advances main dialogue",
+    "code_status": "Binding specification only; not implemented"
+  },
+  {
+    "area": 3,
+    "name": "Popua dinner",
+    "surface": "top_down_exploration_plus_larger_conversation",
+    "entry_by_path": {
+      "sione": "sione_c01_01",
+      "mele": "mele_c01_01"
+    },
+    "first_area_note": null,
+    "local_routes": "Walkable entrances, exits and interact positions within existing area; no required backtracking",
+    "long_distance_policy": "Explicit travel transition for long journeys; nearby paths remain walkable",
+    "optional_encounters": "Separate optional dictionary returns to original world position; never advances main dialogue",
+    "code_status": "Binding specification only; not implemented"
+  },
+  {
+    "area": 4,
+    "name": "Talamahu market",
+    "surface": "top_down_exploration_plus_larger_conversation",
+    "entry_by_path": {
+      "sione": "sione_d01_01",
+      "mele": "mele_d01_01"
+    },
+    "first_area_note": null,
+    "local_routes": "Walkable entrances, exits and interact positions within existing area; no required backtracking",
+    "long_distance_policy": "Explicit travel transition for long journeys; nearby paths remain walkable",
+    "optional_encounters": "Separate optional dictionary returns to original world position; never advances main dialogue",
+    "code_status": "Binding specification only; not implemented"
+  },
+  {
+    "area": 5,
+    "name": "Church grounds",
+    "surface": "top_down_exploration_plus_larger_conversation",
+    "entry_by_path": {
+      "sione": "sione_e01_01",
+      "mele": "mele_e01_01"
+    },
+    "first_area_note": null,
+    "local_routes": "Walkable entrances, exits and interact positions within existing area; no required backtracking",
+    "long_distance_policy": "Explicit travel transition for long journeys; nearby paths remain walkable",
+    "optional_encounters": "Separate optional dictionary returns to original world position; never advances main dialogue",
+    "code_status": "Binding specification only; not implemented"
+  },
+  {
+    "area": 6,
+    "name": "Sports ground",
+    "surface": "top_down_exploration_plus_larger_conversation",
+    "entry_by_path": {
+      "sione": "sione_f01_01",
+      "mele": "mele_f01_01"
+    },
+    "first_area_note": null,
+    "local_routes": "Walkable entrances, exits and interact positions within existing area; no required backtracking",
+    "long_distance_policy": "Explicit travel transition for long journeys; nearby paths remain walkable",
+    "optional_encounters": "Separate optional dictionary returns to original world position; never advances main dialogue",
+    "code_status": "Binding specification only; not implemented"
+  },
+  {
+    "area": 7,
+    "name": "Popua eve",
+    "surface": "top_down_exploration_plus_larger_conversation",
+    "entry_by_path": {
+      "sione": "sione_g01_01",
+      "mele": "mele_g01_01"
+    },
+    "first_area_note": null,
+    "local_routes": "Walkable entrances, exits and interact positions within existing area; no required backtracking",
+    "long_distance_policy": "Explicit travel transition for long journeys; nearby paths remain walkable",
+    "optional_encounters": "Separate optional dictionary returns to original world position; never advances main dialogue",
+    "code_status": "Binding specification only; not implemented"
+  },
+  {
+    "area": 8,
+    "name": "Wedding venue",
+    "surface": "top_down_exploration_plus_larger_conversation",
+    "entry_by_path": {
+      "sione": "sione_h01_01",
+      "mele": "mele_h01_01"
+    },
+    "first_area_note": null,
+    "local_routes": "Walkable entrances, exits and interact positions within existing area; no required backtracking",
+    "long_distance_policy": "Explicit travel transition for long journeys; nearby paths remain walkable",
+    "optional_encounters": "Separate optional dictionary returns to original world position; never advances main dialogue",
+    "code_status": "Binding specification only; not implemented"
+  },
+  {
+    "area": 9,
+    "name": "Airport departure",
+    "surface": "top_down_exploration_plus_larger_conversation",
+    "entry_by_path": {
+      "sione": "sione_i01_01",
+      "mele": "mele_i01_01"
+    },
+    "first_area_note": null,
+    "local_routes": "Walkable entrances, exits and interact positions within existing area; no required backtracking",
+    "long_distance_policy": "Explicit travel transition for long journeys; nearby paths remain walkable",
+    "optional_encounters": "Separate optional dictionary returns to original world position; never advances main dialogue",
+    "code_status": "Binding specification only; not implemented"
+  }
+]
