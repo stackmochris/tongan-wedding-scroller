@@ -14,8 +14,8 @@ No quiz screens, no separate study mode, no scoring UI.
 ## Mechanics
 
 ### 1. Movement & Exploration
-- Top-down or light side-view free movement inside small, discrete areas (airport exterior, car interior cutscene, family house, market, church grounds, sports area, wedding venue).
-- Areas are connected by simple transitions or short travel sequences.
+- Top-down 2D four-direction exploration inside compact connected areas (airport exterior, family neighbourhood, market, church grounds, sports area, wedding venue). Larger chibi views support conversations; the airport car sequence uses an exterior side-on view. See [approved visual style](../assets/style-reference.md).
+- Walkable paths/routes connect nearby story destinations, with optional signs, sights and contextual NPC/object encounters reusing existing dialogue triggers. Compress geography and use simple transitions or short travel sequences for longer journeys. No new mandatory chapters or vocabulary hunt.
 - No complex physics, inventory tetris, or simulation. Player walks, faces interactables, and triggers them.
 
 ### 2. Interaction Trigger
