@@ -14,9 +14,9 @@ Items that are fixed for the MPP prototype. Do not reopen without an explicit de
 - Climax failure restarts only the sequence, not the area.
 
 ## Format
-- Hybrid walking visual novel.
+- Hybrid walking visual novel: top-down 2D overworld exploration with larger chibi conversation views. Approved by Chris 2026-11-07 (Pacific/Auckland); see [visual style](../assets/style-reference.md).
 - Full chibi style with readable clothing silhouettes.
-- Discrete small areas.
+- Compact connected areas/routes with walkable links, sights and optional environmental language encounters; compressed geography, not a full-scale open world. Exterior side-on car ride handles airport travel.
 - Binary-choice climax: formal speech order (Sione) or tauʻolunga movement + reason with NPC joiners (Mele).
 
 ## Explicitly Out of Scope
