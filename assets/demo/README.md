@@ -4,6 +4,10 @@ Five character 4×4 SVG animation atlases and five 1280×720 SVG background plat
 
 **Art direction:** simple, editable vector stand-ins in a warm cel-shaded chibi palette. These are functional draft assets, **not** the final illustrated character art. They supersede placeholders while refined PNG sprites are being prepared. No wedding outfits appear in the opening scenes.
 
+## Approved direction versus these stand-ins
+
+See [approved visual style](../style-reference.md). Exploration is now explicitly top-down 2D with compact walkable routes; the earlier side-on walking composition is superseded. These existing flat background plates do not implement that overworld. Retain them as prototypes until separately authorised asset/code work. Conversation backdrops and exterior car travel remain distinct from overhead maps. Existing atlas dimensions below describe these stand-ins only.
+
 ## Characters
 
 - `characters/sione_walk.svg` — casual shirt and shorts
