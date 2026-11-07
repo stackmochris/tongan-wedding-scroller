@@ -65,7 +65,8 @@ Reference notes for background and environment design. Based on real photographs
 ## Design Rules for Backgrounds
 - Prioritise recognisable silhouettes and key landmarks over photoreal accuracy.
 - Cell-shaded chibi style should keep the distinctive colour and form cues (airport signage, market pillars and produce, church roof and cross, stadium track, coastal horizon, residential veranda + palms).
-- Areas remain small and discrete. Transitions are simple cuts or short external travel sequences.
+- Exploration uses compact connected top-down 2D maps/routes with visible roofs, accessible entrances and clear four-direction paths. Compress geography and retain the nine-area spine. Longer distances use simple transitions or external travel scenes; the airport car ride remains exterior side-on.
+- The sky/horizon notes above apply to conversation and travel backdrops. Overhead maps show the ground plane, roof forms and landmark footprints instead. See [approved visual style](../assets/style-reference.md).
 - Shared art direction is encouraged where it reduces load (e.g., coastal palette for Haʻatafu wedding and optional beach; house interior/exterior reuse between dinner and eve).
 
 ## Hand-off Notes
