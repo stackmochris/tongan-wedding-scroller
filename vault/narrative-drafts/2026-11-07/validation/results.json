@@ -1,0 +1,203 @@
+{
+  "status": "PASS_CONTENT_STRUCTURE_ONLY",
+  "checks": [
+    "Exact frozen fields, types, translation tokens, known links and preview parity",
+    "All nodes reachable from single opener",
+    "Opener has exactly two valid identity choices",
+    "Selected identity cannot cross to other path",
+    "Only departure completion has terminal choices",
+    "No dead ends: every node has a route to ending",
+    "Both paths cover exactly nine areas",
+    "Every climax slot requires a successful earlier model selection, even with cousin skips",
+    "Third incorrect speech choice restarts speech only at every position",
+    "Correct speech choices do not erase prior errors",
+    "Six correct speech positions reach wedding recognition",
+    "All 16 dance patterns obey proposed 3-of-4 threshold, including final miss after three successes",
+    "Only productive Mele climax pair choices add joiners",
+    "Every climax decision remains binary",
+    "Progress flags set on all valid scene-completion alternatives",
+    "Visual-first car introduction suppresses node and choice captions in both modes",
+    "Pacing budget including reserve below six hours, onboarding nine minutes",
+    "Content counts match manifest",
+    "Eight optional encounters use exact frozen fields, have immediate exits and no core links/rewards",
+    "Optional content does not collide with core IDs",
+    "Optional node/choice counts match manifest",
+    "Approved surfaces attached to every scene"
+  ],
+  "node_count": 458,
+  "choice_count": 749,
+  "scene_count": 36,
+  "optional_node_count": 16,
+  "optional_choice_count": 24,
+  "dance_cases": [
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "joiners": 4,
+      "result": "success"
+    },
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "joiners": 3,
+      "result": "success"
+    },
+    {
+      "choices": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "joiners": 3,
+      "result": "success"
+    },
+    {
+      "choices": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "joiners": 2,
+      "result": "sequence_retry"
+    },
+    {
+      "choices": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "joiners": 3,
+      "result": "success"
+    },
+    {
+      "choices": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "joiners": 2,
+      "result": "sequence_retry"
+    },
+    {
+      "choices": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "joiners": 2,
+      "result": "sequence_retry"
+    },
+    {
+      "choices": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "joiners": 1,
+      "result": "sequence_retry"
+    },
+    {
+      "choices": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "joiners": 3,
+      "result": "success"
+    },
+    {
+      "choices": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "joiners": 2,
+      "result": "sequence_retry"
+    },
+    {
+      "choices": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "joiners": 2,
+      "result": "sequence_retry"
+    },
+    {
+      "choices": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "joiners": 1,
+      "result": "sequence_retry"
+    },
+    {
+      "choices": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "joiners": 2,
+      "result": "sequence_retry"
+    },
+    {
+      "choices": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "joiners": 1,
+      "result": "sequence_retry"
+    },
+    {
+      "choices": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "joiners": 1,
+      "result": "sequence_retry"
+    },
+    {
+      "choices": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "joiners": 0,
+      "result": "sequence_retry"
+    }
+  ],
+  "not_tested": [
+    "Tongan correctness",
+    "Cultural correctness",
+    "Authentic speech order or dance pairs",
+    "Actual Godot execution",
+    "Visual/phone presentation",
+    "Autosave/resume",
+    "Measured playtime or proficiency"
+  ]
+}

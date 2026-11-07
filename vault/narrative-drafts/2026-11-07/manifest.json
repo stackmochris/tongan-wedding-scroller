@@ -1,0 +1,52 @@
+{
+  "pack_version": "1.1.0-english-review-draft",
+  "source_repository": "stackmochris/tongan-wedding-scroller",
+  "source_commit": "0f4051ea05b14f0c6bcc06538f7c3ef7e5350e6c",
+  "source_tree": "2e4ef706f63342f9fea1494bf3f0e4f7803d5b29",
+  "created": "2026-11-07",
+  "status": "ENGLISH_REVIEW_DRAFT_NOT_FOR_PRODUCTION",
+  "start_node": "airport_greeting",
+  "schema": "vault/20-dialogue-schema.md frozen; exact fields only",
+  "language_approval": "ALL PENDING DR L.V.S",
+  "scene_count": 36,
+  "node_count": 458,
+  "choice_count": 749,
+  "paths": [
+    "sione",
+    "mele"
+  ],
+  "climax": {
+    "sione": {
+      "stages": 6,
+      "three_strikes_restart_sequence": true,
+      "order_status": "PENDING DR L.V.S; six is proposed content length"
+    },
+    "mele": {
+      "stages": 4,
+      "threshold": 3,
+      "max_joiners": 4,
+      "status": "PROPOSED numeric parameters; authentic pairs/order PENDING DR L.V.S"
+    }
+  },
+  "area_minutes": {
+    "1": 4,
+    "2": 5,
+    "3": 40,
+    "4": 45,
+    "5": 35,
+    "6": 35,
+    "7": 35,
+    "8": 35,
+    "9": 20
+  },
+  "total_minutes": 254,
+  "retry_reading_reserve": 60,
+  "code_changed": false,
+  "remote_writes": "Only authorised tracker and draft content on review branch; no main/game changes",
+  "review_branch": "work/narrative-dialogue-review-2026-11-07",
+  "visual_direction": "Approved top-down 2D exploration, larger chibi conversations, exterior side-on airport car ride",
+  "optional_encounters": 8,
+  "optional_node_count": 16,
+  "optional_choice_count": 24,
+  "optional_counts_separate_from_core": true
+}

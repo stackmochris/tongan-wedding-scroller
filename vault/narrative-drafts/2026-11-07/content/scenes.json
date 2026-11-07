@@ -1,0 +1,1413 @@
+[
+  {
+    "id": "A01",
+    "title": "A name at the gate",
+    "area": 1,
+    "minutes": 2,
+    "purpose": "Choose identity; establish a returnee who wants to participate.",
+    "staging": "Airport forecourt; player grey silhouette until identity choice; driver carries a handwritten family pickup note.",
+    "arc": "Player knows the family through messages but hesitates in person.",
+    "target": "greeting_identity",
+    "path": null,
+    "exchanges": [
+      [
+        "driver",
+        "Hello. Who are you?",
+        "I am Sione.",
+        "I am Mele.",
+        null
+      ],
+      [
+        "driver",
+        "Welcome. I am your family’s driver today. How are you?",
+        "Good, thank you.",
+        "A little tired.",
+        null
+      ],
+      [
+        "driver",
+        "A long flight. Your family is waiting.",
+        "I am happy to be here.",
+        "Thank you for coming.",
+        null
+      ],
+      [
+        "driver",
+        "One more time, so I have your name right. Who are you?",
+        "I am {player}.",
+        "You are {player}.",
+        "I am the driver. You are {player}."
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 1"
+  },
+  {
+    "id": "A02",
+    "title": "One small journey",
+    "area": 1,
+    "minutes": 2,
+    "purpose": "Offer a safe first request and introduce the return-flight limit without a countdown.",
+    "staging": "Driver indicates car; suitcase changes position on success. No separate greeter sprite.",
+    "arc": "Player chooses to ask rather than pretend to understand.",
+    "target": "greeting_identity",
+    "path": null,
+    "exchanges": [
+      [
+        "driver",
+        "Your return flight is after the wedding. A short visit.",
+        "Yes. I want to help.",
+        "Yes. I want to see everyone.",
+        null
+      ],
+      [
+        "driver",
+        "Are you ready? We can go now.",
+        "Yes. Let’s go.",
+        "Please, say it again.",
+        "Are you ready? Let’s go."
+      ],
+      [
+        "driver",
+        "This way.",
+        "Thank you.",
+        "Let’s go.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 1"
+  },
+  {
+    "id": "B01",
+    "title": "Looking together",
+    "area": 2,
+    "minutes": 3,
+    "purpose": "Teach pointing through visible roadside referents.",
+    "staging": "External car only. Coconut tree, church, village and sea pass in separate readable layers. Hold a landmark during each choice.",
+    "arc": "Driver waits for the player’s response rather than filling every silence.",
+    "target": "pointing",
+    "path": null,
+    "exchanges": [
+      [
+        "driver",
+        "Look. That is a coconut tree.",
+        "That is a coconut tree.",
+        "Look.",
+        null
+      ],
+      [
+        "driver",
+        "Look ahead. That is a church.",
+        "That is a church.",
+        "That is a coconut tree.",
+        "Look ahead. The church is there."
+      ],
+      [
+        "driver",
+        "That is the village. We are going this way.",
+        "That is the village.",
+        "This way.",
+        null
+      ],
+      [
+        "driver",
+        "Look. There is the sea.",
+        "That is the sea.",
+        "Look at the sea.",
+        null
+      ]
+    ],
+    "presentation": "exterior_side_on_car",
+    "route_binding": "content/area-bindings.json area 2"
+  },
+  {
+    "id": "B02",
+    "title": "The last turn",
+    "area": 2,
+    "minutes": 2,
+    "purpose": "Retrieve a landmark before arrival; close atomic onboarding.",
+    "staging": "Repeat church silhouette already seen; background stops at house gate after retrieval.",
+    "arc": "Player identifies something without the driver naming it first.",
+    "target": "pointing",
+    "path": null,
+    "exchanges": [
+      [
+        "driver",
+        "Look ahead. What is that?",
+        "That is a church.",
+        "That is the sea.",
+        "Look again. That is a church."
+      ],
+      [
+        "driver",
+        "Good. We are almost there. Your family’s house is ahead.",
+        "That is the house.",
+        "We are almost there.",
+        null
+      ]
+    ],
+    "presentation": "exterior_side_on_car",
+    "route_binding": "content/area-bindings.json area 2"
+  },
+  {
+    "id": "C01",
+    "title": "A seat is waiting",
+    "area": 3,
+    "minutes": 7,
+    "purpose": "Reintroduce identity in the family setting and establish visual dress progression.",
+    "staging": "Popua veranda and sitting area. Elder clears a place; player changes to repository mid-game outfit between arrival and dinner, without a dressing minigame.",
+    "arc": "Elder recognises the returnee; the player need not prove belonging.",
+    "target": "family_food",
+    "path": null,
+    "exchanges": [
+      [
+        "elder",
+        "Hello. You have arrived.",
+        "Hello. I am {player}.",
+        "Hello. Thank you.",
+        null
+      ],
+      [
+        "elder",
+        "I am your grandmother. Come and sit with me.",
+        "Hello, Grandmother.",
+        "Thank you, Grandmother.",
+        null
+      ],
+      [
+        "elder",
+        "Come in. Sit here.",
+        "Thank you.",
+        "Here?",
+        null
+      ],
+      [
+        "elder",
+        "Yes, here. How are you?",
+        "Good, thank you.",
+        "A little tired.",
+        null
+      ],
+      [
+        "relative",
+        "The wedding is soon. We are glad you came.",
+        "I am glad to be here.",
+        "Thank you for having me.",
+        null
+      ],
+      [
+        "elder",
+        "This is your family. There is a place for you.",
+        "Thank you.",
+        "I am happy to be with my family.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 3"
+  },
+  {
+    "id": "C02",
+    "title": "Passing the bowl",
+    "area": 3,
+    "minutes": 8,
+    "purpose": "Teach food offers, requests and family roles through a real meal.",
+    "staging": "Three food props: rice, fish, taro; water jug. Items named only when visible. Final names and dishes require approval.",
+    "arc": "Player can decline food politely; hospitality is never a trap.",
+    "target": "family_food",
+    "path": null,
+    "exchanges": [
+      [
+        "relative",
+        "This is your cousin.",
+        "Hello. I am {player}.",
+        "Hello. How are you?",
+        null
+      ],
+      [
+        "cousin",
+        "Hello.",
+        "Good to see you.",
+        "Hello.",
+        null
+      ],
+      [
+        "elder",
+        "Are you hungry? Here is rice.",
+        "Yes, please. Thank you.",
+        "No, thank you.",
+        null
+      ],
+      [
+        "relative",
+        "Here is fish. Here is taro.",
+        "I would like fish, please.",
+        "I would like taro, please.",
+        null
+      ],
+      [
+        "relative",
+        "Would you like water?",
+        "Yes, please.",
+        "No, thank you.",
+        null
+      ],
+      [
+        "elder",
+        "There is more food. Would you like some?",
+        "Yes, thank you.",
+        "No, thank you.",
+        null
+      ],
+      [
+        "relative",
+        "Those two are brother and sister. They are helping too.",
+        "Your brother and sister?",
+        "Brother and sister.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 3"
+  },
+  {
+    "id": "C03",
+    "title": "Beside the quiet cousin",
+    "area": 3,
+    "minutes": 6,
+    "purpose": "Give the cousin privacy and agency without a relationship meter.",
+    "staging": "Cousin sits at the table edge, phone face down only if they choose to talk; no phone confiscation.",
+    "arc": "Quietness is hesitation, not a moral failure. Player admits uncertainty.",
+    "target": "family_food",
+    "path": null,
+    "exchanges": [
+      [
+        "relative",
+        "Your cousin can show you around.",
+        "Only if you want to.",
+        "We can go together later.",
+        null
+      ],
+      [
+        "cousin",
+        "Everyone asks me to show people around.",
+        "We can just eat.",
+        "You can say no.",
+        null
+      ],
+      [
+        "cousin",
+        "You don’t know all the words either?",
+        "No. I am learning.",
+        "Some words. Not all.",
+        null
+      ],
+      [
+        "cousin",
+        "I know what they mean. Sometimes I don’t want to say them.",
+        "We can try together.",
+        "I can listen.",
+        null
+      ],
+      [
+        "cousin",
+        "Maybe later.",
+        "All right.",
+        "See you later.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 3"
+  },
+  {
+    "id": "C04",
+    "title": "Needed for something real",
+    "area": 3,
+    "minutes": 8,
+    "purpose": "Make the coordination request and contribution clear early.",
+    "staging": "Relative brings a short supplies note; elder stays seated; no quest-log system.",
+    "arc": "Player accepts a bounded job before knowing everything. Wedding belongs to the wider family, not solely to player success.",
+    "target": "family_food",
+    "path": null,
+    "exchanges": [
+      [
+        "relative",
+        "We need help with the wedding. Can you help?",
+        "Yes. I will help.",
+        "Yes. Please show me.",
+        null
+      ],
+      [
+        "relative",
+        "We need food and drinks from the market. Two bundles of food. Three drinks.",
+        "Two bundles. Three drinks.",
+        "Please say it again.",
+        "Two bundles of food. Three drinks."
+      ],
+      [
+        "relative",
+        "Then ask the minister about the time. We will go together.",
+        "What time?",
+        "We will go together.",
+        null
+      ],
+      [
+        "elder",
+        "You will have a small part at the wedding, too. We will practise.",
+        "I will try.",
+        "Will you help me?",
+        null
+      ],
+      [
+        "relative",
+        "Yes. First the market. One thing at a time.",
+        "Thank you for your help.",
+        "Let’s go.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 3"
+  },
+  {
+    "id": "D01",
+    "title": "The right stall",
+    "area": 4,
+    "minutes": 7,
+    "purpose": "Retrieve pointing and greeting before a transaction.",
+    "staging": "Talamahu produce stall and adjacent drinks; at most shopkeeper, relative and optional cousin.",
+    "arc": "Player begins addressing people directly instead of asking relative to speak.",
+    "target": "requests_quantity",
+    "path": null,
+    "exchanges": [
+      [
+        "relative",
+        "Look. That is the food stall.",
+        "That is the food stall.",
+        "That is the church.",
+        "Look here. Food is on this table."
+      ],
+      [
+        "shopkeeper",
+        "Hello. How are you?",
+        "Good, thank you.",
+        "Hello. I am {player}.",
+        null
+      ],
+      [
+        "shopkeeper",
+        "What do you need?",
+        "I need food, please.",
+        "I need the sea.",
+        "Food is here. What do you need?"
+      ],
+      [
+        "relative",
+        "We need two bundles.",
+        "Two bundles.",
+        "Three bundles.",
+        "Two bundles of food."
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 4"
+  },
+  {
+    "id": "D02",
+    "title": "Enough for the table",
+    "area": 4,
+    "minutes": 8,
+    "purpose": "Distinguish quantities from sufficiency; use simple flags instead of inventory.",
+    "staging": "Shopkeeper displays two bundles and three drinks. No money arithmetic or fabricated price.",
+    "arc": "Player notices a mismatch and asks for correction politely.",
+    "target": "requests_quantity",
+    "path": null,
+    "exchanges": [
+      [
+        "shopkeeper",
+        "How many bundles?",
+        "Two, please.",
+        "Three, please.",
+        "The family asked for two bundles."
+      ],
+      [
+        "shopkeeper",
+        "Two bundles. Is that enough?",
+        "Yes. That is enough.",
+        "Please show me again.",
+        "Here are the two bundles."
+      ],
+      [
+        "relative",
+        "We also need three drinks.",
+        "I need three drinks, please.",
+        "I need two drinks.",
+        "Three drinks. One, two, three."
+      ],
+      [
+        "shopkeeper",
+        "Two drinks?",
+        "No. Three, please.",
+        "Yes. Two.",
+        "You asked for three. Let’s count again."
+      ],
+      [
+        "shopkeeper",
+        "Three. Is that enough?",
+        "Yes. Thank you.",
+        "Three. Thank you.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 4"
+  },
+  {
+    "id": "D03",
+    "title": "Ask in your own voice",
+    "area": 4,
+    "minutes": 7,
+    "purpose": "Revision check without relative supplying the request; arrange payment in-world.",
+    "staging": "Relative stands back. Shopkeeper hands over a single supplies prop only after the check. Payment is a handover animation, not an economy.",
+    "arc": "Player can repair a small misunderstanding and still complete the errand.",
+    "target": "requests_quantity",
+    "path": null,
+    "exchanges": [
+      [
+        "shopkeeper",
+        "What do you need for the wedding?",
+        "I need two bundles of food and three drinks.",
+        "I need three bundles and two drinks.",
+        "Two bundles of food. Three drinks."
+      ],
+      [
+        "shopkeeper",
+        "Good. Two bundles and three drinks.",
+        "That is enough. Thank you.",
+        "Thank you for your help.",
+        null
+      ],
+      [
+        "relative",
+        "I will pay. You asked for what we needed.",
+        "Thank you.",
+        "I can carry these.",
+        null
+      ],
+      [
+        "shopkeeper",
+        "Thank you. See you again.",
+        "Thank you. Goodbye.",
+        "Goodbye.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 4"
+  },
+  {
+    "id": "D04",
+    "title": "A little room beside you",
+    "area": 4,
+    "minutes": 5,
+    "purpose": "Offer an optional cousin exchange that reconverges immediately.",
+    "staging": "At stall edge; cousin may come alongside but no escort simulation.",
+    "arc": "Cousin’s usefulness is acknowledged without making them responsible for player progress.",
+    "target": "requests_quantity",
+    "path": null,
+    "exchanges": [
+      [
+        "relative",
+        "Your cousin might come next time.",
+        "I can ask.",
+        "I can go with you again.",
+        null
+      ],
+      [
+        "relative",
+        "The food is ready. What did you ask for?",
+        "Two bundles of food. Three drinks.",
+        "Three bundles of food.",
+        "Two bundles. Three drinks."
+      ],
+      [
+        "relative",
+        "Thank you. At the wedding, speak slowly too.",
+        "Slowly. I can do that.",
+        "Please help me practise.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 4"
+  },
+  {
+    "id": "E01",
+    "title": "A different kind of hello",
+    "area": 5,
+    "minutes": 7,
+    "purpose": "Introduce respectful public address in one church location.",
+    "staging": "St Paul’s grounds, not a new grandma-visit branch. Minister at doorway; relative waits beside player.",
+    "arc": "Player carries the conversation into a formal context.",
+    "target": "polite_time",
+    "path": null,
+    "exchanges": [
+      [
+        "relative",
+        "Here is the minister. We are here about the wedding.",
+        "Hello, Minister.",
+        "Hello. We are preparing the wedding.",
+        null
+      ],
+      [
+        "minister",
+        "Hello. Welcome. How can I help?",
+        "We are preparing the wedding.",
+        "Thank you for your help.",
+        null
+      ],
+      [
+        "minister",
+        "The family is getting ready. You have come a long way.",
+        "I am happy to be with my family.",
+        "Yes. I am here to help.",
+        null
+      ],
+      [
+        "relative",
+        "Please ask about the time.",
+        "What time does it start?",
+        "What food is there?",
+        "Ask about the time. What time does it start?"
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 5"
+  },
+  {
+    "id": "E02",
+    "title": "Say the time back",
+    "area": 5,
+    "minutes": 8,
+    "purpose": "Model and retrieve a short time confirmation.",
+    "staging": "Minister indicates a single clock card showing 10:00; 10 is a proposed scheduling detail, not repository canon.",
+    "arc": "Player checks information rather than nodding through uncertainty.",
+    "target": "polite_time",
+    "path": null,
+    "exchanges": [
+      [
+        "minister",
+        "The family gathering starts at ten.",
+        "At ten. Thank you.",
+        "Please say it again.",
+        "At ten."
+      ],
+      [
+        "minister",
+        "At ten. We will see your family there.",
+        "We will be there at ten.",
+        "We will be there at two.",
+        "At ten. Look at the clock."
+      ],
+      [
+        "relative",
+        "What time will we be there?",
+        "At ten.",
+        "At two.",
+        "At ten."
+      ],
+      [
+        "minister",
+        "Thank you for checking.",
+        "Thank you for your help.",
+        "Thank you, Minister.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 5"
+  },
+  {
+    "id": "E03",
+    "title": "Whose words are these?",
+    "area": 5,
+    "minutes": 7,
+    "purpose": "Bridge everyday thanks to ceremonial practice without claiming formal order.",
+    "staging": "Quiet edge of same grounds; relative gives one short fragment at a time.",
+    "arc": "Player asks for the contribution to sound like their own voice.",
+    "target": "ceremonial",
+    "path": null,
+    "exchanges": [
+      [
+        "relative",
+        "You thanked the minister yourself.",
+        "I knew that part.",
+        "I was nervous.",
+        null
+      ],
+      [
+        "relative",
+        "That is enough for today. Your wedding part will be short.",
+        "Short is good.",
+        "Please practise with me.",
+        null
+      ],
+      [
+        "relative",
+        "First understand what you want to say. Then we will practise the words.",
+        "I want to thank my family.",
+        "I want to say I am happy to be here.",
+        null
+      ],
+      [
+        "relative",
+        "We will practise at home.",
+        "Thank you for your help.",
+        "We will be there at ten.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 5"
+  },
+  {
+    "id": "F01",
+    "title": "An invitation without an errand",
+    "area": 6,
+    "minutes": 7,
+    "purpose": "Let everyday motion language bring the cousin into their own setting.",
+    "staging": "Teufaiva simplified pitch edge, one ball; no dexterity or sports scoring. Cousin is already present independent of optional earlier contact.",
+    "arc": "Cousin leads here; player follows instead of recruiting them.",
+    "target": "motion",
+    "path": null,
+    "exchanges": [
+      [
+        "cousin",
+        "You came. There is no shopping here.",
+        "I came to see you.",
+        "I came to play.",
+        null
+      ],
+      [
+        "cousin",
+        "Come. Let’s play.",
+        "Let’s go.",
+        "Please say it again.",
+        "Come. Let’s play."
+      ],
+      [
+        "cousin",
+        "Look. The ball is there.",
+        "That is the ball.",
+        "That is the church.",
+        "Look here. The ball."
+      ],
+      [
+        "cousin",
+        "Kick the ball.",
+        "I will try.",
+        "Show me first.",
+        null
+      ],
+      [
+        "cousin",
+        "Like this. Come on.",
+        "Let’s play.",
+        "I will try.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 6"
+  },
+  {
+    "id": "F02",
+    "title": "Try again is allowed",
+    "area": 6,
+    "minutes": 7,
+    "purpose": "Use repeated invitation and response as fluency practice.",
+    "staging": "Ball rolls a small distance on selection; cousin retrieves it on repair. No timing inputs.",
+    "arc": "Player’s imperfect attempt gives cousin permission to be imperfect.",
+    "target": "motion",
+    "path": null,
+    "exchanges": [
+      [
+        "cousin",
+        "That went the wrong way. Try again.",
+        "I will try again.",
+        "You show me.",
+        null
+      ],
+      [
+        "cousin",
+        "You are getting better. Are you tired?",
+        "Not yet. Let’s play.",
+        "Yes. Let’s rest.",
+        null
+      ],
+      [
+        "cousin",
+        "All right. One more pass, then we rest. Come.",
+        "Let’s go.",
+        "How many drinks?",
+        "Come. Let’s play."
+      ],
+      [
+        "cousin",
+        "Good. That is enough.",
+        "This is fun.",
+        "Thank you for playing.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 6"
+  },
+  {
+    "id": "F03",
+    "title": "Not a project to fix",
+    "area": 6,
+    "minutes": 8,
+    "purpose": "Give cousin a specific fear and a modest self-directed next step.",
+    "staging": "Same pitch bench; ball still. Cousin turns toward player; no forced confession.",
+    "arc": "Cousin fears being corrected publicly; player offers company, not a lecture about identity.",
+    "target": "motion",
+    "path": null,
+    "exchanges": [
+      [
+        "cousin",
+        "At home, someone always answers before I do.",
+        "I can wait.",
+        "That happens to me too.",
+        null
+      ],
+      [
+        "cousin",
+        "Then they ask why I am quiet.",
+        "You can take your time.",
+        "We can try one line together.",
+        null
+      ],
+      [
+        "cousin",
+        "Will everyone look at you at the wedding?",
+        "Yes. I am nervous.",
+        "Yes. I will practise.",
+        null
+      ],
+      [
+        "cousin",
+        "You still want to do it?",
+        "I want to be part of it.",
+        "I want to thank them.",
+        null
+      ],
+      [
+        "cousin",
+        "Maybe I can help you practise. Just us.",
+        "I would like that.",
+        "Only if you want to.",
+        null
+      ],
+      [
+        "cousin",
+        "Come. We should go back.",
+        "Let’s go.",
+        "Good. Let’s go.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 6"
+  },
+  {
+    "id": "G01",
+    "title": "Tomorrow has a shape",
+    "area": 7,
+    "minutes": 6,
+    "purpose": "Confirm time and supplies; change to rehearsal state in reused house.",
+    "staging": "Popua evening light; bundles visible, seats arranged. Outfit remains mid-game until wedding cut.",
+    "arc": "Player sees earlier choices contribute to a functioning family event.",
+    "target": "ceremonial",
+    "path": null,
+    "exchanges": [
+      [
+        "relative",
+        "The supplies are here. What time tomorrow?",
+        "At ten.",
+        "At two.",
+        "At ten. You checked with the minister."
+      ],
+      [
+        "relative",
+        "Two bundles of food. Three drinks. Is that enough?",
+        "Yes. That is enough.",
+        "Thank you for your help.",
+        null
+      ],
+      [
+        "relative",
+        "What did you ask for at the market?",
+        "I need two bundles of food and three drinks.",
+        "I need three bundles and two drinks.",
+        "Two bundles of food. Three drinks."
+      ],
+      [
+        "elder",
+        "Tomorrow we will ask you to take your part.",
+        "I am ready to practise.",
+        "Please stay near me.",
+        null
+      ],
+      [
+        "elder",
+        "We will be near you.",
+        "Thank you.",
+        "I am happy to be here.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 7"
+  },
+  {
+    "id": "G02",
+    "title": "A voice at the same table",
+    "area": 7,
+    "minutes": 5,
+    "purpose": "Give cousin a small practical rehearsal role with an opt-out.",
+    "staging": "Cousin at doorway, not mandatory stage joiner. Optional extra practice branches back to core.",
+    "arc": "Cousin volunteers; the player does not announce their progress to the family.",
+    "target": "ceremonial",
+    "path": null,
+    "exchanges": [
+      [
+        "cousin",
+        "Do you want me to stay?",
+        "Yes, please.",
+        "You can just listen.",
+        null
+      ],
+      [
+        "cousin",
+        "If you stop, I can wait. Like you did.",
+        "Thank you.",
+        "Then let’s try.",
+        null
+      ],
+      [
+        "relative",
+        "We will practise one part at a time.",
+        "One part at a time.",
+        "I will try.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 7"
+  },
+  {
+    "id": "G03",
+    "title": "Before the room fills",
+    "area": 7,
+    "minutes": 5,
+    "purpose": "Rehearse general greeting, thanks and love before path-specific sequence.",
+    "staging": "Elder, relative, cousin; minimal hand or face reactions. No abstract readiness score.",
+    "arc": "Player can ask for repetition while retaining dignity.",
+    "target": "ceremonial",
+    "path": null,
+    "exchanges": [
+      [
+        "relative",
+        "Say: Hello, everyone.",
+        "Hello, everyone.",
+        "Goodbye, everyone.",
+        "Hello, everyone."
+      ],
+      [
+        "relative",
+        "Say: I give thanks.",
+        "I give thanks.",
+        "What time?",
+        "I give thanks."
+      ],
+      [
+        "elder",
+        "Your family is here.",
+        "I love my family.",
+        "I am happy to be with my family.",
+        null
+      ],
+      [
+        "relative",
+        "Good. Now your own part.",
+        "I am ready.",
+        "Let’s practise.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 7"
+  },
+  {
+    "id": "H01",
+    "title": "The work becomes a wedding",
+    "area": 8,
+    "minutes": 6,
+    "purpose": "Pay off preparation with a family event already underway.",
+    "staging": "Haʻatafu coastal canopy. Supplies visible; family seated. Wedding outfits follow vault; wedding couple are silent background figures, not new speaking roles.",
+    "arc": "The returnee is a participant among many; no claim that a language error invalidates the marriage.",
+    "target": "ceremonial",
+    "path": null,
+    "exchanges": [
+      [
+        "relative",
+        "We are here. The family is ready.",
+        "I am happy to be with my family.",
+        "Thank you for your help.",
+        null
+      ],
+      [
+        "relative",
+        "There is water for the table. What do you need?",
+        "I need water, please.",
+        "I need the sea.",
+        "Water is here. I need water, please."
+      ],
+      [
+        "elder",
+        "Hello, everyone. Thank you for coming.",
+        "Hello, everyone.",
+        "Thank you.",
+        null
+      ],
+      [
+        "cousin",
+        "I will be here.",
+        "Thank you.",
+        "I am glad you came.",
+        null
+      ],
+      [
+        "relative",
+        "Slowly. Just as we practised.",
+        "I am ready.",
+        "Stay near me.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 8"
+  },
+  {
+    "id": "H02",
+    "title": "After the contribution",
+    "area": 8,
+    "minutes": 5,
+    "purpose": "Recognise participation without a language mastery claim.",
+    "staging": "Elder nods; relative makes room beside family; cousin meets player’s eye. Return here after either successful climax only.",
+    "arc": "Player receives warmth; cousin offers a sentence unprompted.",
+    "target": "ceremonial",
+    "path": null,
+    "exchanges": [
+      [
+        "elder",
+        "Thank you. Come and sit with us.",
+        "Thank you.",
+        "I am happy to be here.",
+        null
+      ],
+      [
+        "relative",
+        "You did your part. Now eat with us.",
+        "Thank you for the food.",
+        "Yes, please.",
+        null
+      ],
+      [
+        "cousin",
+        "I knew that line. I said it with you.",
+        "I heard you.",
+        "We did it together.",
+        null
+      ],
+      [
+        "cousin",
+        "Not all of it. Just that part.",
+        "That part was enough.",
+        "We can practise again.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 8"
+  },
+  {
+    "id": "I01",
+    "title": "The same forecourt",
+    "area": 9,
+    "minutes": 5,
+    "purpose": "Introduce farewell meanings in context, never first in a check.",
+    "staging": "Reuse airport exterior. Player end-game outfit; cousin casual. Driver indicates departure direction.",
+    "arc": "Departure remains bittersweet; growth is a small capacity to continue.",
+    "target": "farewell",
+    "path": null,
+    "exchanges": [
+      [
+        "driver",
+        "Here we are again. Are you ready?",
+        "Yes. Thank you.",
+        "Almost.",
+        null
+      ],
+      [
+        "driver",
+        "Would you like water before you go?",
+        "I need water, please.",
+        "No, thank you.",
+        null
+      ],
+      [
+        "relative",
+        "Thank you for being with us.",
+        "I give thanks to my family.",
+        "I love my family.",
+        null
+      ],
+      [
+        "elder",
+        "You are leaving. Goodbye. Travel safely.",
+        "Goodbye. I will come back.",
+        "Goodbye. Thank you.",
+        null
+      ],
+      [
+        "relative",
+        "We will stay here. Say goodbye to us.",
+        "Goodbye to those staying.",
+        "Please show me.",
+        "You go. We stay. Goodbye to those staying."
+      ],
+      [
+        "elder",
+        "We love you.",
+        "I love you all.",
+        "Thank you. I love you.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 9"
+  },
+  {
+    "id": "I02",
+    "title": "One line next time",
+    "area": 9,
+    "minutes": 5,
+    "purpose": "Complete the cousin arc without promising fluency or adding messaging systems.",
+    "staging": "Cousin steps forward; phone remains a prop, no account or actual messaging integration.",
+    "arc": "Cousin asks to continue the relationship and volunteers one greeting next time.",
+    "target": "farewell",
+    "path": null,
+    "exchanges": [
+      [
+        "cousin",
+        "Message me when you get home.",
+        "I will.",
+        "You message me too.",
+        null
+      ],
+      [
+        "cousin",
+        "Next time, let me say hello first.",
+        "I will wait.",
+        "We can say it together.",
+        null
+      ],
+      [
+        "cousin",
+        "Hello. I am your cousin.",
+        "Hello. I am {player}.",
+        "Good to see you.",
+        null
+      ],
+      [
+        "cousin",
+        "All right. Goodbye.",
+        "Goodbye. I will come back.",
+        "Goodbye. I love you.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 9"
+  },
+  {
+    "id": "I03",
+    "title": "A way to return",
+    "area": 9,
+    "minutes": 4,
+    "purpose": "Final farewell retrieval and boarding.",
+    "staging": "Driver waits by transport exit; elder and cousin remain on forecourt. End card after response, no proficiency badge.",
+    "arc": "Player leaves with a relationship and a usable sentence, not a completed identity.",
+    "target": "farewell",
+    "path": null,
+    "exchanges": [
+      [
+        "driver",
+        "They are staying. You are leaving.",
+        "Goodbye to those staying.",
+        "Goodbye to the one leaving.",
+        "You are leaving. They are staying."
+      ],
+      [
+        "relative",
+        "Come back soon.",
+        "I will come back.",
+        "Thank you for your help.",
+        null
+      ],
+      [
+        "elder",
+        "Goodbye. We love you.",
+        "Goodbye. I love you all.",
+        "Goodbye. Thank you.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 9"
+  },
+  {
+    "id": "D05S",
+    "title": "Carrying the thanks",
+    "area": 4,
+    "minutes": 5,
+    "purpose": "Introduce a role-specific rehearsal fragment; linguistic emphasis differs without extra quests.",
+    "staging": "Reuse current area edge; no sacred or ceremonial performance at church or sports ground. Relative or cousin speaks privately.",
+    "arc": "Sione works on speaking without rushing.",
+    "target": "speech",
+    "path": "sione",
+    "exchanges": [
+      [
+        "relative",
+        "You will give a short speech. Not a long one.",
+        "I want to thank them properly.",
+        "Please help me practise.",
+        null
+      ],
+      [
+        "relative",
+        "You can ask to try again.",
+        "Let’s try again.",
+        "Thank you for your help.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 4"
+  },
+  {
+    "id": "E04S",
+    "title": "Order matters",
+    "area": 5,
+    "minutes": 5,
+    "purpose": "Introduce a role-specific rehearsal fragment; linguistic emphasis differs without extra quests.",
+    "staging": "Reuse current area edge; no sacred or ceremonial performance at church or sports ground. Relative or cousin speaks privately.",
+    "arc": "Sione works on speaking without rushing.",
+    "target": "speech",
+    "path": "sione",
+    "exchanges": [
+      [
+        "relative",
+        "There is an order to the acknowledgements. We will use the order our elder gives us.",
+        "Show me one part.",
+        "Let’s practise slowly.",
+        null
+      ],
+      [
+        "relative",
+        "You can ask to try again.",
+        "Let’s try again.",
+        "Thank you for your help.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 5"
+  },
+  {
+    "id": "F04S",
+    "title": "A small audience",
+    "area": 6,
+    "minutes": 5,
+    "purpose": "Introduce a role-specific rehearsal fragment; linguistic emphasis differs without extra quests.",
+    "staging": "Reuse current area edge; no sacred or ceremonial performance at church or sports ground. Relative or cousin speaks privately.",
+    "arc": "Sione works on speaking without rushing.",
+    "target": "speech",
+    "path": "sione",
+    "exchanges": [
+      [
+        "cousin",
+        "You can practise with me. I will not interrupt.",
+        "Thank you. I will try.",
+        "Please listen.",
+        null
+      ],
+      [
+        "cousin",
+        "You can ask to try again.",
+        "Let’s try again.",
+        "Thank you for your help.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 6"
+  },
+  {
+    "id": "D05M",
+    "title": "A part in the celebration",
+    "area": 4,
+    "minutes": 5,
+    "purpose": "Introduce a role-specific rehearsal fragment; linguistic emphasis differs without extra quests.",
+    "staging": "Reuse current area edge; no sacred or ceremonial performance at church or sports ground. Relative or cousin speaks privately.",
+    "arc": "Mele asks what a movement means instead of copying its surface.",
+    "target": "dance",
+    "path": "mele",
+    "exchanges": [
+      [
+        "relative",
+        "You will dance. We will practise each movement and what it means.",
+        "Please show me.",
+        "I want to understand it.",
+        null
+      ],
+      [
+        "relative",
+        "You can ask to try again.",
+        "Let’s try again.",
+        "Thank you for your help.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 4"
+  },
+  {
+    "id": "E04M",
+    "title": "Meaning before memory",
+    "area": 5,
+    "minutes": 5,
+    "purpose": "Introduce a role-specific rehearsal fragment; linguistic emphasis differs without extra quests.",
+    "staging": "Reuse current area edge; no sacred or ceremonial performance at church or sports ground. Relative or cousin speaks privately.",
+    "arc": "Mele asks what a movement means instead of copying its surface.",
+    "target": "dance",
+    "path": "mele",
+    "exchanges": [
+      [
+        "relative",
+        "We will use the movements our elder teaches. Do not guess at their meaning.",
+        "Show me one pair.",
+        "Let’s practise slowly.",
+        null
+      ],
+      [
+        "relative",
+        "You can ask to try again.",
+        "Let’s try again.",
+        "Thank you for your help.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 5"
+  },
+  {
+    "id": "F04M",
+    "title": "Someone to practise beside",
+    "area": 6,
+    "minutes": 5,
+    "purpose": "Introduce a role-specific rehearsal fragment; linguistic emphasis differs without extra quests.",
+    "staging": "Reuse current area edge; no sacred or ceremonial performance at church or sports ground. Relative or cousin speaks privately.",
+    "arc": "Mele asks what a movement means instead of copying its surface.",
+    "target": "dance",
+    "path": "mele",
+    "exchanges": [
+      [
+        "cousin",
+        "You can practise here. I can watch if you want.",
+        "Yes, please.",
+        "Please wait while I try.",
+        null
+      ],
+      [
+        "cousin",
+        "You can ask to try again.",
+        "Let’s try again.",
+        "Thank you for your help.",
+        null
+      ]
+    ],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 6"
+  },
+  {
+    "id": "G04S",
+    "title": "The whole contribution, slowly",
+    "area": 7,
+    "minutes": 10,
+    "purpose": "Retrieve every previously introduced approval slot, then opening thanks.",
+    "staging": "Same family room; relative models on request.",
+    "arc": "Player uses help without surrendering the contribution.",
+    "target": "speech",
+    "path": "sione",
+    "exchanges": [],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 7"
+  },
+  {
+    "id": "H03S",
+    "title": "The microphone",
+    "area": 8,
+    "minutes": 12,
+    "purpose": "Apply practised order.",
+    "staging": "Microphone and elder reactions.",
+    "arc": "Player can recover in the same room.",
+    "target": "speech",
+    "path": "sione",
+    "exchanges": [],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 8"
+  },
+  {
+    "id": "G04M",
+    "title": "The whole contribution, slowly",
+    "area": 7,
+    "minutes": 10,
+    "purpose": "Retrieve every previously introduced approval slot, then opening thanks.",
+    "staging": "Same family room; relative models on request.",
+    "arc": "Player uses help without surrendering the contribution.",
+    "target": "dance",
+    "path": "mele",
+    "exchanges": [],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 7"
+  },
+  {
+    "id": "H03M",
+    "title": "The first movement",
+    "area": 8,
+    "minutes": 12,
+    "purpose": "Apply practised movement/meaning pairs.",
+    "staging": "Four preplaced guest sprites; provisional threshold three.",
+    "arc": "Player can recover in the same room.",
+    "target": "dance",
+    "path": "mele",
+    "exchanges": [],
+    "presentation": "top_down_route_with_larger_chibi_conversation",
+    "route_binding": "content/area-bindings.json area 8"
+  }
+]

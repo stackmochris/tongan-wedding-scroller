@@ -1,7 +1,7 @@
 # Narrative & Dialogue Work Session — Task Tracker
 
 **Repository:** stackmochris/tongan-wedding-scroller  
-**Status:** In progress — tasks 1–8 draft-complete; task 9 packaging/validation in progress on `work/narrative-dialogue-review-2026-11-07`  
+**Status:** All nine English-draft tasks complete — awaiting Chris and DR L.V.S review. Work is on `work/narrative-dialogue-review-2026-11-07`; no merge or game-code changes.  
 **Purpose:** Flesh out all nine areas of the six-hour Tongan Wedding Scroller story into coherent, implementation-ready English-first scenes and dialogue.
 
 ## Source of truth and guardrails
@@ -25,14 +25,24 @@ Read `vault/README.md`, particularly `08-story-spine.md`, `09-minimal-mechanics.
 - [x] **6. Develop meaningful interactions and consequences.** Specify player action, NPC/world feedback, state flag changes, gating, and gentle retry behavior. Prefer 2–4 short choices where appropriate. No quiz screens, new inventory system or free-text input.
 - [x] **7. Develop both character-specific paths.** Seed Sione's formal-speech preparation and Mele's tauʻolunga movement/meaning preparation in earlier scenes. Keep shared content substantial and path-specific additions focused. Mark expert-dependent sequencing and terminology.
 - [x] **8. Strengthen the wedding climax and ending.** Design Sione's binary-choice speech sequence (three errors restart sequence only), Mele's binary-choice tauʻolunga sequence (NPC joiner threshold; restart sequence only), wedding reactions, cousin contribution, and meaningful departure payoff. Avoid money-throwing in the dance.
-- [ ] **9. Prepare production-ready content.** Deliver coherent, reviewable English-first artifacts and JSON-ready node/choice mapping using the frozen schema. Supply node IDs, links, flags, path gates, required assets, review status, implementation gaps and a clear hand-off for DR L.V.S.
+- [x] **9. Prepare production-ready content.** Deliver coherent, reviewable English-first artifacts and JSON-ready node/choice mapping using the frozen schema. Supply node IDs, links, flags, path gates, required assets, review status, implementation gaps and a clear hand-off for DR L.V.S.
 
 ## Required deliverables
 
-- [ ] **Scene Bible:** Nine-area scene inventory, detailed scene beats, timing, characters, objectives, interactions, emotional arc and transitions.
-- [ ] **Dialogue Master:** Full English dialogue, player choices, branch/recovery dialogue, environmental feedback and Sione/Mele variants, with stable scene/node references.
-- [ ] **Learning Matrix:** Scene-to-target mapping, first exposure, recurrence, retrieval checks, caption/scaffolding notes, and expert-review dependencies.
-- [ ] **Implementation Content Pack:** Frozen-schema-compatible content drafts or mapping, node/flag/transition references, art/audio requirements, engine gaps, review checklist and explicit approval status.
+- [x] **Scene Bible:** Nine-area scene inventory, detailed scene beats, timing, characters, objectives, interactions, emotional arc and transitions.
+- [x] **Dialogue Master:** Full English dialogue, player choices, branch/recovery dialogue, environmental feedback and Sione/Mele variants, with stable scene/node references.
+- [x] **Learning Matrix:** Scene-to-target mapping, first exposure, recurrence, retrieval checks, caption/scaffolding notes, and expert-review dependencies.
+- [x] **Implementation Content Pack:** Frozen-schema-compatible content drafts or mapping, node/flag/transition references, art/audio requirements, engine gaps, review checklist and explicit approval status.
+
+## Review deliverable links
+
+- [Scene Bible](narrative-drafts/2026-11-07/Scene-Bible.md)
+- [Dialogue Master](narrative-drafts/2026-11-07/Dialogue-Master.md)
+- [Learning Matrix](narrative-drafts/2026-11-07/Learning-Matrix.md)
+- [Implementation Content Pack index](narrative-drafts/2026-11-07/README.md) and [handoff](narrative-drafts/2026-11-07/Implementation-Handoff.md)
+- [Ordered task evidence](narrative-drafts/2026-11-07/Task-Completion-Review.md), [validation](narrative-drafts/2026-11-07/Validation-Report.md), [pending approval register](narrative-drafts/2026-11-07/review/approval-register.csv)
+
+Checked boxes mean the English draft/specification is prepared for review. They do not mean approved Tongan, approved culture, implemented game behaviour or production release. Speech order and authentic tauʻolunga movement/meaning pairs remain expert-dependent. All Tongan and cultural content is **[DR L.V.S REVIEW REQUIRED]**.
 
 ## Suggested execution order and checkpoints
 
@@ -52,3 +62,5 @@ Record dated updates below with completed tasks, draft file paths, open question
 - 2026-11-07 — Tasks 2–3 draft-complete after task 1: 36 scene entries / 31 per selected path, objectives, conflict, outcomes, transitions, voices and cousin arc retained; outline refreshed for approved top-down routes, conversation views and exterior car ride. Evidence: `vault/narrative-drafts/2026-11-07/Scene-Bible.md`, `Source-Audit.md`, `content/area-bindings.json`. Tasks 4–9 still under ordered review. Cultural and language approval remain pending.
 
 - 2026-11-07 — Task 4: full English dialogue and branch/repair lines reviewed; eight optional environmental encounters added for approved top-down routes. Task 5: per-scene targets, model-before-check, delayed recurrence and caption plans reviewed; optional encounters never counted as guaranteed retrieval. Task 6: preferences, refusals, flags, soft repairs and local return behaviour checked. Task 7: both role-specific mid-game introductions and eve retrieval retained, including cousin-skip safety. Task 8: cumulative speech strikes, sequence-only retries, all 16 dance outcomes and cousin/departure payoff checked. Evidence: `vault/narrative-drafts/2026-11-07/Dialogue-Master.md`, `Learning-Matrix.md`, core/overworld content dictionaries and sidecars. All Tongan, authentic speech order and movement/meaning pairs remain [DR L.V.S REVIEW REQUIRED]. Task 9 is packaging these drafts and validation; no game code changed.
+
+- 2026-11-07 — Task 9 and all four deliverables prepared for review. Pack: 36 scene entries (31 per selected path), 458 core nodes / 749 choices, plus eight optional world interactions in a separate 16-node / 24-choice dictionary. Frozen fields, link reachability/endings, both paths, cousin-skip safety, prior role-slot exposure, cumulative three-strike speech reset, all 16 dance patterns, optional local exits and approved scene surfaces passed content checks. All 51 textual source blobs verified against pinned main. Area/route bindings, node/flag/transition maps, asset/audio guidance, nine expert review files, pending approval register and repeatable validation included. Planned 254 minutes + 60-minute reserve; onboarding nine minutes. No Godot execution or measured learning claim. Remaining gates: Chris narrative/parameter review; DR L.V.S language/culture, speech order and dance pairs; separate approval for game integration/merge/publication.

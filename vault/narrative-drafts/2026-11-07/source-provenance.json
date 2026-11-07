@@ -1,0 +1,417 @@
+{
+  "repository": "stackmochris/tongan-wedding-scroller",
+  "commit": "0f4051ea05b14f0c6bcc06538f7c3ef7e5350e6c",
+  "tree": "0f4051ea05b14f0c6bcc06538f7c3ef7e5350e6c",
+  "files": [
+    {
+      "path": ".github/workflows/export-demo-pngs.yml",
+      "git_blob": "522e7965dce39cadaf5a986b573501196b1bca19",
+      "read_status": "read",
+      "local_sha256": "6edd9fad262712b50702db5f4fb6f111dc7614d32f5f4b727d03d7966bd04039",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "README.md",
+      "git_blob": "597bd710c0e4904189f6ebd00bf8543a36b66584",
+      "read_status": "read",
+      "local_sha256": "0a16a1d7c181adbbb147390fc3f9785a38e86ea63d7b506c9ce943d7c71206c5",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "assets/README.md",
+      "git_blob": "a84fb92acfee5cd9cd3eb46fc6170a7e76781dbd",
+      "read_status": "read",
+      "local_sha256": "c5ec5a6e113aeee69e62b7e04c144489913fe5a7490ecd5fbcbb71d4a9e00ae3",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "assets/backgrounds/airport-exterior.md",
+      "git_blob": "4bef6f5f320437e0befc0ce1e23e33e4a6c19a19",
+      "read_status": "read",
+      "local_sha256": "9116228bc11021b492aae43c025d6643c8780f6efb43502094d82b42b77bd61e",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "assets/backgrounds/car-ride.md",
+      "git_blob": "16c0c7642ae53c355d3310fb4293dd3465d48b83",
+      "read_status": "read",
+      "local_sha256": "cb533a47bb8f46e70e1721e920decc2867b0f3f7ecbeec04a544a1fa6ac6f51d",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "assets/backgrounds/family-house-exterior.md",
+      "git_blob": "e73aa8854e2a96f256e6cfa55ee1fad512a87301",
+      "read_status": "read",
+      "local_sha256": "2dda166287d632675f0b5276b98c8eac3deefbba1d23ebf243aa21a76b919b70",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "assets/backgrounds/family-house-interior.md",
+      "git_blob": "0903563e2c36155a4490db32a78b79a154eaa7f8",
+      "read_status": "read",
+      "local_sha256": "a0d8e82cf695d77cf0b43f0563fcd1d1e47d4e8c040813394ee8084e5f570fc9",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "assets/backgrounds/market.md",
+      "git_blob": "2b91aa45d1c9dd6f14d3d13de19978a38f30227a",
+      "read_status": "read",
+      "local_sha256": "55ed21bd7c9ed55c15781405e764bb11042389e35299625f3eb5d7835b8120bb",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "assets/characters/driver.md",
+      "git_blob": "eb4a5fc2b9673d8ea367167860342d0afd0bec54",
+      "read_status": "read",
+      "local_sha256": "5e63fee174abba3228ddc2fd3af5d368240511b2460b41e5580fbb69d06156c1",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "assets/characters/elder.md",
+      "git_blob": "9d37bd6680539c1a8bc8c1f62fef3d31015454d6",
+      "read_status": "read",
+      "local_sha256": "8b6fffdaf67cd90f5ee8676fc47961991cf7430bda3367aa048ef30c3fffa981",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "assets/characters/mele.md",
+      "git_blob": "a26f4d02603c5117bd2e015105d2fa605475375e",
+      "read_status": "read",
+      "local_sha256": "91683cf3ac42d7e4eae918874c9b3e3e146050009f5a4a224ac7cd3ae8104a23",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "assets/characters/shopkeeper.md",
+      "git_blob": "fbace9d247f9c1cc2b377a1940140fe89e1558a5",
+      "read_status": "read",
+      "local_sha256": "306b14f67201ab43c59d2d8dccb1a79aba9b5059b9a58c4a5c017855660b9f07",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "assets/characters/sione.md",
+      "git_blob": "2fd5cd1336ccfbcd0318874ea383f54bd38da8b6",
+      "read_status": "read",
+      "local_sha256": "e96a52a5d1521b3834ea9e5b6d5194bceac8eaac5d1723f6feba232751709367",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "assets/demo/README.md",
+      "git_blob": "5f1d68c38e8d197c64d8e65fc777f1a999a5d0af",
+      "read_status": "read",
+      "local_sha256": "b2ee348903257562fa0a4fa0a849c99c2391e4c07bce1033d063fb1813510448",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "assets/style-reference.md",
+      "git_blob": "4b06d802748d2389a6d2f9830aa8970d05e85e9f",
+      "read_status": "read",
+      "local_sha256": "a2b9757a4d4955a5f09619c578572ffb8efc033eb9797a42d4bbe0a547089cc4",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "data/dialogue/airport.json",
+      "git_blob": "5aa3f51de426287717e148b73fadeed5d484cafc",
+      "read_status": "read",
+      "local_sha256": "a41e16bc5634e12cbe0f954fbd5476339ead198f09a5bb5dbad53ffcd08f5056",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "data/dialogue/core_path.json",
+      "git_blob": "2aa92a48f53cb5bd0b071e2072e0cd55c54118be",
+      "read_status": "read",
+      "local_sha256": "341f21d17e31609383d0735775d325a8b9bdeca5fcf5799ff7b0983b0c89869a",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "project.godot",
+      "git_blob": "f2c3e5ee0be1142ba0d49f0091c38202263fb084",
+      "read_status": "read",
+      "local_sha256": "2c760d3cd41c0af34169f1c3a02977feee4e283ce49ffda07dd03b72fe63277a",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "scenes/main.tscn",
+      "git_blob": "76204bf9c2b9e2d644458a8759dc176c7fcd55ce",
+      "read_status": "read",
+      "local_sha256": "47ccf51a22491e2ef3b7a763d431b623adc66a16e7e5187ca5285d0562eecfd7",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "scenes/ui/dialogue_box.tscn",
+      "git_blob": "c42460f040570c91b7d1329938b32b4425239512",
+      "read_status": "read",
+      "local_sha256": "731383327552dcec9ba00d7d83e6d43fcc673576da9debdad12a50344bb46992",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "scripts/autoload/dialogue_manager.gd",
+      "git_blob": "8d5fb14707cbb9180601d354c2d3b2ac8053c0ee",
+      "read_status": "read",
+      "local_sha256": "e458dfa9c7531c9cdb2ca949a58420ec5282175864a85b55aba64b95522279b5",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "scripts/autoload/game_state.gd",
+      "git_blob": "d8a9d60040f745b8a312430b922c9336afe9dd71",
+      "read_status": "read",
+      "local_sha256": "626db1d56ca4762ebaf86a4226f5cd2f3a411bdc9eddfdfb1b3cf973f44edf57",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "scripts/export_demo_pngs.py",
+      "git_blob": "2211ce0a08fcdcfca92e061a0237eb9ab39ae453",
+      "read_status": "read",
+      "local_sha256": "53d15fa0dc084a74f54806b696958313ba85ea254a9cc15cb0981e97333087f0",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "scripts/main.gd",
+      "git_blob": "4dd76ad06914e6082222f88f1d4673babae1aa27",
+      "read_status": "read",
+      "local_sha256": "2b01c8ca51ecd038cc8e9d14ea89eb386f1648b2df89e0f4afa30e77ef18deff",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "scripts/ui/dialogue_box.gd",
+      "git_blob": "df94ef49c98eb51146cf2b93908b603d5412c617",
+      "read_status": "read",
+      "local_sha256": "8afeb8bd9d493b11d28d00e84c62433c9d55c619b3cc1d8438323e2b9696db77",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/01-children.md",
+      "git_blob": "310824c7a94a923c35b8587715f37c1812fee538",
+      "read_status": "read",
+      "local_sha256": "a831f95ad7b702d3ddcdb18359005056307700b76fb021abb53fdce9b3c87c7a",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/02-adults-l2.md",
+      "git_blob": "553c57c3b313c9ff95216cb8c8431cb2ce2439d3",
+      "read_status": "read",
+      "local_sha256": "6cb7abc5f7ba74b5af97f98be43bd0443d5b4c38b260571fa57069d2edc418c4",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/03-techniques.md",
+      "git_blob": "423161b34fe908b4fb3bbe070bdaed895f952ed6",
+      "read_status": "read",
+      "local_sha256": "0beef52b205c4138dff10dc96fa698ffb9e5bb2236a5c10e7080a544def0bfd7",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/04-retention.md",
+      "git_blob": "17a29ca469a24b45a7abc7eaf233a80c1c2197d2",
+      "read_status": "read",
+      "local_sha256": "e2aff3314c5ff259ad96852f5b54679155c8842ec89eb3db20cacf47910d86f8",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/05-audiovisual.md",
+      "git_blob": "8bc77842ece97af81b1c912bd537bdbf8170ae3f",
+      "read_status": "read",
+      "local_sha256": "8235190eac25ef6482d2a40a95b9e5a2a02ed8f0d6e1fb5ac79ffc7ff258dfb4",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/06-tongan-dictionary.md",
+      "git_blob": "68ed121e90f1d5663d63f66ca1776e30822c3ddf",
+      "read_status": "read",
+      "local_sha256": "ad16f069476edd2c9082851af9c75d273a602ca03b3bea6fd008138097d6699b",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/07-scroller-game-design.md",
+      "git_blob": "c43477fc525d13fb580ae477e0fb631669f0f2d1",
+      "read_status": "read",
+      "local_sha256": "c7b78f252877e63cd630e09ad548fe5df56ddd9df13f10638a23af81f6c8b0ae",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/08-story-spine.md",
+      "git_blob": "66bf43b6e356d2580a171ebffb6a0a36b60fe2d5",
+      "read_status": "read",
+      "local_sha256": "cc5ed6cb72511874a2506cabf0bf5f07ab253e6f4f6bfd11505ab2afd51ac041",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/09-minimal-mechanics.md",
+      "git_blob": "37de3af4890ff646a0ff266d81598bf7e57a7b90",
+      "read_status": "read",
+      "local_sha256": "d37595d7607f3bab35b5720f051beb10f358be4e0bdfb6305394d7a549e43143",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/10-area-list.md",
+      "git_blob": "634341a86a7e31fe91f3cc7d12395ebe433cd3aa",
+      "read_status": "read",
+      "local_sha256": "d1fae2600a4803da7e6ad7e1ba67b69b7403acc34f187434c745b8b6b8008279",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/11-dialogue-framework-en.md",
+      "git_blob": "76892f3d0c31ff103dc8293450417481705ecea8",
+      "read_status": "read",
+      "local_sha256": "bc0fd2b45d06f51f59455f6e8f23591088804ce0f05bcbf0d36c1f5c4dcebce1",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/12-character-list.md",
+      "git_blob": "4fc65e2b65a91a470d02083d55cf6ebe88bddad9",
+      "read_status": "read",
+      "local_sha256": "85b43828e7826e9aee59f164748e17b80519c059d3586691c177aa8a078faf69",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/13-clothing-baselines.md",
+      "git_blob": "8c1f41f1a91f3fa2dbddd4e03a71a7942527e18d",
+      "read_status": "read",
+      "local_sha256": "2b41098a6cb3c943793d2e2e3f46f2dd1d8fc39d425c5a4f35435ee5ccdf0629",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/14-location-baselines.md",
+      "git_blob": "3a2b6109b5fe428c28a9ee48feb8102269aace17",
+      "read_status": "read",
+      "local_sha256": "9714afcddb27f2b41d7ce268e0beeadad22255666f42c4be97fa84dc9af1087b",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/15-wedding-climax-mechanics.md",
+      "git_blob": "aeaa94f240436b353e582d94a806f953eecc7fe8",
+      "read_status": "read",
+      "local_sha256": "c5f2dab98c8a92cfc09aff4fb29d4dc84270c6402b9be26b70b19ee7538002bc",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/16-vibe-code-mitigations.md",
+      "git_blob": "7058d463f0109504bb83c1724ed0fd260529971f",
+      "read_status": "read",
+      "local_sha256": "1305bddfb4d2c0e53bfd2b9ca8da73ba684603881472bf41ce792c4c1e6d1d6d",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/17-audio-and-voice.md",
+      "git_blob": "72aea19e80e8d42d98496514832a57ebbbefe98e",
+      "read_status": "read",
+      "local_sha256": "917a282c5c15dfa3f5821d13afff8330c9f16a6fd68561443500a5aee6b32ea8",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/18-locked-decisions.md",
+      "git_blob": "cc54a715ed03d6fd52d3be60c034b3f771376ed5",
+      "read_status": "read",
+      "local_sha256": "202766b45beff0090de68c5266f714e40e1152089373a2b9d9c131173dd6ccab",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/19-exploration-workthrough.md",
+      "git_blob": "6bf42f18f578291fb16caaf6d05136018bfecc86",
+      "read_status": "read",
+      "local_sha256": "191dedee8d1c670c09f6cb91913935f0b1eceb6b3a341298f65a67e2e41be414",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/20-dialogue-schema.md",
+      "git_blob": "bf85df50ea0809e3aff0f38cb30d89617b777037",
+      "read_status": "read",
+      "local_sha256": "07bf154fea43b36f1b6a813204eb9ed70329cdb976d8391250e8c38048182f5c",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/21-learning-targets.md",
+      "git_blob": "7d3017372d8d1a7f9e0faac91963b0378eecb10c",
+      "read_status": "read",
+      "local_sha256": "bece07d5d361fcbc8066fbf1c895d70ab325affee47b4e9e04f970dca6ad4756",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/22-prototype-success-criteria.md",
+      "git_blob": "4cc52f2400b1dfaf6f3c04215899530299c52929",
+      "read_status": "read",
+      "local_sha256": "16a60681b26d28f19c3bc6220257c313d5bea65a30e3d345e91046dc7eb48f20",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/23-medium-priority-notes.md",
+      "git_blob": "a46a448cbf7a7f09d12139c3d3c41e21fc0e4076",
+      "read_status": "read",
+      "local_sha256": "d491ab91d01c797126a0c7c4bbc2501777e7b7b778b3a5939de39f1e12db07ba",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/24-lower-priority-notes.md",
+      "git_blob": "4bf424673f4e3e47bba0ef578dd81ad46833e868",
+      "read_status": "read",
+      "local_sha256": "81431f39b81e9a82adf7bed9ffd9f6b5de20eff11a644a1d76707e67f5a1aa42",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/25-narrative-dialogue-work-session.md",
+      "git_blob": "782702dde488f508fe772784d2070793377361d0",
+      "read_status": "read",
+      "local_sha256": "06fe17c1960fce8ee4bf4c63a90c7a84f92434ab0c827f5b40671aad12760998",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    },
+    {
+      "path": "vault/README.md",
+      "git_blob": "78ec94257a47e73eb942134d35e7f08827e5256e",
+      "read_status": "read",
+      "local_sha256": "66671fd6074ca57be7cb92d922fafaa1e31fa19349e96d9d32869401ce5b520c",
+      "git_blob_verified": true,
+      "snapshot_note": "Local text snapshot may add final newlines; verified Git content against pinned source with newline normalization."
+    }
+  ],
+  "binary_art": "Inventoried; not visually reviewed for this narrative task",
+  "remote_mutations": "Authorised tracker and review drafts only on work/narrative-dialogue-review-2026-11-07; no main/game changes"
+}
