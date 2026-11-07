@@ -1,6 +1,6 @@
 # Expected Area List
 
-Minimal set of discrete areas that support the ≤6 hour core path. Locations are mapped to real places on Tongatapu. Each area is small, self-contained, and connected by simple transitions. No open world. All language content remains data-driven.
+Minimal set of discrete areas that support the ≤6 hour core path. Locations are mapped to real places on Tongatapu. Each area is compact and connected by walkable overhead routes where appropriate, with simple transitions or travel scenes for longer distances. Geography is compressed; this is not a full-scale open world. See [approved visual style](../assets/style-reference.md). All language content remains data-driven.
 
 ## Core Path Areas (required)
 
@@ -36,7 +36,7 @@ These reuse existing dialogue data and do not add new vocabulary or extend the c
 - Each core area has 1–3 interactable NPCs or objects that gate progress.
 - Transitions are explicit (walk to exit, select “travel,” or short external travel sequence).
 - No backtracking required for the critical path; optional returns are allowed.
-- Visual scope per area: simple background + character sprites sufficient for context. Real place names and recognisable landmarks (airport, market, stadium, coastal road, Haʻatafu) provide grounding without requiring accurate 3D recreation.
+- Visual scope per area: readable top-down layouts, four-direction chibi sprites, accessible entrances and clear paths; larger scene backdrops for conversations. Optional sights/signs recycle existing language without extending the critical path. Real place names and recognisable landmarks (airport, market, stadium, coastal road, Haʻatafu) provide grounding without requiring accurate 3D recreation.
 - Younger-relative presence is a flag, not a separate area.
 
 ## Hand-off Notes
