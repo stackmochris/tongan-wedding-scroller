@@ -1,0 +1,6 @@
+# Godot-generated local files
+.godot/
+
+# Local opening-demo checks
+/test-user/
+/capture_*.png
