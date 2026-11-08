@@ -6,7 +6,7 @@ Principles referenced: comprehensible input (Krashen), spaced retrieval (Roedige
 
 ## 1. Airport & Identity
 **By the end the player can** greet and state who they are.
-**Core phrases**: Malo e lelei / Ko hai? / Ko au… / Ko e… / Fēfē hake?
+**Core phrases**: Mālō e lelei / Ko hai? / Ko au… / Ko e… / Fēfē hake?
 **Principle**: Comprehensible input + first output. Identity language is high-frequency and immediately useful.
 **Revision check**: Greeter asks “Ko hai?” Player must select the correct self-introduction to proceed. Incorrect choice triggers a slowed repeat with no new vocabulary.
 
@@ -18,19 +18,19 @@ Principles referenced: comprehensible input (Krashen), spaced retrieval (Roedige
 
 ## 3. First Family Dinner
 **By the end the player can** use family role terms and make or respond to a basic food offer.
-**Core phrases**: Kai / ʻOku ou fie… / Malo / Fāmili / Kui / Tuongaʻane / Tuofefine + 3–4 basic food names
+**Core phrases**: Kai / ʻOku ou fie… / Mālō / Fāmili / Kui / Tuongaʻane / Tuofefine + 3–4 basic food names
 **Principle**: High-frequency vocabulary in a repeated social routine. Output is required to accept or offer food.
 **Revision check**: Elder offers food. Player must choose a polite accept or decline that re-uses “Malo” or “ʻOku ou fie…”. Incorrect choice is met with a gentle re-offer.
 
 ## 4a. Market / Supplies
 **By the end the player can** request an item and confirm a quantity.
-**Core phrases**: ʻOku ou fiemaʻu… / Fīha? / Mahu / ʻIkai / Malo
+**Core phrases**: ʻOku ou fiemaʻu… / Fīha? / Kuo feʻunga / ʻIkai / Mālō
 **Principle**: Task-based output. The request must be produced to obtain the item (Swain noticing).
 **Revision check**: Shopkeeper asks what is needed. Player selects the correct request. Wrong choice is redirected without new words.
 
 ## 4b. Church Check
 **By the end the player can** use a polite address and confirm a time.
-**Core phrases**: Faifekau / Lotu / Taimi / Malo e tokoni / ʻOku mau…
+**Core phrases**: Faifekau / Lotu / Taimi / Mālō e tokoni / ʻOku mau…
 **Principle**: Register shift. Same core thanks language appears in a more formal setting (spaced retrieval).
 **Revision check**: Minister asks for confirmation of the time. Player must select the polite confirmation. Incorrect choice receives a slower repeat.
 
@@ -42,7 +42,7 @@ Principles referenced: comprehensible input (Krashen), spaced retrieval (Roedige
 
 ## 5. Wedding Eve Preparation
 **By the end the player can** produce the opening thanks line of the required contribution.
-**Core phrases**: Malo e lelei kia moutolu / ʻOku ou fakamālō… / Fāmili / ʻOfa (plus role-specific fragments)
+**Core phrases**: Mālō e lelei kia moutolu / ʻOku ou fakamālō… / Fāmili / ʻOfa (plus role-specific fragments)
 **Principle**: Retrieval of previously successful phrases immediately before the high-stakes use.
 **Revision check**: Supportive relative prompts the first thanks line. Player must select it correctly to mark the speech or dance as rehearsed.
 

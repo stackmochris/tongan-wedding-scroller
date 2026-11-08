@@ -45,20 +45,20 @@ This is an initial mathematical marker only; DR L.V.S may override.
 {
   "node_id": "airport_greeting",
   "speaker": "greeter",
-  "line_tongan": "Malo e lelei!",
+  "line_tongan": "Mālō e lelei!",
   "line_english": null,
   "suppress_caption": true,
   "requires_path": null,
   "choices": [
     {
-      "tongan": "Malo e lelei.",
+      "tongan": "Mālō e lelei.",
       "caption": "Hello.",
       "sets_flag": "greeted",
       "add_joiner": false,
       "next": "airport_who"
     },
     {
-      "tongan": "Ko e ha?",
+      "tongan": "Ko e hā?",
       "caption": null,
       "sets_flag": null,
       "add_joiner": false,
