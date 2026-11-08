@@ -31,6 +31,7 @@ var player: Sprite2D
 var driver: Sprite2D
 var sound: AudioStreamPlayer
 var textures: Dictionary = {}
+var actor_views: Dictionary = {}
 var save_error := ""
 var save_file := SAVE_FILE
 
@@ -42,11 +43,8 @@ func _ready() -> void:
 	for arg in OS.get_cmdline_user_args():
 		if arg.begins_with("--capture="):
 			camera_mode = arg.trim_prefix("--capture=")
-	for key in ["sione", "mele", "driver"]:
-		textures[key] = load("res://assets/demo/characters/%s_walk.svg" % key)
-	for key in ["airport_overhead", "car", "palm", "church"]:
-		textures[key] = load("res://assets/opening/%s.svg" % key)
-	textures["house"] = load("res://assets/demo/backgrounds/house_exterior.svg")
+	_load_illustrated_art()
+
 	player = _actor("sione")
 	driver = _actor("driver")
 	var layer := CanvasLayer.new()
@@ -70,12 +68,57 @@ func _ready() -> void:
 func _actor(key: String) -> Sprite2D:
 	var actor := Sprite2D.new()
 	actor.texture = textures[key]
-	actor.hframes = 4
-	actor.vframes = 4
-	actor.offset = Vector2(0, -52)
-	actor.scale = Vector2(0.8, 0.8)
+	_fit_actor(actor, key, 0)
 	add_child(actor)
 	return actor
+
+func _load_illustrated_art() -> void:
+	var sheet: Texture2D = load("res://assets/opening/generated/arrival-characters.png")
+	var image := sheet.get_image()
+	var keys := ["sione", "mele", "driver"]
+	for row in range(3):
+		var views: Array[AtlasTexture] = []
+		for column in range(4):
+			views.append(_isolate_cell(sheet, image, column, row, 4, 3))
+		actor_views[keys[row]] = views
+		textures[keys[row]] = views[0]
+	var props: Texture2D = load("res://assets/opening/generated/travel-objects.png")
+	var props_image := props.get_image()
+	# The generated travel sheet has a gutter at y=430, not at its halfway point.
+	textures["car"] = _isolate_region(props, props_image, Rect2i(0, 0, 768, 430))
+	textures["overhead_car"] = _isolate_region(props, props_image, Rect2i(768, 0, 768, 430))
+	textures["palm"] = _isolate_region(props, props_image, Rect2i(0, 430, 768, 594))
+	textures["church"] = _isolate_region(props, props_image, Rect2i(768, 430, 768, 594))
+	for pair in [["airport_overhead", "airport"], ["airport_front", "airport-front"], ["road", "road"], ["house", "popua"]]:
+		textures[pair[0]] = load("res://assets/opening/generated/%s.png" % pair[1])
+
+func _isolate_cell(sheet: Texture2D, image: Image, column: int, row: int, columns: int, rows: int) -> AtlasTexture:
+	var cell := Rect2i(column * image.get_width() / columns, row * image.get_height() / rows,
+		image.get_width() / columns, image.get_height() / rows)
+	return _isolate_region(sheet, image, cell)
+
+func _isolate_region(sheet: Texture2D, image: Image, cell: Rect2i) -> AtlasTexture:
+	# Ignore almost invisible edge noise when finding consistent sprite bounds.
+	var minimum := cell.end
+	var maximum := cell.position
+	for y in range(cell.position.y, cell.end.y):
+		for x in range(cell.position.x, cell.end.x):
+			if image.get_pixel(x, y).a > 0.35:
+				minimum = minimum.min(Vector2i(x, y))
+				maximum = maximum.max(Vector2i(x + 1, y + 1))
+	assert(maximum.x > minimum.x and maximum.y > minimum.y, "Empty generated sprite.")
+	var bounds := Rect2i(minimum, maximum - minimum).grow(2).intersection(cell)
+	var texture := AtlasTexture.new()
+	texture.atlas = sheet
+	texture.region = Rect2(bounds)
+	return texture
+
+func _fit_actor(actor: Sprite2D, key: String, direction: int) -> void:
+	actor.texture = actor_views[key][direction]
+	var height := float(actor.texture.get_height())
+	actor.offset = Vector2(0, -height / 2.0)
+	var target_height := 105.0 if key == "driver" else 100.0
+	actor.scale = Vector2.ONE * target_height / height
 
 func _clear_ui() -> void:
 	hud = null
@@ -243,12 +286,14 @@ func _process(delta: float) -> void:
 	elif stage == "car":
 		if not reduced_motion:
 			road_clock += delta
-	player.position = player_pos
-	player.visible = selected != "" and stage in ["entrance", "airport", "airport_talk", "boarding"]
+	var bob := sin(clock * 13.0) * 1.8 if walking and not reduced_motion else 0.0
+	player.position = player_pos + Vector2(0, bob)
+	player.visible = selected != "" and stage in ["entrance", "airport", "boarding"]
 	driver.position = driver_pos
-	driver.visible = stage in ["entrance", "airport", "airport_talk", "boarding"]
-	player.frame = facing * 4 + (int(clock * 7.0) % 4 if walking and not reduced_motion else 0)
-	driver.frame = 4 + (int(clock * 7.0) % 4 if not reduced_motion else 0) if stage == "boarding" else 0
+	driver.visible = stage in ["entrance", "airport", "boarding"]
+	if selected != "":
+		_fit_actor(player, selected, facing)
+	_fit_actor(driver, "driver", 1 if stage == "boarding" else 0)
 	if is_instance_valid(sound):
 		sound.volume_db = linear_to_db(maxf(sound_level, 0.0001))
 		sound.pitch_scale = 0.75 if stage == "car" else 1.0
@@ -299,7 +344,7 @@ func _talk() -> void:
 func _portrait(key: String) -> AtlasTexture:
 	var texture := AtlasTexture.new()
 	texture.atlas = textures[key]
-	texture.region = Rect2(0, 0, 128, 128)
+	texture.region = Rect2(0, 0, textures[key].get_width(), textures[key].get_height() * 0.58)
 	return texture
 
 func _show_node(node: Dictionary) -> void:
@@ -438,7 +483,7 @@ func _info() -> void:
 	_clear_ui()
 	var box := _panel(Rect2(255, 110, 770, 510))
 	_label(box, "A Wedding in Tonga", 38)
-	var info := _label(box, "You have arrived in Tonga for a family wedding. Meet your driver, choose Sione or Mele, and try a little Tongan on the journey to Popua.\n\nOpening demo • Working title\n\nLanguage and cultural review: DR L.V.S. All Tongan wording, clothing and cultural details await review.\n\nArt: project prototype assets. No recorded dialogue is included.\n\nYour progress is saved on this device. Restart or continue from the title screen.", 22)
+	var info := _label(box, "You have arrived in Tonga for a family wedding. Meet your driver, choose Sione or Mele, and try a little Tongan on the journey to Popua.\n\nOpening demo • Working title\n\nLanguage and cultural review: DR L.V.S. All Tongan wording, clothing and cultural details await review.\n\nIllustrated artwork generated for Tongan Language Game. No recorded dialogue is included.\n\nYour progress is saved on this device. Restart or continue from the title screen.", 22)
 	info.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	_button(box, "Back", _title).grab_focus()
 
@@ -573,12 +618,23 @@ func _draw() -> void:
 		_draw_road()
 	elif stage == "arrival":
 		draw_texture_rect(textures["house"], Rect2(0, 0, 1280, 720), false)
+	elif stage == "airport_talk":
+		draw_texture_rect(textures["airport_front"], Rect2(0, 0, 1280, 720), false)
+		_draw_large_actor("driver", Vector2(825, 438), 270.0)
+		if selected != "":
+			_draw_large_actor(selected, Vector2(420, 438), 250.0)
+		else:
+			draw_circle(Vector2(420, 263), 49, Color("#a5a7a2"))
+			draw_style_box(_style(Color("#8d9591")), Rect2(377, 312, 86, 96))
+			draw_line(Vector2(397, 401), Vector2(397, 438), Color("#65716f"), 19)
+			draw_line(Vector2(443, 401), Vector2(443, 438), Color("#65716f"), 19)
 	else:
 		draw_texture_rect(textures["airport_overhead"], Rect2(0, 0, 1280, 720), false)
 		# Separate, readable terminal text, never baked into the map texture.
-		draw_string(ThemeDB.fallback_font, Vector2(340, 132), "FUAʻAMOTU • ARRIVALS", HORIZONTAL_ALIGNMENT_LEFT, -1, 21, INK)
+		draw_style_box(_style(CREAM), Rect2(329, 260, 304, 30))
+		draw_string(ThemeDB.fallback_font, Vector2(342, 282), "FUAʻAMOTU • ARRIVALS", HORIZONTAL_ALIGNMENT_LEFT, -1, 19, INK)
 		_draw_overhead_car()
-		if stage in ["airport", "entrance", "airport_talk"] and selected == "":
+		if stage in ["airport", "entrance"] and selected == "":
 			var bob := sin(clock * 14.0) * 2.0 if walking and not reduced_motion else 0.0
 			var point := player_pos + Vector2(0, bob)
 			draw_circle(point - Vector2(0, 58), 21, Color("#a5a7a2"))
@@ -591,39 +647,52 @@ func _draw() -> void:
 			draw_circle(marker, 17, CREAM)
 			draw_string(ThemeDB.fallback_font, marker + Vector2(-5, 7), "…", HORIZONTAL_ALIGNMENT_LEFT, -1, 20, TERRA)
 
+func _draw_large_actor(key: String, foot: Vector2, height: float) -> void:
+	var view: AtlasTexture = actor_views[key][0]
+	var width := height * float(view.get_width()) / float(view.get_height())
+	draw_texture_rect(view, Rect2(foot - Vector2(width / 2.0, height), Vector2(width, height)), false)
+
 func _draw_overhead_car() -> void:
-	draw_style_box(_style(Color("#86becd")), Rect2(890, 485, 166, 65))
-	draw_rect(Rect2(932, 490, 67, 50), Color("#b8dbd7"))
-	draw_line(Vector2(966, 491), Vector2(966, 540), Color("#5e91a0"), 5)
-	for point in [Vector2(908, 485), Vector2(1036, 485), Vector2(908, 549), Vector2(1036, 549)]:
-		draw_line(point - Vector2(9, 0), point + Vector2(9, 0), Color("#37464b"), 8)
+	draw_texture_rect(textures["overhead_car"], Rect2(869, 515, 190, 82), false)
 
 func _draw_road() -> void:
-	draw_rect(Rect2(0, 0, 1280, 720), Color("#b8dcd4"))
-	draw_rect(Rect2(0, 245, 1280, 115), Color("#76b6be"))
-	draw_rect(Rect2(0, 318, 1280, 200), Color("#97b778"))
-	draw_rect(Rect2(0, 500, 1280, 220), Color("#626c67"))
+	draw_texture_rect(textures["road"], Rect2(0, 0, 1280, 720), false)
 	var shift := fmod(road_clock * 95.0, 1500.0)
 	for index in range(-1, 3):
 		var x := float(index) * 750.0 - shift + 850.0
-		draw_texture_rect(textures["church"], Rect2(x + 220, 205, 190, 142), false)
-		draw_texture_rect(textures["palm"], Rect2(x, 100, 170, 255), false)
+		draw_texture_rect(textures["church"], Rect2(x + 220, 180, 190, 170), false)
+		draw_texture_rect(textures["palm"], Rect2(x, 90, 170, 270), false)
 	for index in range(-1, 12):
 		var x := float(index) * 150.0 - fmod(road_clock * 230.0, 150.0)
 		draw_line(Vector2(x, 584), Vector2(x + 78, 584), Color("#e7dcb6"), 6)
 	var bob := sin(clock * 5.0) * 1.8 if not reduced_motion else 0.0
-	var car_position := Vector2(410, 228 + bob)
-	draw_texture_rect(textures["car"], Rect2(car_position, Vector2(460, 210)), false)
-	# The vehicle points left. Driver is at the forward window, looking towards the road.
-	draw_texture_rect_region(textures["driver"], Rect2(car_position + Vector2(128, 43), Vector2(68, 54)), Rect2(128 + 28, 0, 72, 64))
+	var car_position := Vector2(390, 172 + bob)
+	# Driver is part of the generated vehicle layer; the chosen passenger stays separate.
 	if selected != "":
-		draw_texture_rect_region(textures[selected], Rect2(car_position + Vector2(238, 43), Vector2(68, 54)), Rect2(256 + 28, 0, 72, 64))
+		var view: AtlasTexture = actor_views[selected][1]
+		var head := AtlasTexture.new()
+		head.atlas = view
+		head.region = Rect2(0, 0, view.get_width(), view.get_height() * 0.48)
+		var head_height := 105.0
+		var head_width := head_height * float(head.get_width()) / float(head.get_height())
+		draw_texture_rect(head, Rect2(car_position + Vector2(145 - head_width / 2.0, 45), Vector2(head_width, head_height)), false)
+	# Draw the body over the passenger so the window frame masks the shoulders.
+	draw_texture_rect(textures["car"], Rect2(car_position, Vector2(500, 270)), false)
 	if node_id == "car_coconut":
 		draw_string(ThemeDB.fallback_font, Vector2(44, 175), "Look for the coconut palms", HORIZONTAL_ALIGNMENT_LEFT, -1, 24, INK)
 	elif node_id == "car_church":
 		draw_string(ThemeDB.fallback_font, Vector2(44, 175), "A church along the road", HORIZONTAL_ALIGNMENT_LEFT, -1, 24, INK)
 
 func _smoke_test() -> void:
+	for key in ["sione", "mele", "driver"]:
+		assert(actor_views[key].size() == 4)
+		for view in actor_views[key]:
+			assert(view.atlas.resource_path.ends_with(".png"))
+			assert(view.get_height() > 250)
+	for key in ["airport_overhead", "airport_front", "road", "house"]:
+		assert(textures[key].resource_path.ends_with(".png"))
+	assert(textures["palm"].region.position.y >= 430)
+	assert(textures["palm"].get_height() > 500)
 	for identity in ["sione", "mele"]:
 		_new_game()
 		for step in range(90):

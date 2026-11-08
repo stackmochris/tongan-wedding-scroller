@@ -21,6 +21,8 @@ git pull --ff-only
 
 Import the repository's **project.godot** in Godot, let the SVG assets import,
 then press **F5**. No plugins, paid assets, Python or external services are needed.
+If already testing this branch, close Godot and run `git pull --ff-only` for the
+illustrated artwork update. Reopen Godot and let the PNGs import.
 The opening is now the default main scene on this branch.
 The earlier prototype is still available at **scenes/main.tscn** (open it and press F6).
 Do not merge this branch until the opening has been reviewed.
@@ -44,7 +46,7 @@ including either car node; boarding resumes from the airport forecourt.
 Starting over asks before replacing an existing valid checkpoint.
 
 Options: English captions, reduced motion, ambient volume. Reduced motion disables
-walk-frame cycling, travel scrolling, vehicle bob and fades; navigation still works.
+character bob, travel scrolling, vehicle bob and fades; navigation still works.
 There is no recorded voice. Quiet original synthetic ambience is generated at runtime.
 The review build starts with English captions enabled.
 
@@ -85,13 +87,21 @@ These create ignored local `capture_*.png` files and exit without changing saves
 
 ## Art, content and boundaries
 
-- Reuses existing editable SVG arrival walk atlases for Sione, Mele and the driver,
-  plus the Popua exterior plate. These are **prototype stand-ins**, not the polished
-  illustrated review sheets or final production art.
-- Adds separate SVG airport map, car, palm and church layers. Interface and text are
-  separate from backgrounds. No new external art dependencies.
-- The recent illustrated Sione turnaround is a mid-game costume study, so it is
-  deliberately not used as his casual airport outfit.
+- All visible scene artwork now uses the illustrated PNG assets in
+  `assets/opening/generated/`, derived from this project's generated character,
+  costume, Popua and exterior-car references. The opening no longer loads the old
+  vector stand-ins.
+- Separate high-overhead airport exploration map, larger airport conversation
+  plate, travel background, Popua arrival plate, transparent characters and travel
+  objects. Interface and text stay separate from backgrounds.
+- Sione, Mele and the driver have four isolated idle directions. Movement uses
+  direction switching and gentle bob, **not finished footstep animation cycles**.
+  Alpha bounds are trimmed by the renderer and feet stay anchored consistently.
+- Arrival costumes follow the generated costume card: Sione's teal T-shirt,
+  tan shorts and sneakers; Mele's coral top, denim skirt and sneakers. Driver wears
+  the patterned shirt and plain tupenu without a mat.
+- The car has a fixed driver layer and separately drawn selected passenger.
+  See the generated-assets README for source references and sheet layout.
 - All Tongan dialogue, clothing and cultural framing remain **DR L.V.S REVIEW REQUIRED**.
   The name prompt is draft wording based on the requested opening. Other lines are
   reused from the repository's airport/core-path content.
@@ -103,8 +113,11 @@ These create ignored local `capture_*.png` files and exit without changing saves
 
 ## Validation recorded
 
-Godot 4.7.2 imported the SVG resources and parsed the opening successfully.
-Both playable paths and save/resume smoke checks passed headlessly.
-Title, airport dialogue and car screens were rendered with the local Intel UHD
-Compatibility renderer and inspected, along with arrival, options and info.
+Godot 4.7.2 imported the illustrated PNG resources and parsed the opening successfully.
+Both playable paths, generated-resource checks and save/resume smoke checks passed
+headlessly. Airport exploration, conversation and car scenes were rendered with the
+local Intel UHD Compatibility renderer and inspected for alpha, cropping, passenger
+placement and dialogue clearance. Title and Popua arrival capture runs also completed.
+Some capture shutdowns reported two ObjectDB instances at exit; no gameplay script
+errors occurred. These automated capture runs are separate from ordinary F5 play.
 This is not a claim of full-game, controller, mobile-device or cultural validation.

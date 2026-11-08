@@ -6,7 +6,7 @@ Hybrid walking visual novel / lightweight adventure for learning Tongan (Beginne
 
 The default F5 scene is now the playable **A Wedding in Tonga** opening: title menu → airport exploration → Sione/Mele selection → driver exchange → boarding → exterior car ride → Popua arrival.
 
-See [OPENING-DEMO.md](OPENING-DEMO.md) for pull/run instructions, controls, save details and the repeatable Godot smoke test. Uses the existing prototype SVG art plus new airport/travel layers; polished illustrated assets remain review material. All Tongan/cultural content still requires DR L.V.S review.
+See [OPENING-DEMO.md](OPENING-DEMO.md) for pull/run instructions, controls, save details and the repeatable Godot smoke test. Uses illustrated PNG artwork generated for this project, including four-direction arrival sprites, overhead airport, larger conversation plate and layered car scenery. All Tongan/cultural content still requires DR L.V.S review.
 
 The previous story prototype remains at `scenes/main.tscn` (F6).
 
